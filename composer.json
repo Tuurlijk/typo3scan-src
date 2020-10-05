@@ -47,5 +47,9 @@
   "scripts": {
     "build": "box compile && cp typo3scan.phar typo3scan",
     "prep": "cp typo3scan.phar typo3scan ../typo3scan"
+  },
+  "scripts-descriptions": {
+    "build": "Build the typo3scan phar file",
+    "prep": "Copy the phar files to the binary release repository that you have cloned into ../typo3scan"
   }
 }
