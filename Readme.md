@@ -3,6 +3,10 @@ Scans code for usage of deprecated and or changed code.
 
 This is the source repository for typo3scan. The actual usable scanner and documentation can be found in the [typo3scan repository](https://github.com/Tuurlijk/typo3scan).
 
+## What about actually FIXING the broken code automatically?
+TYPO3scan only _reports_ on code that needs to be fixed when migrating to a higher version of TYPO3. If you want a tool that **automatically fixes the code for you** take a look at the [TYPO3 Rector project](https://github.com/sabbelasichon/typo3-rector).
+
+## What does it do?
 [![demo](https://asciinema.org/a/201851.png)](https://asciinema.org/a/201851?autoplay=1)
 
 TYPO3 publishes [breaking changes and deprecations since version 7](https://docs.typo3.org/typo3cms/extensions/core/stable/Index.html).
