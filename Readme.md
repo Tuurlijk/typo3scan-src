@@ -62,6 +62,7 @@ composer install
 ### Build the phar
 Make sure you have [Box](https://github.com/box-project/box2) installed.
 ```bash
+composer update typo3/cms-scanner
 box compile
 ```
 
