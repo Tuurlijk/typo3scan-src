@@ -23,6 +23,7 @@ namespace MichielRoos\TYPO3Scan\Service;
  * SOFTWARE.
  */
 
+use TYPO3\CMS\Scanner\Domain\Model\DirectoryMatches;
 use TYPO3\CMS\Scanner\Domain\Model\MatcherBundleCollection;
 use TYPO3\CMS\Scanner\Matcher;
 use TYPO3\CMS\Scanner\ScannerFactory;
@@ -164,13 +165,22 @@ class ScannerService
         $this->scanner = ScannerFactory::create()->createFor(\PhpParser\ParserFactory::PREFER_PHP7);
     }
 
-    public function scan($path)
+    public function scan($paths)
     {
-        $result = $this->scanner->scanPath(
+        $results = [];
+        foreach ($paths as $path) {
+            $results[] = $this->scanDir($path);
+        }
+
+        return $results;
+    }
+
+    private function scanDir(string $path): DirectoryMatches
+    {
+        return $this->scanner->scanPath(
             $path,
             $this->collection
         );
-        return $result;
     }
 
     /**

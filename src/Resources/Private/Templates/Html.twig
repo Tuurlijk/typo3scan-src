@@ -134,34 +134,36 @@
 
     <p>Match indicator <span class="legend matchStrong">strong</span><span class="legend matchWeak">weak</span></p>
 
-    {% for fileMatches in directoryMatches %}
-        <h2 title="{{ fileMatches.count }} matches found in file">{{ fileMatches.getPath|replace({ (basePath): ""}) }}
-            <span class="quiet">{{ fileMatches.count }}</span></h2>
-        {% for fileMatch in fileMatches %}
-            <details>
-                {% if fileMatch.getIndicator == 'strong' %}
-                    {% set class = 'matchStrong' %}
-                {% endif %}
-                {% if fileMatch.getIndicator == 'weak' %}
-                    {% set class = 'matchWeak' %}
-                {% endif %}
-                {% if fileMatch.getIndicator == 'impossible' %}
-                    {% set class = 'matchImpossible' %}
-                {% endif %}
-                <summary data-name="Open" class="matchRow {{ class }}">
-                    {{ fileMatch.getLine }}: {{ fileMatch.getMessage|escape|raw }}
-                </summary>
-                <pre>{{ fileMatches.getPath|getLinesFromFile(fileMatch.getLine)|escape|raw }}</pre>
+    {% for directoryMatches in matchesCollection %}
+        {% for fileMatches in directoryMatches %}
+            <h2 title="{{ fileMatches.count }} matches found in file">{{ fileMatches.getPath|replace({ (basePath): ""}) }}
+                <span class="quiet">{{ fileMatches.count }}</span></h2>
+            {% for fileMatch in fileMatches %}
+                <details>
+                    {% if fileMatch.getIndicator == 'strong' %}
+                        {% set class = 'matchStrong' %}
+                    {% endif %}
+                    {% if fileMatch.getIndicator == 'weak' %}
+                        {% set class = 'matchWeak' %}
+                    {% endif %}
+                    {% if fileMatch.getIndicator == 'impossible' %}
+                        {% set class = 'matchImpossible' %}
+                    {% endif %}
+                    <summary data-name="Open" class="matchRow {{ class }}">
+                        {{ fileMatch.getLine }}: {{ fileMatch.getMessage|escape|raw }}
+                    </summary>
+                    <pre>{{ fileMatches.getPath|getLinesFromFile(fileMatch.getLine)|escape|raw }}</pre>
 
-                <ul>
-                    {% for restFile in fileMatch.getRestFiles %}
-                        <li>
-                            <a href="{{ restFile|getOnlineDocument }}"
-                               target="_blank">{{ restFile|getChangeTitle|escape|raw }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </details>
+                    <ul>
+                        {% for restFile in fileMatch.getRestFiles %}
+                            <li>
+                                <a href="{{ restFile|getOnlineDocument }}"
+                                   target="_blank">{{ restFile|getChangeTitle|escape|raw }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </details>
+            {% endfor %}
         {% endfor %}
     {% endfor %}
 

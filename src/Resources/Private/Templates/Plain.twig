@@ -6,7 +6,7 @@ Found <comment>{{ total }}</comment> matches in <comment>{{ executionTime|number
 
 {% for key, percentage in statistics %}{{ percentage }}	{% endfor %}
 
-
+{% for directoryMatches in matchesCollection %}
 {% for fileMatches in directoryMatches %}
 <info>{{ fileMatches.getPath|replace({ (basePath): ""}) }}</info>
 {% for fileMatch in fileMatches %}
@@ -17,5 +17,6 @@ Found <comment>{{ total }}</comment> matches in <comment>{{ executionTime|number
 {{ restFile|getOnlineDocument }}
 {% endfor %}
 
+{% endfor %}
 {% endfor %}
 {% endfor %}

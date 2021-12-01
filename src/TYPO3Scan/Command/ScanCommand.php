@@ -38,6 +38,10 @@ use TYPO3\CMS\Scanner\Domain\Model\FileMatches;
 use TYPO3\CMS\Scanner\Domain\Model\Match;
 use TYPO3\CMS\Scanner\Matcher\AbstractCoreMatcher;
 
+use function getcwd;
+use function print_r;
+use function realpath;
+
 /**
  * Class ScanCommand
  * @package MichielRoos\TYPO3Scan\Command
@@ -53,7 +57,7 @@ class ScanCommand extends Command
             ->setName('scan')
             ->setDescription('Scan a path for deprecated code')
             ->setDefinition([
-                new InputArgument('path', InputArgument::REQUIRED, 'Path to scan'),
+                new InputArgument('paths', InputArgument::IS_ARRAY, 'Paths to scan'),
                 new InputOption('basepath', 'b', InputOption::VALUE_OPTIONAL, 'Base path', null),
                 new InputOption('target', 't', InputOption::VALUE_OPTIONAL, 'TYPO3 version to target', '11'),
                 new InputOption('only', 'o', InputOption::VALUE_OPTIONAL, 'Only report: [breaking, deprecation, important, feature] changes', 'breaking,deprecation,important,feature'),
@@ -109,10 +113,13 @@ EOT
 
         $startTime = microtime(true);
         $format = $input->getOption('format') ?: 'plain';
-        $path = realpath($input->getArgument('path'));
-        if (!is_dir($path)) {
-            $stdErr->writeln(sprintf('Path does not exist: "%s"', $input->getArgument('path')));
-            exit;
+        $paths = $input->getArgument('paths');
+        foreach ($paths as $path) {
+            $path = realpath($path);
+            if (!is_dir($path)) {
+                $stdErr->writeln(sprintf('Path does not exist: "%s"', $path));
+                exit;
+            }
         }
 
         // Get target version
@@ -124,25 +131,31 @@ EOT
         }
         $templatePaths[] = __DIR__ . '/../../Resources/Private/Templates';
 
-        $basePath = $input->getOption('basepath') ?? $path;
-        $extension = '';
-
-        if ($this->pathContainsExt($path)) {
-            $extension = $this->getExtKeyFromPath($path);
-            $basePath = $this->getExtPath($path) . DIRECTORY_SEPARATOR . $extension . DIRECTORY_SEPARATOR;
-        }
-
         $scanner = new ScannerService($version);
-        $directoryMatches = $scanner->scan($path);
+        $matchesCollection = $scanner->scan($paths);
+        $total = 0;
+        $statistics =[];
 
-        $directoryMatches = $this->filterByType($directoryMatches, $input);
-        $directoryMatches = $this->filterByIndicators($directoryMatches, $input);
-
-        $total = $directoryMatches->countAll();
+        foreach ($matchesCollection as &$directoryMatches) {
+            $directoryMatches = $this->filterByType($directoryMatches, $input);
+            $directoryMatches = $this->filterByIndicators($directoryMatches, $input);
+            $total += $directoryMatches->countAll();
+            foreach ($this->getCountsByType($directoryMatches) as $type => $matches) {
+                $statistics[$type] = ($statistics[$type] ?? 0) + $matches;
+            }
+        }
+        unset($directoryMatches);
+        $percentagesByType = $this->getPercentagesByType($statistics, $total);
 
         $executionTime = microtime(true) - $startTime;
 
-        $percentagesByType = $this->getPercentagesByType($this->getCountsByType($directoryMatches), $total);
+        $basePath = $input->getOption('basepath') ?? getcwd();
+        $extension = null;
+
+//        if ($this->pathContainsExt($path)) {
+//            $extension = $this->getExtKeyFromPath($path);
+//            $basePath = $this->getExtPath($path) . DIRECTORY_SEPARATOR . $extension . DIRECTORY_SEPARATOR;
+//        }
 
         $loader = new \Twig_Loader_Filesystem($templatePaths);
         $twig = new \Twig_Environment($loader);
@@ -154,12 +167,12 @@ EOT
         $twig->addFilter($this->getOnlineDocumentFilter());
 
         $context = [
-            'title' => $extension ?: $path,
+            'title' => $extension ?? $path ?? $basePath,
             'targetVersion' => $version,
             'total' => $total,
             'basePath' => $basePath,
             'statistics' => $percentagesByType,
-            'directoryMatches' => $directoryMatches,
+            'matchesCollection' => $matchesCollection,
             'executionTime' => $executionTime
         ];
 

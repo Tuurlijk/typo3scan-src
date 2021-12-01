@@ -8,7 +8,7 @@ checking for changes and deprecations in **TYPO3 {{ targetVersion }}**
 {% for key in statistics %} --- | {% endfor %}
 
 {% for key, percentage in statistics %} {{ percentage }} | {% endfor %}
-
+{% for directoryMatches in matchesCollection %}
 {% for fileMatches in directoryMatches %}
 ## {{ fileMatches.getPath|replace({ (basePath): ""}) }}
 {% for fileMatch in fileMatches %}
@@ -19,5 +19,6 @@ checking for changes and deprecations in **TYPO3 {{ targetVersion }}**
 - [{{ restFile|getChangeTitle|raw }}]({{ restFile|getOnlineDocument }})
 {% endfor %}
 
+{% endfor %}
 {% endfor %}
 {% endfor %}
