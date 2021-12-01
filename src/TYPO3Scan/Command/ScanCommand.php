@@ -54,6 +54,7 @@ class ScanCommand extends Command
             ->setDescription('Scan a path for deprecated code')
             ->setDefinition([
                 new InputArgument('path', InputArgument::REQUIRED, 'Path to scan'),
+                new InputOption('basepath', 'b', InputOption::VALUE_OPTIONAL, 'Base path', null),
                 new InputOption('target', 't', InputOption::VALUE_OPTIONAL, 'TYPO3 version to target', '11'),
                 new InputOption('only', 'o', InputOption::VALUE_OPTIONAL, 'Only report: [breaking, deprecation, important, feature] changes', 'breaking,deprecation,important,feature'),
                 new InputOption('indicators', 'i', InputOption::VALUE_OPTIONAL, 'Only report: [strong, weak] matches', 'strong,weak'),
@@ -123,7 +124,7 @@ EOT
         }
         $templatePaths[] = __DIR__ . '/../../Resources/Private/Templates';
 
-        $basePath = $path;
+        $basePath = $input->getOption('basepath') ?? $path;
         $extension = '';
 
         if ($this->pathContainsExt($path)) {
