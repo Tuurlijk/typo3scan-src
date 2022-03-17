@@ -60,6 +60,8 @@ class ScanCommand extends Command
                 new InputOption('format', 'f', InputOption::VALUE_OPTIONAL, 'Output format', 'plain'),
                 new InputOption('reportFile', 'r', InputOption::VALUE_OPTIONAL, 'Report file', null),
                 new InputOption('templatePath', null, InputOption::VALUE_OPTIONAL, 'Path to template folder'),
+                new InputOption('ignore', null, InputOption::VALUE_OPTIONAL, 'Issue number(s) to ignore (comma-separated)'),
+                new InputOption('issue', null, InputOption::VALUE_OPTIONAL, 'Issue number(s) to show (comma-separated)'),
             ])
             ->setHelp(<<<EOT
 The <info>scan</info> command scans a path for deprecated code</info>.
@@ -84,6 +86,12 @@ Scan a folder for v9 changes and output in markdown with custom template:
 
 Scan a folder for v7 changes, only show the breaking changes and output in markdown:
 <info>php typo3scan.phar scan --target 7 --only breaking --format markdown ~/tmp/source</info>
+
+Scan a folder and only show changes for issue #80929:
+<info>php typo3scan.phar scan --issue 80929 ~/tmp/source</info>
+
+Scan a folder and do NOT show changes for issue #80929 and #84289:
+<info>php typo3scan.phar scan --ignore 80929,84289 ~/tmp/source</info>
 EOT
             );
     }
@@ -136,6 +144,7 @@ EOT
 
         $directoryMatches = $this->filterByType($directoryMatches, $input);
         $directoryMatches = $this->filterByIndicators($directoryMatches, $input);
+        $directoryMatches = $this->filterByIssuenumbers($directoryMatches, $input);
 
         $total = $directoryMatches->countAll();
 
@@ -183,11 +192,11 @@ EOT
         } else {
             $output->write($template->render($context));
         }
-        
+
         if ($total > 0) {
             return 1;
         }
-        
+
         return 0;
     }
 
@@ -246,6 +255,57 @@ EOT
             /** @var Match $fileMatch */
             foreach ($fileMatches as $fileMatch) {
                 if (in_array(strtoupper($fileMatch->getIndicator()), $indicators, true)) {
+                    $filteredFileMatches->append($fileMatch);
+                }
+            }
+            if (count($filteredFileMatches)) {
+                $filteredDirectoryMatches->append($filteredFileMatches);
+            }
+        }
+
+        return $filteredDirectoryMatches;
+    }
+
+
+    /**
+     * Filter out unwanted issue numbers
+     *
+     * @param DirectoryMatches $directoryMatches
+     * @param InputInterface $input
+     * @return DirectoryMatches
+     */
+    protected function filterByIssuenumbers(DirectoryMatches $directoryMatches, InputInterface $input): DirectoryMatches
+    {
+        $ignoreIssues = array_filter(explode(',', $input->getOption('ignore', '')));
+        $showIssues = array_filter(explode(',', $input->getOption('issue', '')));
+        if (!count($ignoreIssues) && !count($showIssues)) {
+            return $directoryMatches;
+        }
+        $defaultSkip = count($showIssues) > 0;
+
+        $path = $directoryMatches->getPath();
+
+        $filteredDirectoryMatches = new DirectoryMatches($path);
+
+        /** @var FileMatches $fileMatches */
+        foreach ($directoryMatches as $fileMatches) {
+            $filteredFileMatches = new FileMatches($fileMatches->getPath());
+            /** @var Match $fileMatch */
+            foreach ($fileMatches as $fileMatch) {
+                $issueNumbers = [];
+                $skip = $defaultSkip;
+                foreach ($fileMatch->getRestFiles() as $restFile) {
+                    if (preg_match('#^/[a-zA-Z]+-([0-9]+)-#', $restFile, $matches)) {
+                        $issueNumber = $matches[1];
+                        if (count($ignoreIssues) && in_array($issueNumber, $ignoreIssues)) {
+                            $skip = true;
+                        }
+                        if (count($showIssues) && in_array($issueNumber, $showIssues)) {
+                            $skip = false;
+                        }
+                    }
+                }
+                if (!$skip) {
                     $filteredFileMatches->append($fileMatch);
                 }
             }
