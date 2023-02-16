@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-95351:
 
 ===============================================================
 Deprecation: #95351 - Custom JSWindow options in HMENU settings

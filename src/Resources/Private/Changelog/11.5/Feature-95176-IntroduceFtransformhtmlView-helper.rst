@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-95176:
 
 ==========================================================
 Feature: #95176 - Introduce <f:transform.html> view helper

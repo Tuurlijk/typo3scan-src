@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94791:
 
 ========================================================
 Deprecation: #94791 - GeneralUtility::minifyJavaScript()

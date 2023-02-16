@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-95293:
 
 ===============================================================================
 Deprecation: #95293 - StringUtility::beginsWith() and StringUtility::endsWith()

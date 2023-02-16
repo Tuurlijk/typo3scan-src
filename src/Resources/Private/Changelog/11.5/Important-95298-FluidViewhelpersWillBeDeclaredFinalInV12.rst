@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-95298:
 
 ===================================================================
 Important: #95298 - Fluid ViewHelpers will be declared final in v12

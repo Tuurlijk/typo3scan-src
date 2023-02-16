@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-95318:
 
 ================================================
 Deprecation: #95318 - TypoScript parseFunc.sword

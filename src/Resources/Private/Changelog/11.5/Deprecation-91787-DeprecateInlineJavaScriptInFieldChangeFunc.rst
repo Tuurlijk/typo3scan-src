@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-91787:
 
 ==========================================================
 Deprecation: #91787 - Inline JavaScript in fieldChangeFunc

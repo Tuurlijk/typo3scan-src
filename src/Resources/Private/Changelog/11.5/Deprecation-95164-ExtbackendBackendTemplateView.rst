@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-95164:
 
 =====================================================
 Deprecation: #95164 - ext:backend BackendTemplateView

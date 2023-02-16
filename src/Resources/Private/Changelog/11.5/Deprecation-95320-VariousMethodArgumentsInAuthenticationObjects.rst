@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-95320:
 
 ========================================================================
 Deprecation: #95320 - Various method arguments in Authentication objects
