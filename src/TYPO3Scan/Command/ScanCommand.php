@@ -79,7 +79,7 @@ Scan a folder for v7 changes and output in markdown:
 <info>php typo3scan.phar scan --target 7 --format markdown ~/tmp/source</info>
 
 Scan a folder for v7 WEAK changes and output in markdown:
-<info>php typo3scan.phar scan --indicator weak --target 7 --format markdown ~/tmp/source</info>
+<info>php typo3scan.phar scan --indicators weak --target 7 --format markdown ~/tmp/source</info>
 
 Scan a folder for v9 changes and output in markdown with custom template:
 <info>php typo3scan.phar scan --format markdown --templatePath ~/path/to/templates --path ~/tmp/source</info>
