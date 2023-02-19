@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-95200:
 
 ==============================================================
 Deprecation: #95200 - RequireJS callbacks as inline JavaScript

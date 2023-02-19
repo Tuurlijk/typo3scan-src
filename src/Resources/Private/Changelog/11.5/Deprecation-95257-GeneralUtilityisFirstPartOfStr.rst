@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-95257:
 
 ========================================================
 Deprecation: #95257 - GeneralUtility::isFirstPartOfStr()

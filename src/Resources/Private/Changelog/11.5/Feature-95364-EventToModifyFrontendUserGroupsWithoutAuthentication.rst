@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-95364:
 
 =============================================================================
 Feature: #95364 - Event to modify frontend user groups without authentication

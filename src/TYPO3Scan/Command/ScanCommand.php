@@ -54,7 +54,7 @@ class ScanCommand extends Command
             ->setDescription('Scan a path for deprecated code')
             ->setDefinition([
                 new InputArgument('path', InputArgument::REQUIRED, 'Path to scan'),
-                new InputOption('target', 't', InputOption::VALUE_OPTIONAL, 'TYPO3 version to target', '11'),
+                new InputOption('target', 't', InputOption::VALUE_OPTIONAL, 'TYPO3 version to target', '12'),
                 new InputOption('only', 'o', InputOption::VALUE_OPTIONAL, 'Only report: [breaking, deprecation, important, feature] changes', 'breaking,deprecation,important,feature'),
                 new InputOption('indicators', 'i', InputOption::VALUE_OPTIONAL, 'Only report: [strong, weak] matches', 'strong,weak'),
                 new InputOption('format', 'f', InputOption::VALUE_OPTIONAL, 'Output format', 'plain'),
@@ -628,14 +628,14 @@ EOT
             return $onlineDocumentationLinks[$cacheKey];
         }
         $onlineDocument = '';
-        $base = 'https://docs.typo3.org/typo3cms/extensions/core/';
+        $base = 'https://docs.typo3.org/c/typo3/cms-core/main/en-us/';
         $links = file(__DIR__ . '/../../Resources/Private/links.txt');
         $filename = basename($path);
-        $filename = str_replace('.rst', '.html', $filename);
         foreach ($links as $link) {
             $link = rtrim($link);
             if (substr($link, -\strlen($filename)) === $filename) {
                 $onlineDocument = $base . $link;
+                $onlineDocument = str_replace('.rst', '.html', $onlineDocument);
                 break;
             }
         }

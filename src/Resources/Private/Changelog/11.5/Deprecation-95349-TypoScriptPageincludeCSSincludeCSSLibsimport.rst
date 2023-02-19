@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-95349:
 
 =======================================================================
 Deprecation: #95349 - TypoScript: page.includeCSS/includeCSSLibs.import

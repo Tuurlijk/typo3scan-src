@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-95317:
 
 ========================================================================================
 Deprecation: #95317 - Legacy syntax for IRRE localize synchronize command in DataHandler
