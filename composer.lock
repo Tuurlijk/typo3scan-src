@@ -760,12 +760,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Tuurlijk/scanner.git",
-                "reference": "3201a3b86a470e405c36612bce6e38fb6af34df4"
+                "reference": "548bedc016a432bb1114fca0395e962cc7dde5cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Tuurlijk/scanner/zipball/3201a3b86a470e405c36612bce6e38fb6af34df4",
-                "reference": "3201a3b86a470e405c36612bce6e38fb6af34df4",
+                "url": "https://api.github.com/repos/Tuurlijk/scanner/zipball/548bedc016a432bb1114fca0395e962cc7dde5cd",
+                "reference": "548bedc016a432bb1114fca0395e962cc7dde5cd",
                 "shasum": ""
             },
             "require": {
@@ -773,7 +773,7 @@
                 "symfony/finder": "^3.3 || ^4.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^7"
+                "phpunit/phpunit": "^8"
             },
             "default-branch": true,
             "type": "library",
@@ -801,7 +801,7 @@
                 "source": "https://github.com/Tuurlijk/scanner/tree/master",
                 "issues": "https://github.com/Tuurlijk/scanner/issues"
             },
-            "time": "2021-10-20T07:22:35+00:00"
+            "time": "2023-02-24T21:49:45+00:00"
         }
     ],
     "packages-dev": [
