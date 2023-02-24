@@ -38,14 +38,17 @@
   "config": {
     "bin-dir": "bin",
     "optimize-autoloader": true,
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "allow-plugins": {
+      "bamarni/composer-bin-plugin": true
+    }
   },
   "require-dev": {
-    "phpunit/phpunit": "^7",
-    "roave/security-advisories": "dev-master"
+    "roave/security-advisories": "dev-master",
+    "bamarni/composer-bin-plugin": "^1.8"
   },
   "scripts": {
-    "build": "box compile && cp typo3scan.phar typo3scan",
+    "build": "./bin/box compile && cp typo3scan.phar typo3scan",
     "prep": "cp typo3scan.phar typo3scan ../typo3scan"
   },
   "scripts-descriptions": {

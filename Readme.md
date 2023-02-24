@@ -61,7 +61,12 @@ composer install
 Make sure you have [Box](https://github.com/box-project/box) installed.
 ```bash
 composer update typo3/cms-scanner
-box compile
+composer build
+```
+
+### Prepare for release
+```bash
+composer prep
 ```
 
 ## Sponsors
