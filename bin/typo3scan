@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 
-error_reporting(E_ALL ^ E_DEPRECATED);
+error_reporting(E_ALL ^ ( E_NOTICE | E_WARNING | E_DEPRECATED ));
 
 foreach ([__DIR__ . '/../../../autoload.php', __DIR__ . '/../../../../autoload.php', __DIR__ . '/../vendor/autoload.php'] as $file) {
     if (file_exists($file)) {
