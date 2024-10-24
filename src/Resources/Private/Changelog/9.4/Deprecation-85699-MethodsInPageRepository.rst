@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85699:
 
 =======================================================
 Deprecation: #85699 - Various methods in PageRepository

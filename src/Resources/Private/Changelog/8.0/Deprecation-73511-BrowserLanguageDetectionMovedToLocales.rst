@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-73511:
 
 ================================================================
 Deprecation: #73511 - BrowserLanguage detection moved to Locales

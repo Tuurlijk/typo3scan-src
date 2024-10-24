@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-88799:
 
 =========================================================
 Feature: #88799 - Introduced PSR-3 compatible Logging API

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-67546:
 
 =======================================================================
 Breaking: #67546 - Cleanup Flash message rendering in FlashMessageQueue

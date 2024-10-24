@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-61903:
 
 =========================================================
 Feature: #61903 - PageTS dataprovider for backend layouts

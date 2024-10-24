@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-79243:
 
 ===================================================
 Breaking: #79243 - Remove l10n_mode mergeIfNotBlank
@@ -43,7 +45,7 @@ of migration.
 The upgrade wizard executes the following field usages:
 
 * inline children, pointing to `sys_file_reference`:
-  file references are localized for the the localization, if missing there
+  file references are localized for the localization, if missing there
 * group fields, basically not using MM intermediate tables:
   value is cloned to the accordant field in the localization, if empty there
 * any other field type:

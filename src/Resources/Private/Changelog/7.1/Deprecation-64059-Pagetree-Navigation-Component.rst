@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-64059:
 
 ==========================================================
 Deprecation: #64059 - Non-ExtJS Page Tree Navigation Frame

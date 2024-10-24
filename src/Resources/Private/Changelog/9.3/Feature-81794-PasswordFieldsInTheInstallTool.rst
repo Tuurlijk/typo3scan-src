@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-81794:
 
 =====================================================
 Feature: #81794 - Password fields in the Install tool

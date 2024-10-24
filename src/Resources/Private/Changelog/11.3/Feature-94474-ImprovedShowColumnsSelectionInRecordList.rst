@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94474:
 
 ================================================================
 Feature: #94474 - Improved show columns selection in record list

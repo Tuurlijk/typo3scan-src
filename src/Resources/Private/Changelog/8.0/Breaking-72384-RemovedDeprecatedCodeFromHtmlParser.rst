@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72384:
 
 ==========================================================
 Breaking: #72384 - Removed deprecated code from HtmlParser

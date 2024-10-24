@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-91606:
 
 ===========================================================
 Deprecation: #91606 - Global Datetime Picker initialization

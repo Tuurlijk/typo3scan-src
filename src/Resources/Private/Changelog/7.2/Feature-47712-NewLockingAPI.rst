@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-47712:
 
 =================================
 Feature: #47712 - New Locking API

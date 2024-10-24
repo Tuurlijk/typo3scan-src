@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-95062:
 
 ===================================================================================
 Deprecation: #95062 - $skipSorting argument of RelationHandler->writeForeignField()

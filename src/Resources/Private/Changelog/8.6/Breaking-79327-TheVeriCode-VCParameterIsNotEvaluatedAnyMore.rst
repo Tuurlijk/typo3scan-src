@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-79327:
 
 ========================================================================
 Breaking: #79327 - The veriCode - vC parameter is not evaluated any more

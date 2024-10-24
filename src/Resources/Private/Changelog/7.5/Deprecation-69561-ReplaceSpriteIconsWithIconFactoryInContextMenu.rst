@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-69561:
 
 ==========================================================================
 Deprecation: #69561 - Replace sprite icons with IconFactory in ContextMenu

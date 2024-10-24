@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-81213:
 
 =======================================================================
 Deprecation: #81213 - Render method arguments on ViewHelpers deprecated

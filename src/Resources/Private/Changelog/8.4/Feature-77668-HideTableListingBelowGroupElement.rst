@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-77668:
 
 ========================================================
 Feature: #77668 - Hide table listing below group element

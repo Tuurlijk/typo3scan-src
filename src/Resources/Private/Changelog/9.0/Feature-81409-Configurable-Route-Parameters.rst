@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-81409:
 
 ===============================================
 Feature: #81409 - Configurable Route Parameters

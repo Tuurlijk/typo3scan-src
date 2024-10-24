@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-83529:
 
 =====================================================
 Feature: #83529 - Execute hooks on backend user login

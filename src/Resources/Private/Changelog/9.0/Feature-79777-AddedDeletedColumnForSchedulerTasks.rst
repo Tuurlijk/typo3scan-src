@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79777:
 
 ================================================================
 Feature: #79777 - EXT:scheduler - Deleted column for tasks added

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-65283:
 
 ==================================================
 Deprecation: #65283 - Deprecate logout entry point

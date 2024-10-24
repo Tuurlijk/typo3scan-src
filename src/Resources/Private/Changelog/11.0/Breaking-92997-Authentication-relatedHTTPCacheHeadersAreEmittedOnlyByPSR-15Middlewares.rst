@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-92997:
 
 ===================================================================================================
 Breaking: #92997 - Authentication-related HTTP cache headers are emitted only by PSR-15 middlewares

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85759:
 
 =================================================
 Deprecation: #85759 - GeneralUtility::getHostName

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94228:
 
 =====================================================
 Deprecation: #94228 - Extbase request getRequestUri()
@@ -42,7 +44,6 @@ A substitution looks like this for now:
 
     // @todo Adapt this example as soon as Extbase Request implements ServerRequestInterface
     $request = $GLOBALS['TYPO3_REQUEST'];
-    /** @var NormalizedParams $normalizedParams */
     $normalizedParams = $request->getAttribute('normalizedParams');
     $requestUrl = $normalizedParams->getRequestUrl();
 

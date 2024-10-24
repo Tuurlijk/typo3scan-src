@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-56133:
 
 ==========================================================
 Breaking: #56133 - New BE user permission "Files: replace"

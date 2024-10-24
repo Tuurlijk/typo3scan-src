@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-61860:
 
 ===========================================================
 Breaking: #61860 - deprecated function int_from_ver removed

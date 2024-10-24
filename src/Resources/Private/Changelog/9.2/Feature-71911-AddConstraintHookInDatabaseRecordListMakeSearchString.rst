@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-71911:
 
 ==============================================================================
 Feature: #71911 - Add constraint hook in  DatabaseRecordList->makeSearchString
@@ -22,7 +24,7 @@ An example implementation could look like this:
 .. code-block:: php
 
    $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS'][\TYPO3\CMS\Recordlist\RecordList\DatabaseRecordList::class]['makeSearchStringConstraints'][1313131313] =
-      \MyVendor\MySite\Hooks\DatabaseRecordListHook::class . '->makeSearchStringConstraints';
+      \MyVendor\MySite\Hooks\DatabaseRecordListHook::class;
 
 
 :file:`EXT:my_site/Classes/Hooks/DatabaseRecordListHook.php`

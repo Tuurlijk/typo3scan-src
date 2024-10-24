@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-82438:
 
 =========================================
 Deprecation: #82438 - Deprecation methods

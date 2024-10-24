@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-78477:
 
 =======================================================
 Feature: #78477 - Refactoring of FlashMessage rendering

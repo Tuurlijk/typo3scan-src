@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72372:
 
 ======================================================
 Breaking: #72372 - Removed deprecated code from beuser

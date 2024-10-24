@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-90425:
 
 ===============================================
 Feature: #90425 - Add SEO fields to info module

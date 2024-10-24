@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-57594:
 
 ===========================================================
 Feature: #57594 - Optimize ReflectionService Cache handling

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-77589:
 
 ============================================================
 Feature: #77589 - EXT: syntax in PageRenderer and Compressor

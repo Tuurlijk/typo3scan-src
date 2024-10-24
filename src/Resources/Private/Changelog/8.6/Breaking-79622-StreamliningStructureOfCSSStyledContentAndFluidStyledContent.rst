@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-79622-1668719184:
 
 ========================================================================================
 Breaking: #79622 - Streamlining structure of CSS Styled Content and Fluid Styled Content

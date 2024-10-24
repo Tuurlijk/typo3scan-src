@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79521:
 
 ==================================================================
 Feature: #79521 - Show list of failed input elements in FormEngine

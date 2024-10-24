@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-83631:
 
 =============================================================
 Feature: #83631 - System Extension "redirects" has been added

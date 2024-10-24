@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-88648:
 
 ==========================================================
 Feature: #88648 - Set Twitter Card Type in page properties

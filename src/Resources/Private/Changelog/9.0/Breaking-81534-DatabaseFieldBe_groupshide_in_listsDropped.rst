@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-81534:
 
 =================================================================
 Breaking: #81534 - Database field be_groups:hide_in_lists dropped

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-82433:
 
 ===================================================
 Breaking: #82433 - Install Tool entry point removed

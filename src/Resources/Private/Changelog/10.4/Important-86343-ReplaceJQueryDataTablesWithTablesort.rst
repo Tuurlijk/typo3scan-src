@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-86343:
 
 ============================================================
 Important: #86343 - Replace jQuery.datatables with tablesort

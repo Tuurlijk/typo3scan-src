@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-70002:
 
 ============================================================================
 Feature: #70002 - Make it possible to register own icons for file extensions

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85646:
 
 =========================================================
 Deprecation: #85646 - Deprecate eID implemented as script

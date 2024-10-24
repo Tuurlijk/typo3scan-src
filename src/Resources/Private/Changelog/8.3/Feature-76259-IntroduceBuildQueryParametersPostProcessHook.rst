@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-76259:
 
 ================================================================
 Feature: #76259 - Introduce buildQueryParametersPostProcess Hook

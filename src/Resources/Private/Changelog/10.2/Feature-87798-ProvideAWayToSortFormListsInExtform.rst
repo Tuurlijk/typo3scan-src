@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-87798:
 
 ==============================================================
 Feature: #87798 - Provide a way to sort form lists in ext:form

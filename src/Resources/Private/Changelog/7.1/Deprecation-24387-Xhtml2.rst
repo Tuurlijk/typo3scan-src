@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-24387:
 
 ===================================================================
 Deprecation: #24387 - TypoScript option config.xhtmlDoctype=xhtml_2

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85078:
 
 =======================================================
 Deprecation: #85078 - PageRepository->versioningPreview

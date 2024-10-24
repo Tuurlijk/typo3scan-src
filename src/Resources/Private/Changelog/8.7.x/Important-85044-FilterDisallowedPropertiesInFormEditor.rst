@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-85044:
 
 ===============================================================
 Important: #85044 - Filter disallowed properties in form editor

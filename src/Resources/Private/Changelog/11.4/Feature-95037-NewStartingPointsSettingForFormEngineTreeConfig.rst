@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-95037:
 
 ======================================================================
 Feature: #95037 - New startingPoints setting for FormEngine treeConfig

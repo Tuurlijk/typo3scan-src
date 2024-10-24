@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-93857:
 
 ===================================================================================
 Feature: #93857 - Resizable navigation component for all element / record selectors

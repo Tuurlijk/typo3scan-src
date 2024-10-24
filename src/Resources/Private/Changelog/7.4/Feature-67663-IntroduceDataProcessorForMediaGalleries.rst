@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-67663:
 
 =============================================================
 Feature: #67663 - Introduce DataProcessor for media galleries

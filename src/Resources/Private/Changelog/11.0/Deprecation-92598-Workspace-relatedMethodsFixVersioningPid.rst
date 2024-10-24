@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-92598:
 
 ==================================================================
 Deprecation: #92598 - Workspace-related methods "fixVersioningPid"

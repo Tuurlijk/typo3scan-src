@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-82210:
 
 ============================================================================
 Breaking: #82210 - EXT:form - translation for "options" properties as string

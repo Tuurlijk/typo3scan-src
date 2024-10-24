@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-34922:
 
 ==========================================================================
 Feature: #34922 - Allow .ts file extension for static TypoScript templates
@@ -14,7 +16,6 @@ Only these TypoScript file names were allowed:
 
 - constants.txt
 - setup.txt
-- include_static.txt
 - include_static_files.txt
 
 The ts file extension has been allowed for constants and setup and is prioritised over txt.

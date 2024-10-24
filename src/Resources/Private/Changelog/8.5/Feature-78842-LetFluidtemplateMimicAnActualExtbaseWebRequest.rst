@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-78842:
 
 =======================================================================
 Feature: #78842 - Let FLUIDTEMPLATE mimic an actual extbase web request

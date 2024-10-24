@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-89700:
 
 =====================================================
 Feature: #89700 - Show layouts in the Web Info module

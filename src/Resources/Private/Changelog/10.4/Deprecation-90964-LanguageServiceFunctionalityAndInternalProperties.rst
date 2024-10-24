@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-90964:
 
 ===========================================================================
 Deprecation: #90964 - LanguageService functionality and internal properties

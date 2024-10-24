@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85970:
 
 =========================================
 Deprecation: #85970 - FILE content object

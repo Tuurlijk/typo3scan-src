@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-86461:
 
 ===============================================================================
 Deprecation: #86461 - Mark various TypoScript parsing functionality as internal

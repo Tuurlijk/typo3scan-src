@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-80579:
 
 ===============================================
 Feature: #80579 - Improved JavaScript Modal API
@@ -25,8 +27,8 @@ attributes that also can set by configuration.
 Advanced API
 ------------
 
-Unlike the existing api functions like :javascript:`Modal.confirm`, :javascript:`Modal.loadUrl` or
-:javascript:`Modal.show`, :javascript:`Modal.advanced` uses a JavaScript object instead of fixed
+Unlike the existing api functions like :js:`Modal.confirm`, :js:`Modal.loadUrl` or
+:js:`Modal.show`, :js:`Modal.advanced` uses a JavaScript object instead of fixed
 parameters.
 
 .. code-block:: javascript
@@ -58,8 +60,8 @@ Configuration Options
 Type
 ^^^^
 
-The :javascript:`type` will define the behaviour of content loading, and only accepts
-:javascript:`Modal.types.ajax`, :javascript:`Modal.types.iframe` and the default :javascript:`Modal.types.default`.
+The :js:`type` will define the behaviour of content loading, and only accepts
+:js:`Modal.types.ajax`, :js:`Modal.types.iframe` and the default :js:`Modal.types.default`.
 
 .. code-block:: javascript
 
@@ -75,15 +77,15 @@ Modal.types.ajax
    Content will be grabbed from a url set in the option `content`
 
 Modal.types.iframe
-   Url provided in the option `content` will be loaded in a iframe in the modal.
-   Also it will automaticly set the title from the contained document.
+   Url provided in the option `content` will be loaded in an iframe in the modal.
+   Also it will automatically set the title from the contained document.
 
 
 Title
 ^^^^^
 
 The `title` will be display above the modal content. For the type
-:javascript:`Modal.types.iframe` this option will have no effect. As soon as the content
+:js:`Modal.types.iframe` this option will have no effect. As soon as the content
 from the iframe is loaded, the title will be replaced with title of the
 contained document. The default will set the title to "Information".
 
@@ -99,7 +101,7 @@ Content
 ^^^^^^^
 
 The `content` accepts only strings that can be either a HTML or a url for types
-:javascript:`Modal.types.ajax` and :javascript:`Modal.types.iframe`. The default will show a warning
+:js:`Modal.types.ajax` and :js:`Modal.types.iframe`. The default will show a warning
 that there is a possible misconfiguration of the modal.
 
 .. code-block:: javascript
@@ -134,7 +136,7 @@ Severity
 
 Severity is used to change the appearance of the modal window to represent a
 contextual state like success, information, warning or danger. The default is
-:javascript:`Severity.notice`. Only options provided by the :javascript:`Severity` object will be
+:js:`Severity.notice`. Only options provided by the :js:`Severity` object will be
 accepted.
 
 .. code-block:: javascript
@@ -199,8 +201,8 @@ Style
 ^^^^^
 
 The ``style`` option will change the appearance of the modal like the ``severity``
-both without contextual meaning. The default option is :javascript:`Modal.styles.light`.
-The second available option is :javascript:`Modal.styles.dark` will override all contextual
+both without contextual meaning. The default option is :js:`Modal.styles.light`.
+The second available option is :js:`Modal.styles.dark` will override all contextual
 styling.
 
 .. code-block:: javascript
@@ -215,11 +217,11 @@ Size
 ^^^^
 
 While the modal itself adapts to the window, there are several options available
-to limit the maximal size of the modal. The sizes :javascript:`Modal.sizes.small` and the
-default :javascript:`Modal.sizes.default` will automaticly adapt to the content and are only
-limited to the width of the modal. :javascript:`Modal.sizes.large` and :javascript:`Modal.sizes.full`
-are designed to contain a undefined lenth of content in a fixed sized modal.
-These are suited best for :javascript:`Modal.types.ajax` or :javascript:`Modal.types.iframe` content.
+to limit the maximal size of the modal. The sizes :js:`Modal.sizes.small` and the
+default :js:`Modal.sizes.default` will automatically adapt to the content and are only
+limited to the width of the modal. :js:`Modal.sizes.large` and :js:`Modal.sizes.full`
+are designed to contain a undefined length of content in a fixed sized modal.
+These are suited best for :js:`Modal.types.ajax` or :js:`Modal.types.iframe` content.
 
 .. code-block:: javascript
 
@@ -280,7 +282,7 @@ Callback after ajax processing
 
 Callback function that will be called after the ajax call has been done and
 the response added to the desired location. This option is only available for
-type :javascript:`Modal.types.ajax`.
+type :js:`Modal.types.ajax`.
 
 .. code-block:: javascript
 
@@ -298,7 +300,7 @@ Target for ajax response
 
 The ajax response will be added to the body of the particular modal window by
 default but can be set to a different selector if necessary. This option is only
-available for type :javascript:`Modal.types.ajax`.
+available for type :js:`Modal.types.ajax`.
 
 .. code-block:: javascript
 

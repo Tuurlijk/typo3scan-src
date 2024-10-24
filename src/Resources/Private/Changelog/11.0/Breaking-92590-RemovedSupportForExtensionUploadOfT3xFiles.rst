@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-92590:
 
 ====================================================================
 Breaking: #92590 - Removed support for extension upload of t3x files

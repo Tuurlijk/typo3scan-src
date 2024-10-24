@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-90800:
 
 =============================================================
 Deprecation: #90800 - GeneralUtility::isRunningOnCgiServerApi

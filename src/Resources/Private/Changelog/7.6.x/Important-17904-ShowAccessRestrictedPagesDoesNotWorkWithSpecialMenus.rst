@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-17904:
 
 ==============================================================================
 Important: #17904 - showAccessRestrictedPages does not work with special menus

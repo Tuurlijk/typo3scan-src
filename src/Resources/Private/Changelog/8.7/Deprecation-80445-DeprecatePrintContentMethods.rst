@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-80445:
 
 ====================================================
 Deprecation: #80445 - Deprecate printContent methods

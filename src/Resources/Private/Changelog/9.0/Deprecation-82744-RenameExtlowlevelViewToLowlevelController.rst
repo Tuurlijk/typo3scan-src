@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-82744:
 
 =====================================================================
 Deprecation: #82744 - Rename ext:lowlevel/View to lowlevel/Controller

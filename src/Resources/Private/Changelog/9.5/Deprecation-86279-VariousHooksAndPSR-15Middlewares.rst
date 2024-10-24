@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-86279:
 
 ==========================================================
 Deprecation: #86279 - Various Hooks and PSR-15 Middlewares

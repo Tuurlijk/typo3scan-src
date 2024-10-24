@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-92358:
 
 =================================================================
 Feature: #92358 - Add getModuleTemplate() to PageLayoutController

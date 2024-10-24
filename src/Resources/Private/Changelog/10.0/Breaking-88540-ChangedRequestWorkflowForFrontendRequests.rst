@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-88540:
 
 =================================================================
 Breaking: #88540 - Changed Request Workflow for Frontend Requests
@@ -26,7 +28,7 @@ other / extended functionality.
 The following changes have been made:
 
 Storing session data from a Frontend User Session / Anonymous session is now triggered within the Frontend User
-(`frontend-user-authenticator`) Middleware, at a later point - once the page was generated. Up until TYPO3 v9, this
+(`typo3/cms-frontend/authentication`) Middleware, at a later point - once the page was generated. Up until TYPO3 v9, this
 was part of the RequestHandler logic right after content was put together. This was due to legacy reasons of the
 previous hook execution order.
 

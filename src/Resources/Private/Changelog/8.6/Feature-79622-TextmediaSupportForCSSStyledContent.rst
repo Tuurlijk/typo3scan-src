@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79622-1668719184:
 
 ==========================================================
 Feature: #79622 - Textmedia support for CSS Styled Content

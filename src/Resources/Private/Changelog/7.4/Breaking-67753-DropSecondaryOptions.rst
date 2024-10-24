@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-67753:
 
 ================================================
 Breaking: #67753 - Drop "Show secondary options"

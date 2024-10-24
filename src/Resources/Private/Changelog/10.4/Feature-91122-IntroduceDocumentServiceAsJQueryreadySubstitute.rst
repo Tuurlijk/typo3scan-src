@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-91122:
 
 ======================================================================
 Feature: #91122 - Introduce DocumentService as JQuery.ready substitute

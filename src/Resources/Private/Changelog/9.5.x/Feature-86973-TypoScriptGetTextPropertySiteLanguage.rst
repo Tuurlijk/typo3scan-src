@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-86973:
 
 ==========================================================
 Feature: #86973 - TypoScript getText property siteLanguage

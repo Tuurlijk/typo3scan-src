@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-62793:
 
 ===========================================================
 Breaking: #62793 - TypoScript config.notification_* removed

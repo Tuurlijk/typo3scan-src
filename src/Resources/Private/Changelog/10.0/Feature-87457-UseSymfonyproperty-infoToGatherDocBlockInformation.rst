@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-87457:
 
 ===========================================================================
 Feature: #87457 - Use symfony/property-info to gather doc block information

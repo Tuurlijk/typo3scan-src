@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-68178:
 
 ==========================================================================
 Breaking: #68178 - Drop $GLOBALS['TYPO3_CONF_VARS']['SYS']['form_enctype']

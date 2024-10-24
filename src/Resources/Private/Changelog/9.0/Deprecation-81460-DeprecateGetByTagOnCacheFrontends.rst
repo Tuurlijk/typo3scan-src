@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-81460:
 
 =============================================================
 Deprecation: #81460 - Deprecate getByTag() on cache frontends

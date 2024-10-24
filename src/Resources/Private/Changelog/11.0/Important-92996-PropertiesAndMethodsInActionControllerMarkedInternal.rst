@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-92996:
 
 ==============================================================================
 Important: #92996 - Properties and methods in ActionController marked internal

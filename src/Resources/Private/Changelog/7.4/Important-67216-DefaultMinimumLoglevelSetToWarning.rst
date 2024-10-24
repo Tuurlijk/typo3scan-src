@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-67216:
 
 ===============================================================
 Important: #67216 - Default minimum log level is set to warning

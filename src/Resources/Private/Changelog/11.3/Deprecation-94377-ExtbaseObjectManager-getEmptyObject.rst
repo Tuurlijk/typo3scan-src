@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94377:
 
 ===========================================================
 Deprecation: #94377 - Extbase ObjectManager->getEmptyObject
@@ -10,10 +12,10 @@ Description
 ===========
 
 Extbase has the odd behavior that
-:php:`\TYPO3\CMS\Extbase\DomainObject\DomainObjectInterface` objects
-- typically classes in :file:`Classes/Domain/Model` of Extbase enabled
+:php:`\TYPO3\CMS\Extbase\DomainObject\DomainObjectInterface` objects -
+typically classes in :file:`Classes/Domain/Model` of Extbase enabled
 extensions - don't call :php:`__construct` when the persistence layer
-"thaws" a model from database - typically when a Extbase
+"thaws" a model from database - typically when an Extbase
 :php:`Domain/Repository` uses a :php:`->findBy*` method.
 
 As a side-effect of switching away from Extbase :php:`ObjectManager` towards

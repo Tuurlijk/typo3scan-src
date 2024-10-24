@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-80514:
 
 =========================================================================
 Deprecation: #80514 - GraphicalFunctions->tempPath and createTempSubDir()

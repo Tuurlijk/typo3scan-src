@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72378:
 
 ================================================================
 Breaking: #72378 - Removed CSS Styled Content TypoScript for 6.2

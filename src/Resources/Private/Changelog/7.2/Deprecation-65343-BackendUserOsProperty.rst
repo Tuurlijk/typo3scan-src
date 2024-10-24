@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-64134:
 
 ============================================
 Deprecation: #64134 - Deprecate $BE_USER->OS

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84411:
 
 ========================================================================================
 Deprecation: #84411 - TypoScriptReferenceLoader renamed to TypoScriptReferenceController

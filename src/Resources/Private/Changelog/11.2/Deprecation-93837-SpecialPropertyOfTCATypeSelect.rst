@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-93837:
 
 =========================================================
 Deprecation: #93837 - special property of TCA type select
@@ -51,6 +53,6 @@ your own implementation or by copying the one from Core. Have a look at the
 achieved. You can also find detailed information about :php:`itemsProcFunc`
 in the documentation_.
 
-.. _documentation: https://docs.typo3.org/m/typo3/reference-tca/master/en-us/ColumnsConfig/CommonProperties/ItemsProcFunc.html
+.. _documentation: https://docs.typo3.org/m/typo3/reference-tca/main/en-us/ColumnsConfig/CommonProperties/ItemsProcFunc.html
 
 .. index:: Backend, TCA, FullyScanned, ext:backend

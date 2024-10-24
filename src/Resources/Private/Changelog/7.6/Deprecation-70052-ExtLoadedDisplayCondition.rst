@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-70052:
 
 ======================================================
 Deprecation: #70052 - TCA Display condition EXT LOADED

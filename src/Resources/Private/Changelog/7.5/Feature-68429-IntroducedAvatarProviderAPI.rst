@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-68429:
 
 ===============================================
 Feature: #68429 - Introduced AvatarProvider API

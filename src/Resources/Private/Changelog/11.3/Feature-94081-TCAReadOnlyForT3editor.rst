@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94081:
 
 ===========================================
 Feature: #94081 - TCA readOnly for t3editor

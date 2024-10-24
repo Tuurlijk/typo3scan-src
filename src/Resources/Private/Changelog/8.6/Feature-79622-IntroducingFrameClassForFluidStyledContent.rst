@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79622-1668719172:
 
 ==================================================================
 Feature: #79622 - Introducing Frame Class for Fluid Styled Content

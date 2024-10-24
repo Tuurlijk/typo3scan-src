@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-78628:
 
 ==============================================================
 Deprecation: #78628 - TCA tree pageTsConfig addItems icon path

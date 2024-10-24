@@ -1,6 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
-.. highlight:: typoscript
+.. _feature-88147:
 
 ==========================================================================
 Feature: #88147 - Add possibility to configure the path to sitemap xslFile
@@ -13,17 +13,23 @@ Description
 
 The xsl file to create a layout for a XML sitemap can now be configured on three levels:
 
-1. for all sitemaps::
+1.  for all sitemaps:
 
-      plugin.tx_seo.config.xslFile = EXT:myext/Resources/Public/CSS/mySite.xsl
+    ..  code-block:: typoscript
 
-2. for all sitemaps of a certain sitemapType::
+        plugin.tx_seo.config.xslFile = EXT:myext/Resources/Public/CSS/mySite.xsl
 
-      plugin.tx_seo.config.<sitemapType>.sitemaps.xslFile = EXT:myext/Resources/Public/CSS/mySite.xsl
+2.  for all sitemaps of a certain sitemapType:
 
-3. for a specific sitemap::
+    ..  code-block:: typoscript
 
-      plugin.tx_seo.config.<sitemapType>.sitemaps.<sitemap>.config.xslFile = EXT:myext/Resources/Public/CSS/mySite.xsl
+        plugin.tx_seo.config.<sitemapType>.sitemaps.xslFile = EXT:myext/Resources/Public/CSS/mySite.xsl
+
+3.  for a specific sitemap:
+
+    ..  code-block:: typoscript
+
+        plugin.tx_seo.config.<sitemapType>.sitemaps.<sitemap>.config.xslFile = EXT:myext/Resources/Public/CSS/mySite.xsl
 
 Impact
 ======

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-85026:
 
 ============================================
 Important: #85026 - salted passwords changes

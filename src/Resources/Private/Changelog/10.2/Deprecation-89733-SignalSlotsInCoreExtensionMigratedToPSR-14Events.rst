@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-89733:
 
 ==============================================================================
 Deprecation: #89733 - Signal Slots in Core Extension migrated to PSR-14 events

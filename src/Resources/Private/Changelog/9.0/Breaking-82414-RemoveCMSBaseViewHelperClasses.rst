@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-82414:
 
 ======================================================
 Breaking: #82414 - CMS ViewHelper base classes removed

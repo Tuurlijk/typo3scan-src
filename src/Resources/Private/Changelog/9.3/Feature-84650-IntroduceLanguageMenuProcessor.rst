@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-84650:
 
 ===================================================================
 Feature: #84650 - Introduce fluid data processor for language menus
@@ -9,7 +11,7 @@ See :issue:`84650`
 Description
 ===========
 
-This feature introduces a new :ts:`LanguageMenuProcessor` for Fluid based
+This feature introduces a new :typoscript:`LanguageMenuProcessor` for Fluid based
 language menus based on the languages defined for the current site.
 
 Options

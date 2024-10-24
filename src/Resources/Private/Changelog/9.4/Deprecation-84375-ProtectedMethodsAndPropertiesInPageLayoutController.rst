@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84375:
 
 ==============================================================================
 Deprecation: #84375 - Protected methods and properties in PageLayoutController

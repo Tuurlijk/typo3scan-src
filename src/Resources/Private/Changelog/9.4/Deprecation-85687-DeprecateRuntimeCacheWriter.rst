@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85687:
 
 ==================================================
 Deprecation: #85687 - Deprecate RuntimeCacheWriter

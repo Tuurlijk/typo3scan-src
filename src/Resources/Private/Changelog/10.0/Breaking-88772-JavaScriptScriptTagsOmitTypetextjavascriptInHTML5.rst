@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-88772:
 
 ============================================================================
 Breaking: #88772 - JavaScript script tags omit type=text/javascript in HTML5

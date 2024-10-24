@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-83273:
 
 ==========================================================
 Deprecation: #83273 - Public properties of TemplateService

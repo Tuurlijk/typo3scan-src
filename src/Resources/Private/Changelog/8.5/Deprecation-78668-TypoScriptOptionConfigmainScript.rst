@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-78668:
 
 =========================================================
 Deprecation: #78668 - TypoScript option config.mainScript

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79250:
 
 ======================================================================
 Feature: #79250 - EXT:form extend the extension location functionality

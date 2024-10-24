@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-75386:
 
 ==================================================
 Feature: #75386 - Get identifier in slide callback
@@ -10,13 +12,13 @@ See :issue:`75386`
 Description
 ===========
 
-The callback of :javascript:`Wizard.addSlide()` now has a new parameter `identifier`.
+The callback of :js:`Wizard.addSlide()` now has a new parameter `identifier`.
 
 
 Impact
 ======
 
-The identifier is passed to the callback function of :javascript:`Wizard.addSlide()`.
+The identifier is passed to the callback function of :js:`Wizard.addSlide()`.
 
 Example code:
 

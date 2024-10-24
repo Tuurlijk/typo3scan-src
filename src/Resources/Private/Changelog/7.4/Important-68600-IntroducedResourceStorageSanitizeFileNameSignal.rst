@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-68600:
 
 ======================================================================
 Important: #68600 - Introduced ResourceStorage SanitizeFileName signal

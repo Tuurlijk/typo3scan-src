@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-86759:
 
 ====================================================================
 Feature: #86759 - Support nomodule attribute for JavaScript includes

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-78647:
 
 =================================================================================================
 Deprecation: #78647 - Move language files from EXT:lang/locallang_* to Resources/Private/Language

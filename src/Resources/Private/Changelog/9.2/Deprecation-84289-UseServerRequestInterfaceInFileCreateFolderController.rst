@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84289:
 
 ===============================================================================
 Deprecation: #84289 - Use ServerRequestInterface in File/CreateFolderController

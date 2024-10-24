@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-75591:
 
 ======================================================
 Important: #75591 - Partials/Honeypot.html has changed

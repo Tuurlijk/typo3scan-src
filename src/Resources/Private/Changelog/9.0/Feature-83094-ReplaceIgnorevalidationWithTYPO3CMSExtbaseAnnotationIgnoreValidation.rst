@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-83094:
 
 ===================================================================================================
 Feature: #83094 - Replace @ignorevalidation with @TYPO3\\CMS\\Extbase\\Annotation\\IgnoreValidation

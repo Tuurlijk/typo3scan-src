@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-68401:
 
 ================================================
 Breaking: #68401 - SqlParser moved into EXT:dbal

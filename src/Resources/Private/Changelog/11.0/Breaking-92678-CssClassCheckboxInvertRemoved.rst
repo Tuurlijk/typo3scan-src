@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-92678:
 
 ====================================================
 Breaking: #92678 - CSS class checkbox-invert removed
@@ -36,4 +38,4 @@ is used. If CSS styling or JavaScript in the backend relies on the
 class `checkbox-invert` present custom code needs to be added to make it
 available again.
 
-.. index:: Backend, CSS, NotScanned, ext:backend
+.. index:: Backend, NotScanned, ext:backend

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-82488:
 
 =======================================================================================
 Feature: #82488 - Possibility to modify the display results before FluidView assignment

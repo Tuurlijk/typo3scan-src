@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-79942:
 
 =================================================================
 Important: #79942 - Version selector view moved to compatibility7

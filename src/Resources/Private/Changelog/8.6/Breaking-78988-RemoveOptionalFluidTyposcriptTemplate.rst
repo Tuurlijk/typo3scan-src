@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-78988:
 
 ============================================================
 Breaking: #78988 - Remove optional Fluid TypoScript template

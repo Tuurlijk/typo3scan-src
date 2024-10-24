@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-66445:
 
 ========================================================
 Feature: #66445 - Add file extension to mimeType mapping

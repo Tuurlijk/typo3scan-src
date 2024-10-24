@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-77280:
 
 =======================================================================
 Feature: #77280 - Render the file title in "file links" content element

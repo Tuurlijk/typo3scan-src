@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79445-1668719171:
 
 ==============================================
 Feature: #79445 - Improve form creation wizard

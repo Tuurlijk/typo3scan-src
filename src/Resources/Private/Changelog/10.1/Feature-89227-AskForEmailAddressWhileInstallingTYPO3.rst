@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-89227:
 
 ==============================================================
 Feature: #89227 - Ask for email address while installing TYPO3

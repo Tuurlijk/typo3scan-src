@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-88746:
 
 ====================================================================================
 Deprecation: #88746 - PageRepository PHP class moved from Frontend to Core Extension

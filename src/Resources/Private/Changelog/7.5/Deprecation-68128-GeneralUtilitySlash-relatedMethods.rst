@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-68128:
 
 ==========================================================
 Deprecation: #68128 - GeneralUtility slash-related methods

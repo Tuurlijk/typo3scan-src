@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85125:
 
 ==================================================================
 Deprecation: #85125 - Deprecate usages of CharsetConverter in core

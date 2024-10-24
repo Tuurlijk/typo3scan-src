@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-90856:
 
 ====================================================
 Deprecation: #90856 - Widget AutoComplete ViewHelper

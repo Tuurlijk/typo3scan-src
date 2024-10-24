@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-80317:
 
 ==============================================================
 Deprecation: #80317 - Deprecate BackendUtility::getRecordRaw()

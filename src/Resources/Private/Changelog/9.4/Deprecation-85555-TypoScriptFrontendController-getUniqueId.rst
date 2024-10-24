@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85555:
 
 ===============================================================
 Deprecation: #85555 - TypoScriptFrontendController->getUniqueId

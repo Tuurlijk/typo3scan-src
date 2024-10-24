@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-90826:
 
 ============================================
 Feature: #90826 - Compare backend usergroups

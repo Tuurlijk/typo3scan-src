@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-78679:
 
 ==========================================================================
 Deprecation: #78679 - Crawler inclusion via require_once in Indexed Search

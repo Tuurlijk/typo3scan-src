@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84285:
 
 ===============================================================================
 Deprecation: #84285 - Protected methods and properties in MoveElementController

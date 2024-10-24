@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-82511:
 
 ======================================================
 Feature: #82511 - EXT:form add HTML5 date form element

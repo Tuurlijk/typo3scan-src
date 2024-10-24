@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-80196:
 
 ===================================================================
 Feature: #80196 - EXT:form - support multiple form elements per row

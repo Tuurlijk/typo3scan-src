@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-57331:
 
 =====================================================
 Feature: #57331 - Support dash in CurrencyViewHelper

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79196:
 
 ========================================
 Feature: #79196 - Allow reload of topbar

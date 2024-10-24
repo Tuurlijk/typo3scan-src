@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-75232:
 
 ===================================================
 Important: #75232 - Spread TypeConverter priorities

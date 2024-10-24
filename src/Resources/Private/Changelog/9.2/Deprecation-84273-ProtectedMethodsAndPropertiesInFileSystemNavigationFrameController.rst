@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84273:
 
 =============================================================================================
 Deprecation: #84273 - Protected methods and properties in FileSystemNavigationFrameController

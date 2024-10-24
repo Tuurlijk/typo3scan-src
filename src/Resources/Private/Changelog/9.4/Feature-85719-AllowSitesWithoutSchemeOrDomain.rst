@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-85719:
 
 ======================================================
 Feature: #85719 - Allow sites without scheme or domain

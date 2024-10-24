@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-90258:
 
 ===============================================
 Deprecation: #90258 - Simplified RTE Parser API

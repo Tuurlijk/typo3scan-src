@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-70316:
 
 =====================================================
 Feature: #70316 - Introduce Session Storage Framework

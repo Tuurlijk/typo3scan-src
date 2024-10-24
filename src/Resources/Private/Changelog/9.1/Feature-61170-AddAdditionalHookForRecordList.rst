@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-61170:
 
 =====================================================
 Feature: #61170 - Add additional hook for record list

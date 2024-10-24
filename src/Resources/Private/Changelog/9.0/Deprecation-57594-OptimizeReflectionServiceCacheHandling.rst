@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-57594:
 
 =======================================================================
 Deprecation: #57594 - Optimize extbase ReflectionService Cache handling
@@ -37,6 +39,6 @@ Migration
 =========
 
 Use the class :php:`ReflectionService` as API which will be automatically initialized on
-nstantiation.
+instantiation.
 
 .. index:: PHP-API, FullyScanned, ext:extbase

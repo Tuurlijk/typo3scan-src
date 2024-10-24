@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-66904:
 
 ====================================================================
 Deprecation: #66904 - $disable Option in PageRepository->getExtURL()

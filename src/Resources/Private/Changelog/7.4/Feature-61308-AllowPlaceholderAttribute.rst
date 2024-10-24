@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-61308:
 
 =======================================================
 Feature: #61308 - ext:form allows placeholder attribute

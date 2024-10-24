@@ -1,5 +1,6 @@
-.. include:: ../../Includes.txt
-.. highlight:: html
+.. include:: /Includes.rst.txt
+
+.. _feature-88950:
 
 ===================================================================
 Feature: #88950 - Add "storeSession" argument to Widget ViewHelpers
@@ -18,15 +19,15 @@ As this is not always a desired behaviour (gdpr),
 a boolean argument ``storeSession`` has been added to :php:`\TYPO3\CMS\Fluid\Core\Widget\AbstractWidgetViewHelper`,
 which defaults to true and can be used to disable session storage for this ViewHelper.
 
-This will automatically create a ``fe_typo_user`` cookie in frontend::
+This will automatically create a ``fe_typo_user`` cookie in the frontend:
 
-.. code-block:: html
+..  code-block:: html
 
     <f:widget.autocomplete for="name" objects="{posts}" searchProperty="author" />
 
-This will not create a cookie in frontend::
+This will not create a cookie in frontend:
 
-.. code-block:: html
+..  code-block:: html
 
     <f:widget.autocomplete for="name" objects="{posts}" searchProperty="author" storeSession="false" />
 

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-69416:
 
 ========================================================================
 Feature: #69416 - Plugins (AbstractPlugin) can load custom language file

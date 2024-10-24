@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-81474:
 
 =============================================================
 Important: #81474 - Combine modules "about" & "about modules"

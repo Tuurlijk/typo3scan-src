@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-89551:
 
 ===================================================================
 Feature: #89551 - Add fluidAdditionalAttributes to the form element

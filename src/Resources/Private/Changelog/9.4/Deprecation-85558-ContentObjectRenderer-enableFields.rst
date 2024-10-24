@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85558:
 
 =========================================================
 Deprecation: #85558 - ContentObjectRenderer->enableFields

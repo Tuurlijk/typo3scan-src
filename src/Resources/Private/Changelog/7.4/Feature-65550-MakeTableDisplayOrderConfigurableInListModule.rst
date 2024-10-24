@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-65550:
 
 ======================================================================
 Feature: #65550 - Make table display order configurable in List module

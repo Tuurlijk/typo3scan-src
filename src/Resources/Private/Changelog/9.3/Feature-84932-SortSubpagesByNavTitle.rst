@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-84932:
 
 ============================================
 Feature: #84932 - Sort subpages by nav_title

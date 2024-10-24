@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-45943:
 
 ===============================================================
 Breaking: #45943 - Remove unused Images in "t3skin/icons/gfx/i"

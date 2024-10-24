@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-89938:
 
 =========================================================
 Deprecation: #89938 - Language mode in Typo3QuerySettings

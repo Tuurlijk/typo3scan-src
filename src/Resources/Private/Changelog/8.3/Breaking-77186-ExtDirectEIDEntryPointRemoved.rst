@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77186:
 
 ====================================================
 Breaking: #77186 - ExtDirect eID entry point removed

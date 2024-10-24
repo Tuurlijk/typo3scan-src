@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-83160:
 
 ===========================================================================
 Breaking: #83160 - Removed 'sorting' column from table 'sys_file_reference'

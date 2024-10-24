@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-91079:
 
 ====================================================================================
 Important: #91079 - Various TypoScriptFrontendRenderer functionality is now internal

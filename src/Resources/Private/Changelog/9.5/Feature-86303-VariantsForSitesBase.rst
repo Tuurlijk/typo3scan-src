@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-86303:
 
 ==========================================
 Feature: #86303 - Variants for site's base

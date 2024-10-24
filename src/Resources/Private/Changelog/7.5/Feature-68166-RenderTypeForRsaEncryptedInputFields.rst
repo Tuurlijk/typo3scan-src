@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-67932:
 
 ===========================================================
 Feature: #67932 - RenderType for rsa encrypted input fields
@@ -27,7 +29,7 @@ To encrypt your own TCA fields you can add define the render type `rsaInput`.
 
 .. code-block:: php
 
-$GLOBALS['TCA']['be_users']['columns']['password']['config']['renderType'] = 'rsaInput';
+   $GLOBALS['TCA']['be_users']['columns']['password']['config']['renderType'] = 'rsaInput';
 
 
 .. index:: TCA, Backend

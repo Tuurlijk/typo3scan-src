@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-70055:
 
 ========================================================================
 Breaking: #70055 - Override New Content Element Wizard via page TSConfig

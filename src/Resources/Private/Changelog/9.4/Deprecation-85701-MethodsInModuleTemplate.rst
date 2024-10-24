@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85701:
 
 =======================================================
 Deprecation: #85701 - Various methods in ModuleTemplate

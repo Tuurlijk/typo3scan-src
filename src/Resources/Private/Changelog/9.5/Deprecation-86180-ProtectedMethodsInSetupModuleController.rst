@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-86180:
 
 ================================================================
 Deprecation: #86180 - Protected methods in SetupModuleController

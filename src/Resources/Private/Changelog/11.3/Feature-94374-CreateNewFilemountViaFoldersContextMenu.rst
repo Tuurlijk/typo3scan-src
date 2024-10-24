@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94374:
 
 ====================================================================
 Feature: #94374 - Create new filemount via the folder's context menu

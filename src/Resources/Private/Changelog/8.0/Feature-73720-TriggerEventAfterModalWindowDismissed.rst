@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-73720:
 
 ============================================================
 Feature: #73720 - Trigger event after modal window dismissed

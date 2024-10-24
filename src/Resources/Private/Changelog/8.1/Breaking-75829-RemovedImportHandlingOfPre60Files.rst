@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-75829:
 
 ===================================================================
 Breaking: #75829 - Removed handling of pre 6.0 files when importing

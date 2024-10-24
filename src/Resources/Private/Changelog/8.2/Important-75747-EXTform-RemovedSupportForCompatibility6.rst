@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-75747:
 
 =================================================================
 Important: #75747 - EXT:form - Removed support for compatibility6

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-59396:
 
 ====================================
 Feature: #59396 - TypolinkViewHelper

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-80126:
 
 =====================================================================
 Feature: #80126 maximum field length not set as attribute "maxlength"

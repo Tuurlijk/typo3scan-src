@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94489:
 
 ================================================
 Feature: #94489 - Filter for redirects never hit

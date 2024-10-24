@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-80241:
 
 ==========================================================
 Important: #80241 - EXT:form simplify translation handling

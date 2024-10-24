@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-85761:
 
 ===============================================
 Breaking: #85761 - Authentication chain changes
@@ -45,7 +47,7 @@ Impact
 ======
 
 If an instance provides additional authentication services, and if one of that services does
-not return correct authentication values, this may open a authentication bypass security issue
+not return correct authentication values, this may open an authentication bypass security issue
 when upgrading to TYPO3 v9.
 
 

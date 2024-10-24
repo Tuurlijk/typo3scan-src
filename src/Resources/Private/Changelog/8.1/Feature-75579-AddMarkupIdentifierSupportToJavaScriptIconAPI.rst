@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-75579:
 
 ====================================================================
 Feature: #75579 - Add markupIdentifier support to JavaScript IconAPI

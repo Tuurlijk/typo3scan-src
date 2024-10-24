@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-86441:
 
 =====================================================================================
 Deprecation: #86441 - Various methods and properties inside BackendUserAuthentication

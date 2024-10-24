@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-68395:
 
 ==============================================================================
 Feature: #68395 - Allow real copies of content elements into foreign languages

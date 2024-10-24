@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-79263:
 
 =========================================================
 Breaking: #79263 - Scheduler CLI Controller class removed

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-92984:
 
 ====================================================================
 Feature: #92984 - PSR-7 Request available in Frontend ContentObjects

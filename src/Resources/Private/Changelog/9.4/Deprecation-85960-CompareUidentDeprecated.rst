@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85960:
 
 ================================================================================================================
 Deprecation: #85960 - AbstractUserAuthentication::compareUident and AbstractAuthenticationService->compareUident

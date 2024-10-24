@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-60822:
 
 =================================================================
 Feature: #60822 - Class annotations in extbase reflection service

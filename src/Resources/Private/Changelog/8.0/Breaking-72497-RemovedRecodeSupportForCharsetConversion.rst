@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72497:
 
 ================================================================
 Breaking: #72497 - Removed recode support for Charset Conversion

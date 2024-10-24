@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-67212:
 
 =============================================
 Breaking: #67212 - Discard TYPO3 class loader

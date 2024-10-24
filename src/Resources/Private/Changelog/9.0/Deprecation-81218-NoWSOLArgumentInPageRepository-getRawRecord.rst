@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-81218:
 
 =====================================================================
 Deprecation: #81218 - noWSOL argument in PageRepository->getRawRecord

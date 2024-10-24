@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-95089:
 
 ==========================================================
 Deprecation: #95089 - ExtendedFileUtility ProcessData hook

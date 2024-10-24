@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-88143:
 
 ====================================================================
 Breaking: #88143 - Version-related database field "t3ver_id" removed

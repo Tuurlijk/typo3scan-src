@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-81768:
 
 ===============================================================
 Important: #81768 - Create pages and sort pages in context menu

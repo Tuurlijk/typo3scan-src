@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-84148:
 
 =================================================================
 Breaking: #84148 - RequireJS module for language handling removed

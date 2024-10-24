@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-82254:
 
 ==============================================================
 Feature: #82254 - Store extension configuration as plain array

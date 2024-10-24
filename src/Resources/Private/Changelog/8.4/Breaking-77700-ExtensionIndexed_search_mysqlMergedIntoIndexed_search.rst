@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77700:
 
 ============================================================================
 Breaking: #77700 - Extension indexed_search_mysql merged into indexed_search

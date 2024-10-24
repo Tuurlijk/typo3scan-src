@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-75340:
 
 =================================================================================
 Deprecation: #75340 - Methods related to generating traditional Backend AJAX URLs

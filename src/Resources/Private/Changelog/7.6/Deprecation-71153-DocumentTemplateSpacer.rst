@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-71153:
 
 ================================================
 Deprecation: #71153 - DocumentTemplate->spacer()

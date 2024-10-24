@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-88643:
 
 =======================================================================
 Feature: #88643 - New Mail API based on symfony/mailer and symfony/mime

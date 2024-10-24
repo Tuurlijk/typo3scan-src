@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-80171:
 
 ====================================================================================
 Breaking: #80171 - Remove lib.parseFunc_RTE inline styles from parsed blockquote tag

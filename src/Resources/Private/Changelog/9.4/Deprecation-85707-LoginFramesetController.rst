@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85707:
 
 =============================================
 Deprecation: #85707 - LoginFramesetController

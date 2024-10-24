@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94317:
 
 =======================================================
 Deprecation: #94317 - ext:form Finisher implementations
@@ -40,7 +42,7 @@ Those are only affected if they override :php:`__construct()` or use or manipula
 properties :php:`$finisherIdentifier` or :php:`$shortFinisherIdentifier` in
 :php:`inject*()` or :php:`injectObject()` methods. This is rather unlikely.
 
-Custom finished that do not extend :php:`TYPO3\CMS\Form\Domain\Finishers\AbstractFinisher`
+Custom finishers that do not extend :php:`TYPO3\CMS\Form\Domain\Finishers\AbstractFinisher`
 are affected.
 
 
@@ -61,6 +63,6 @@ be added to :php:`TYPO3\CMS\Form\Domain\Finishers\FinisherInterface` in TYPO3 v1
 
 Custom finishers must not use class property :php:`$objectManager` since this will vanish
 in v12. This will affect more API cases and will have a dedicated deprecation file
-with more details, tough.
+with more details, though.
 
 .. index:: PHP-API, NotScanned, ext:form

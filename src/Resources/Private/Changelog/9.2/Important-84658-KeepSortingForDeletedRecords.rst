@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-84658:
 
 ===========================================================
 Important: #84658 - Keep sorting  value for deleted records

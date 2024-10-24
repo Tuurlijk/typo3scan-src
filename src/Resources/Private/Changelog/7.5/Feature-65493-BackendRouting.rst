@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-58621-1668719172:
 
 =========================================
 Feature: #58621 - Unified Backend Routing
@@ -46,7 +48,7 @@ Usage:
 	$uriBuilder = GeneralUtility::makeInstance(UriBuilder::class);
 	$uri = $uriBuilder->buildUriFromRoute('myRouteIdentifier', array('foo' => 'bar'));
 
-See http://wiki.typo3.org/Blueprints/BackendRouting for more details.
+See https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/ApiOverview/BackendRouting/Index.html for more details.
 
 Impact
 ======

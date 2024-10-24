@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-78002:
 
 ============================================================
 Feature: #78002 - Enforce cHash argument for Extbase actions

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-73185:
 
 ===============================================
 Deprecation: #73185 - Deprecate NullTimeTracker

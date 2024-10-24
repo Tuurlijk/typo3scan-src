@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-82826:
 
 ===================================================
 Feature: #82826 - TCA Allow label in palettes array

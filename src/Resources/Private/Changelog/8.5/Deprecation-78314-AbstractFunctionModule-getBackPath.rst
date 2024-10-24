@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-78314:
 
 =========================================================
 Deprecation: #78314 - AbstractFunctionModule->getBackPath

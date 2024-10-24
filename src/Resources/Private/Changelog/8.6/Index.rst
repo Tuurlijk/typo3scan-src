@@ -1,5 +1,5 @@
-
-.. include:: ../../Includes.txt
+:template: changelogOverview.html
+.. include:: /Includes.rst.txt
 
 8.6 Changes
 ===========

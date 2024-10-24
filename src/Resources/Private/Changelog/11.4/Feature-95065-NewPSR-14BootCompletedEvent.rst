@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-95065:
 
 ===============================================
 Feature: #95065 - New PSR-14 BootCompletedEvent

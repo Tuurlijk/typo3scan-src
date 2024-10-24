@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-63687-1668719172:
 
 ====================================================================
 Breaking: #63687 - Web=>Functions=>Wizards moved to legacy extension

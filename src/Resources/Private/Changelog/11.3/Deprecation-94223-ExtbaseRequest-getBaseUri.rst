@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94223:
 
 ===================================================
 Deprecation: #94223 - Extbase Request->getBaseUri()
@@ -42,7 +44,6 @@ a typical substitution of this getter looks like this for now:
 
     // @todo Adapt this example as soon as ViewHelpers receive a ServerRequestInterface
     $request = $GLOBALS['TYPO3_REQUEST'];
-    /** @var NormalizedParams $normalizedParams */
     $normalizedParams = $request->getAttribute('normalizedParams');
     $baseUri = $normalizedParams->getSiteUrl();
 

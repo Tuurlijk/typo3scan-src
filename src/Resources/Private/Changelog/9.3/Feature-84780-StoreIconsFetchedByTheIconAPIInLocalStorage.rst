@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-84780-1668719171:
 
 =====================================================================
 Feature: #84780 - Store icons fetched by the Icon API in localStorage

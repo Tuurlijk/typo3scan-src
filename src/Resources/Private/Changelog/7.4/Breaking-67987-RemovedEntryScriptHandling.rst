@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-67987:
 
 ================================================
 Breaking: #67987 - Removed entry script handling

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-63056:
 
 =================================================
 Breaking: #63056 - Remove Template Selection Hack

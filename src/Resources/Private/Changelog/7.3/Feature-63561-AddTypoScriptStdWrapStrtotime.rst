@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-63561:
 
 ==================================================
 Feature: #63561 - Add TypoScript stdWrap strtotime

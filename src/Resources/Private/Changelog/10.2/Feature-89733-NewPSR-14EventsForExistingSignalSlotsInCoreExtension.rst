@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-89733:
 
 ===============================================================================
 Feature: #89733 - New PSR-14 events for existing Signal Slots in Core Extension

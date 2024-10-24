@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94680:
 
 ==============================================
 Feature: #94680 - Show columns selector filter

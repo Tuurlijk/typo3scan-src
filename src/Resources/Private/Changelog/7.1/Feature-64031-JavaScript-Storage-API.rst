@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-64031:
 
 ========================================
 Feature: #64031 - JavaScript Storage API

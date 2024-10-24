@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77591:
 
 ====================================================================
 Breaking: #77591 - Removed WorkspaceService->isOldStyleWorkspaceUsed

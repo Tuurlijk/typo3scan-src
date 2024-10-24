@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84109:
 
 ==================================================
 Deprecation: #84109 - Deprecate DependencyResolver

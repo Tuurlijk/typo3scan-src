@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84407-1668719171:
 
 ========================================================================================
 Deprecation: #84407 - RSA public key generation without "Content-Type: application/json"

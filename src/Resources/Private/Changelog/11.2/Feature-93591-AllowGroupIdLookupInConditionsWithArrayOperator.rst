@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-93591:
 
 =========================================================================
 Feature: #93591 - Allow group id lookup in conditions with array operator

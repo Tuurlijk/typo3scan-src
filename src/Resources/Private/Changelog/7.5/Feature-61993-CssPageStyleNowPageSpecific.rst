@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-61993:
 
 ===========================================================================
 Feature: #61993 - _CSS_PAGE_STYLE is now only included on the affected page

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-61786:
 
 ===================================================================
 Breaking: #61786 - remove deprecated TypeHandlingService in extbase

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85895:
 
 ====================================================
 Deprecation: #85895 - Deprecate File::_getMetaData()

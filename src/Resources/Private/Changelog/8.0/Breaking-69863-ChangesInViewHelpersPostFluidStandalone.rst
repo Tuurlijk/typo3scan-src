@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-69863-1668719184:
 
 ===============================================================
 Breaking: #69863 - Changes in ViewHelpers post Standalone-Fluid

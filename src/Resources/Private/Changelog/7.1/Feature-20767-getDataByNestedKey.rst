@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-20767:
 
 ===============================================================
 Feature: #20767 - Allow nested array access on getData of field

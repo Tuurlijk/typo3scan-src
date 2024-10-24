@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-67290:
 
 ===============================================================================
 Feature: #67290 - DBAL: DBMS specific conversion between Meta/MySQL field types

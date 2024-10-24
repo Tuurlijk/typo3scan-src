@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-69057:
 
 =============================================================================
 Deprecation: #69057 - Deprecate IconUtility and move methods into IconFactory

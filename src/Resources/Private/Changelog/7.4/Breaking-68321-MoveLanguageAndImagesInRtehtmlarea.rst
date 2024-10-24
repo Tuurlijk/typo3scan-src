@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-68321:
 
 ==========================================================
 Breaking: #68321 - Move language and images in rtehtmlarea

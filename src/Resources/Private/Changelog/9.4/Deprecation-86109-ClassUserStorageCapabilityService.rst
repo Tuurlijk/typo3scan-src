@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-86109:
 
 ========================================================
 Deprecation: #86109 - Class UserStorageCapabilityService

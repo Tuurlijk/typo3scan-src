@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-67506:
 
 ====================================================
 Deprecation: #67506 - Deprecate IconUtility::getIcon

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-68756:
 
 ==============================================
 Feature: #68756 - Add config "base" to stdWrap

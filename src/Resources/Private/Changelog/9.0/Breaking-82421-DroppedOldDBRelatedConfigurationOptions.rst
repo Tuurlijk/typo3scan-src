@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-82421:
 
 ===============================================================
 Breaking: #82421 - Dropped old DB related configuration options

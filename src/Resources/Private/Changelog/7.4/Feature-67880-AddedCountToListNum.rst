@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-67880-1668719172:
 
 ========================================
 Feature: #67880 - Added count to listNum

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-72337:
 
 ==================================================
 Feature: #72337 - Charset Conversion Autodetection

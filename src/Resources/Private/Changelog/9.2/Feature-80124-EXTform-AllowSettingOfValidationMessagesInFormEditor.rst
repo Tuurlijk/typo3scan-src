@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-80124:
 
 ================================================================================
 Feature: #80124 - EXT:form - allow setting of validation messages in form editor

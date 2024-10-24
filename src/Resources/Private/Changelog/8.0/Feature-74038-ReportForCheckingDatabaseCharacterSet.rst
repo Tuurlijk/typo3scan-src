@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-74038:
 
 ============================================================
 Feature: #74038 - Report for checking database character set

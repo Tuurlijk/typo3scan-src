@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-78522:
 
 ============================================================
 Breaking: #78522 - Removed backend user option debugInWindow
@@ -16,7 +18,7 @@ as the option of opening the debug information in a window was migrated already.
 Impact
 ======
 
-The setting is not available anymore in JavaScript under :javascript:`TYPO3.configuration`.
+The setting is not available anymore in JavaScript under :js:`TYPO3.configuration`.
 
 
 Affected Installations

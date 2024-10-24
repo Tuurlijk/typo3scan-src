@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-89122:
 
 =========================================================================
 Important: #89122 - Unified evaluation of versioned records in workspaces

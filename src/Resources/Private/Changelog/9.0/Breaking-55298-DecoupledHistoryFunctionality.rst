@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-55298:
 
 ======================================================
 Breaking: #55298 - Decoupled sys_history functionality

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-72859:
 
 ===========================================================
 Deprecation: #72859 - Deprecate methods of DocumentTemplate

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-74156:
 
 ===========================================================================================
 Deprecation: #74156 - TemplateService::sortedKeyList and TemplateService->removeQueryString

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-66681:
 
 =================================================================================
 Feature: #66681 - CategoryRegistry: add options to set l10n_mode and l10n_display

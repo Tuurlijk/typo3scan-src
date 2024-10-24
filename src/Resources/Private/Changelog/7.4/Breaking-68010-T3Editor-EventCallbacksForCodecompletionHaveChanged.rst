@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-68010-1668719172:
 
 =============================================================================
 Breaking: #68010 - T3Editor - Event callbacks for codecompletion have changed
@@ -32,7 +34,7 @@ Port the plugin to an AMD module. The event callbacks are now part of the module
 
 Example code:
 
-.. code-block:: JavaScript
+..  code-block:: javascript
 
 	CoolPlugin.afterKeyDown = function(currWordObj, compResult) {
 		CoolPlugin.somethingFunky(currWordObj, compResult);

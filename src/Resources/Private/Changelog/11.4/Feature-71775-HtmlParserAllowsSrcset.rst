@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-71775:
 
 ==========================================
 Feature: #71775 - HtmlParser allows srcset

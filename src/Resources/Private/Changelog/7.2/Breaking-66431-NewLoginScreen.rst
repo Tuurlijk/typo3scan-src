@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-66431:
 
 ===================================
 Breaking: #66431 - New Login Screen

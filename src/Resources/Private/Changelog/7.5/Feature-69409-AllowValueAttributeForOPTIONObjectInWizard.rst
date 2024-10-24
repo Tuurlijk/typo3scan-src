@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-69409:
 
 =============================================================================
 Feature: #69409 - ext:form allows value attribute for OPTION object in wizard

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-86409:
 
 ============================================================================
 Feature: #86409 - Allow usage of environment variables in site configuration

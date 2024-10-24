@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-83254:
 
 =============================================================
 Deprecation: #83254 - Moved page generation methods into TSFE

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-75324:
 
 =====================================================
 Breaking: #75324 - ReferenceIndex CLI command changed

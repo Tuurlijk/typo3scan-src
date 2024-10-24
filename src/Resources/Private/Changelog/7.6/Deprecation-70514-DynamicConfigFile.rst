@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-70514:
 
 =====================================================
 Deprecation: #70514 - dynamicConfigFile is deprecated

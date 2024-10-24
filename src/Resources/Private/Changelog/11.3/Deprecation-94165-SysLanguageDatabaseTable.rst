@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94165:
 
 ========================================
 Deprecation: #94165 - sys_language table

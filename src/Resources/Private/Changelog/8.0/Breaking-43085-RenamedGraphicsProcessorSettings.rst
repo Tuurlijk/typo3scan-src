@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-43085:
 
 ===========================================================================
 Breaking: #43085 - Change GFX settings prefix im\_* to generic processor\_*

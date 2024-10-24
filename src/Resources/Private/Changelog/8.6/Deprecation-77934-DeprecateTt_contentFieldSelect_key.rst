@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-77934:
 
 ===========================================================
 Deprecation: #77934 - Deprecate tt_content field select_key

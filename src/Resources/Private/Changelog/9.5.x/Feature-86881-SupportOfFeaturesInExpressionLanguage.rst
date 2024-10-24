@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-86881:
 
 ============================================================
 Feature: #86881 - Support of Features in expression language

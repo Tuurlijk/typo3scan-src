@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-83750:
 
 ============================================================
 Deprecation: #83750 - Adapt TCA signature for customControls
@@ -11,6 +13,8 @@ Description
 
 According to the TCA documentation since TYPO3 v4.7, the definition of "customControls" for "inline" columns
 is as follows:
+
+.. important::
 
     Numerical array containing definitions of custom header controls for IRRE fields. This makes it possible to
     create special controls by calling user-defined functions (userFuncs). Each item in the array item must be

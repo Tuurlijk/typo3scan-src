@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-89331:
 
 =================================================
 Deprecation: #89331 - FormEngine legacy functions

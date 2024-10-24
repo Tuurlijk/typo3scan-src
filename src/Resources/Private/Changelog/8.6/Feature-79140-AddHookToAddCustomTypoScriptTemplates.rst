@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79140:
 
 =============================================================
 Feature: #79140 - Add hook to add custom TypoScript templates

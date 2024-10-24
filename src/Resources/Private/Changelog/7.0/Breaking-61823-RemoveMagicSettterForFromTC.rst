@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-61823:
 
 ==================================================
 Breaking: #61823 - Remove magic setter for $fromTC

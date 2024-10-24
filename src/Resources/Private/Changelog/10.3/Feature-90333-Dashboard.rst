@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-90333:
 
 ===========================
 Feature: #90333 - Dashboard
@@ -62,7 +64,7 @@ do so, you can extend one of the WidgetAbstracts available in EXT:dashboard.
 By extending one of those abstracts, and providing it with the needed data, you are able to
 have a new widget quite fast. The only thing that is left is to register the widget.
 
-Tag you widget in :file:`EXT:your_extension/Configuration/Services.yaml`:
+Tag your widget in :file:`EXT:your_extension/Configuration/Services.yaml`:
 
 .. code-block:: yaml
 
@@ -182,4 +184,4 @@ Impact
 This is a new backend module and will not replace any old features. If the dashboard
 extension is installed, it will be the default startup page in TYPO3 Backend.
 
-.. index:: Backend, Dashboard, ext:dashboard
+.. index:: Backend, ext:dashboard

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-77652:
 
 ====================================================
 Feature: #77652 - Make sys_language records sortable

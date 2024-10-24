@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-92609:
 
 ==========================================================================
 Breaking: #92609 - Use controller classes when registering plugins/modules

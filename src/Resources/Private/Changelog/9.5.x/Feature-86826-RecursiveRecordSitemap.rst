@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-86826:
 
 ==========================================
 Feature: #86826 - Recursive record sitemap

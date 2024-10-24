@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-80449:
 
 =====================================================
 Deprecation: #80449 - GeneralUtility::freetypeDpiComp

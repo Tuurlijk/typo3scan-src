@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-83252:
 
 =================================================
 Deprecation: #83252 - link-tag syntax processsing

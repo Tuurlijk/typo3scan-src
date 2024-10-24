@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-69705:
 
 ==============================================
 Deprecation: #69705 - Add unified refresh icon

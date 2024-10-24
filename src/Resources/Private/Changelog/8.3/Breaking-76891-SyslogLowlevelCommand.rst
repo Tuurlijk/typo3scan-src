@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-76891:
 
 ==========================================
 Breaking: #76891 - syslog lowlevel command

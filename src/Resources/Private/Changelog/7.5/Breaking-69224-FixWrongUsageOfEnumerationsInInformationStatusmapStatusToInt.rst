@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-69224:
 
 =========================================================================================
 Breaking: #69224 - Fix wrong usage of enumerations in InformationStatus::mapStatusToInt()

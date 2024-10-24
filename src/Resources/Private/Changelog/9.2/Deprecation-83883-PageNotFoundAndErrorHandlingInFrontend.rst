@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-83883:
 
 ===================================================================
 Deprecation: #83883 - Page Not Found And Error handling in Frontend

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-75497:
 
 ===============================================
 Breaking: #75497 - inline backend layout wizard

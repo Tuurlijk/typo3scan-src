@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72390:
 
 ===============================================================
 Breaking: #72390 - Removed deprecated code from EXT:rtehtmlarea

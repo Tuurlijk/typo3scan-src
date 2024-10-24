@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-63069:
 
 ======================================================================================
 Breaking: #63069 - Removed compatibility layer for submodules of func and info modules

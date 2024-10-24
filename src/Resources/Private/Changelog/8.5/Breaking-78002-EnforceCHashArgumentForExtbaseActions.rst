@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-78002:
 
 =============================================================
 Breaking: #78002 - Enforce cHash argument for Extbase actions
@@ -34,9 +36,9 @@ Either one of the following:
 
 + ensure to use a valid cHash, e.g. by removing the
   :html:`noCacheHash="1"` argument from link view-helpers
-+ disable the :ts:`requireCHashArgumentForActionArguments` feature, e.g. for EXT:indexed_search:
++ disable the :typoscript:`requireCHashArgumentForActionArguments` feature, e.g. for EXT:indexed_search:
 
-.. code-block:: ts
+.. code-block:: typoscript
 
    plugin {
      tx_indexedsearch {

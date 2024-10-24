@@ -42,10 +42,11 @@ CSS Styling
 
 CKEditor 5 does not load its editor in a specific iframe anymore. Especially
 for adding custom styling and fonts, all CSS declarations now need to be prefixed
-with ".ck-content". This can be achieved via SCSS, which TYPO3 natively
-handles for custom CSS styles.
-However, <body> tag CSS declarations won't work, as the `<body>` tag does not
-apply to the editor HTML rendering anymore.
+with ".ck-content". This scoping is applied by TYPO3 automatically to all custom
+CSS styles.
+
+Please be aware that referenced CSS stylesheets need to be downloadable via
+:js:`fetch()` in order for the JavaScript based prefixing to work.
 
 Configuration Options
 ---------------------
@@ -61,7 +62,8 @@ The following options are not needed anymore in CKEditor 5:
 *    editor.config.removeDialogTabs
 *    editor.config.entities_latin
 *    editor.config.entities
-*    editor.config.extraAllowedContent (covered via GeneralHTMLSupport plugin)
+*    editor.config.extraAllowedContent (migrated to editor.config.htmlSupport, covered via GeneralHTMLSupport plugin)
+*    :php:`$GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['rte_ckeditor']['plugins']['TYPO3Link']['additionalAttributes']`
 
 More migration options can be found here:
 https://ckeditor.com/docs/ckeditor5/latest/installation/getting-started/migration-from-ckeditor-4.html
@@ -76,13 +78,13 @@ from `editor.config.wordcount` to `editor.config.wordCount`:
 
         alignment:
           options:
-            - { name: 'left', className: 'text-left' }
+            - { name: 'left', className: 'text-start' }
             - { name: 'center', className: 'text-center' }
-            - { name: 'right', className: 'text-right' }
+            - { name: 'right', className: 'text-end' }
             - { name: 'justify', className: 'text-justify' }
 
-   in addition, the extraPlugins `justify` is not needed anymore. The new
-   plugin called `Alignment` is always active.
+    In addition, the extraPlugins `justify` is not needed anymore. The new
+    plugin called `Alignment` is always active.
 
 *   `editor.config.format_tags` was used to populate various block-level elements
     with a syntax like `p;h1;h2;h3;h4;h5;pre`. This is now moved to `editor.config.heading`:
@@ -102,7 +104,7 @@ from `editor.config.wordcount` to `editor.config.wordCount`:
     properly.
 
 *   `editor.config.stylesSet` which is used for the dropdown of custom
-    style elements, is moved to `config.editor.config.style.definitions`
+    style elements, is moved to `editor.config.style.definitions`
     with a similar syntax.
 
     ..  code-block:: yaml
@@ -111,12 +113,15 @@ from `editor.config.wordcount` to `editor.config.wordCount`:
           definitions:
             # block level styles
             - { name: "Lead", element: "p", classes: ['lead'] }
-            - { name: "Small", element: "small", classes: [] }
+            - { name: "Multiple", element: "p", classes: ['first', 'second'] }
+            - { name: "Small", element: "small" }
             # Inline styles
             - { name: "Muted", element: "span", classes: ['text-muted'] }
 
     Please note that as of today, the "classes" attribute must be used,
-    and custom "style" attribute does not work.
+    and custom "style" attribute is no longer supported. Also note that an empty
+    class list is migrated to `classes: ['']` and will render `class=""`, as
+    CKEditor5 internals require this attribute to be set.
 
 *   `editor.config.toolbarGroups` was previously used to create the buttons in the
     toolbar. This was used in conjunction with `editor.config.removeButtons`.
@@ -175,20 +180,6 @@ from `editor.config.wordcount` to `editor.config.wordCount`:
 
     Removal of single buttons via `editor.config.removeButtons` is now of limited
     need, however a list of `editor.config.toolbar.removeItems` can be given.
-
-*   `editor.config.stylesSet` which is used for the dropdown of custom
-    style elements, is moved to `config.editor.config.style.definitions`
-    with a similar syntax.
-
-    ..  code-block:: yaml
-
-        style:
-          definitions:
-            # block level styles
-            - { name: "Lead", element: "p", classes: ['lead'] }
-            - { name: "Small", element: "small", classes: [] }
-            # Inline styles
-            - { name: "Muted", element: "span", classes: ['text-muted'] }
 
 CKEditor 5 integration is still experimental and subject to change to adapt
 to further needs until TYPO3 v12 LTS.

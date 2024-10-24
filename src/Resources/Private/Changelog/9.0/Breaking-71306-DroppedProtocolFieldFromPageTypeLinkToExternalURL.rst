@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-71306:
 
 =================================================================================
 Breaking: #71306 - Dropped "Protocol" field from page type "Link to external URL"

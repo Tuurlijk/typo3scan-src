@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-64109:
 
 ============================================================
 Deprecation: #64109 - Deprecate global hook softRefParser_GL

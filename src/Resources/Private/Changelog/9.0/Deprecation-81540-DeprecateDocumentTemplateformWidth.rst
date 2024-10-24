@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-81540:
 
 ===========================================================
 Deprecation: #81540 - Deprecate DocumentTemplate::formWidth

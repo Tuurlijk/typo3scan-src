@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-82805:
 
 ========================================================
 Deprecation: #82805 - Renamed AjaxLoginHandler PHP class

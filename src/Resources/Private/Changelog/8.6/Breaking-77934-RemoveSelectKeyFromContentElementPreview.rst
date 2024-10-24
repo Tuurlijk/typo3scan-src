@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77934:
 
 =========================================================================
 Breaking: #77934 - Remove field `select_key` from content element preview

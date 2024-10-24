@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-88779:
 
 =================================================
 Breaking: #88779 - RecordList: Remove unused code

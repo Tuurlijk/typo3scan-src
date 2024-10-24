@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84725:
 
 ================================================================
 Deprecation: #84725 - sys_domain resolving moved into middleware

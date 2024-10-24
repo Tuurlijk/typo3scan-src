@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77049:
 
 =============================================================================
 Breaking: #77049 - Remove unused properties from SuggestWizardDefaultReceiver

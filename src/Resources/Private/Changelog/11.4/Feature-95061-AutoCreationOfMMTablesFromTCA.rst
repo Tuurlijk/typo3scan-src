@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-95061:
 
 =====================================================
 Feature: #95061 - Auto creation of MM tables from TCA

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-75493:
 
 ===================================================================
 Breaking: #75493 - Evaluate "boolean /stdWrap" properties correctly
@@ -13,7 +15,7 @@ Description
 stdWrap sub-properties on boolean properties were not evaluated correctly unless the
 property itself was explicitly set.
 
-Example: :ts:`page.10.value.prioriCalc.wrap =` without :ts:`page.10.value.prioriCalc =`
+Example: :typoscript:`page.10.value.prioriCalc.wrap =` without :typoscript:`page.10.value.prioriCalc =`
 
 
 Impact

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-76085:
 
 ============================================================
 Feature: #76085 - Add fluid debug information to admin panel

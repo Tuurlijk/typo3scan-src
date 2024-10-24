@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-90937:
 
 ============================================================
 Deprecation: #90937 - Various hooks in ContentObjectRenderer

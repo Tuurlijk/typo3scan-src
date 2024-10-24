@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-80603:
 
 ======================================================================
 Deprecation: #80603 - Change duplicate icon identifiers to actions-add

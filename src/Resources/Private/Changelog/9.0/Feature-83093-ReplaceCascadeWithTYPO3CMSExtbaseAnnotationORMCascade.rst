@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-83093:
 
 ======================================================================================
 Feature: #83093 - Replace @cascade with @TYPO3\\CMS\\Extbase\\Annotation\\ORM\\Cascade

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-78417:
 
 ====================================================================
 Breaking: #78417 - Lowlevel DeletedRecordsCommand parameters changed

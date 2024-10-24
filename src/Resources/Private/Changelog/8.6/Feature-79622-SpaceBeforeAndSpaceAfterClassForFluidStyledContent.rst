@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79622-1668719195:
 
 ===========================================================================
 Feature: #79622 - SpaceBefore- and SpaceAfterClass for Fluid Styled Content

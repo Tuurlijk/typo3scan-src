@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-78760:
 
 ================================================
 Feature: #78760 - Resizable Navigation Component

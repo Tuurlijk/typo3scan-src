@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-69531:
 
 ======================================================
 Important: #69531 - Remove SpriteManagerIconViewHelper

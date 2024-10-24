@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-88564:
 
 ================================================================
 Breaking: #88564 - PageTSconfig setting "TSFE.constants" removed

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-87567:
 
 ========================================================
 Breaking: #87567 - Global variable $TBE_TEMPLATE removed

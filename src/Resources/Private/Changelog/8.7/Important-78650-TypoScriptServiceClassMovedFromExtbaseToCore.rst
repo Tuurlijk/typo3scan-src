@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-78650:
 
 ======================================================================
 Important: #78650 - TypoScriptService class moved from Extbase to Core

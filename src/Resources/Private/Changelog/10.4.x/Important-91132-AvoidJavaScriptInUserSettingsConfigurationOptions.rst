@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-91132:
 
 ===========================================================================
 Important: #91132 - Avoid JavaScript in User Settings Configuration options
@@ -21,7 +23,7 @@ This step is advised to reduce the amount of inline JavaScript code towards
 better support for Content-Security-Policy headers.
 
 Applications having custom changes in :php:`$GLOBALS['TYPO3_USER_SETTINGS']`
-and using mentioned options `onClick*` or ``confirmData.jsCodeAfterOk`.
+and using mentioned options `onClick*` or `confirmData.jsCodeAfterOk`.
 
 The following example show a potential migration path to avoid inline JavaScript.
 
@@ -40,7 +42,7 @@ The following example show a potential migration path to avoid inline JavaScript
             ],
             // ...
 
-The above configuration can be replace by the the following.
+The above configuration can be replace by the following.
 
 .. code-block:: php
 

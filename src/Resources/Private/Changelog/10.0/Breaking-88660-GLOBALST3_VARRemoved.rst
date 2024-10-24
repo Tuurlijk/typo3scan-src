@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-88660:
 
 ===========================================
 Breaking: #88660 - $GLOBALS[T3_VAR] removed

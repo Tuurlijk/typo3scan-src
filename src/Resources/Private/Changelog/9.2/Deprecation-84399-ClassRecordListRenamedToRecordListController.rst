@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84399:
 
 ======================================================================
 Deprecation: #84399 - Class RecordList renamed to RecordListController

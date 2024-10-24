@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-67029:
 
 =================================================
 Deprecation: #67029 - Deprecate page.bgImg option

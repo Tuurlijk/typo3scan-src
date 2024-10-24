@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84196:
 
 =================================================================================
 Deprecation: #84196 - Backend controller actions do not receive prepared response
@@ -24,7 +26,9 @@ Impact
 ======
 
 Controllers should typically instantiate one of the three core response classes
-and return it:
+and return it. Note that these classes are internal API and it is therefore
+recommended to use PSR-17 reponse factory interfaces once updating to TYPO3 v10
+instead.
 
 .. code-block:: php
 

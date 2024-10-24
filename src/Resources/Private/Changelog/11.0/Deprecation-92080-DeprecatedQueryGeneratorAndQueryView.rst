@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-92080:
 
 ==================================================
 Deprecation: #92080 - QueryGenerator and QueryView

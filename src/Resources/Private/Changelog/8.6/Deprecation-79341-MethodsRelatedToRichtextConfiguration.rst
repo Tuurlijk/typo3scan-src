@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-79341-1668719172:
 
 ===============================================================
 Deprecation: #79341 - Methods related to richtext configuration

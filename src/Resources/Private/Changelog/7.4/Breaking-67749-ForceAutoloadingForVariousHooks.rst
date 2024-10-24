@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-67749:
 
 =============================================================
 Breaking: #67749 - Force class auto loading for various hooks

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-88921:
 
 ===============================================================
 Feature: #88921 - New PSR-14 events in the PageLayoutView class

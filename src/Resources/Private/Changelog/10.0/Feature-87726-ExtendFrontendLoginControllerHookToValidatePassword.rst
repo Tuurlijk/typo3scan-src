@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-87726:
 
 ==========================================================================
 Feature: #87726 - Extend FrontendLoginController Hook to validate password

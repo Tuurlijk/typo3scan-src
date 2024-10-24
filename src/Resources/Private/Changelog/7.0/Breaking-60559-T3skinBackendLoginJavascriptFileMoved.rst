@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-60559-1668719172:
 
 =============================================================
 Breaking: #60559 - T3skin Backend Login Javascript File Moved

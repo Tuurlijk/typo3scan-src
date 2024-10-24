@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-81464:
 
 =====================================================
 Deprecation: #81464 - Add API for meta tag management

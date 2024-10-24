@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-59646-1668719172:
 
 ================================================================================================
 Feature: #59646 - Add RTE configuration property buttons.link.[*type*].properties.target.default

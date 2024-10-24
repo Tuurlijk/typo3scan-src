@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-78222:
 
 ===========================================================================
 Deprecation: #78222 - Late generation of autoload information is deprecated

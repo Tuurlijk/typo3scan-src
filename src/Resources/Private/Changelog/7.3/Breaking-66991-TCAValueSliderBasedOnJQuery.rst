@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-66991:
 
 ===================================================
 Breaking: #66991 - TCA value slider based on jQuery

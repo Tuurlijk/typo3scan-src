@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72381:
 
 ========================================================
 Breaking: #72381 - Removed deprecated code from EXT:dbal

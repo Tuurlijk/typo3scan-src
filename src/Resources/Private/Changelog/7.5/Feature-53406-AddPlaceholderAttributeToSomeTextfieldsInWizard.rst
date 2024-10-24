@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-53406:
 
 =================================================================================
 Feature: #53406 - ext:form Add placeholder attribute to some textfields in wizard

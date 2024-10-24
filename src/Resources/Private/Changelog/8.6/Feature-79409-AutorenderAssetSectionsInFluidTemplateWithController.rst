@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-73409:
 
 ===============================================================================
 Feature: #73409 - Auto-render Assets sections in Fluid template with controller

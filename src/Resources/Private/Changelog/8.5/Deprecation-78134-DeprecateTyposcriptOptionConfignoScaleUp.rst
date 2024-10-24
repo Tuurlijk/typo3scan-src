@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-78134:
 
 ==================================================================
 Deprecation: #78134 - Deprecate TypoScript option config.noScaleUp

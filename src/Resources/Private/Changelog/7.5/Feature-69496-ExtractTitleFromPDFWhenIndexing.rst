@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-69496:
 
 ============================================================================
 Feature: #69496 - Extract title from PDF when indexing in ext:indexed_search

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-78670:
 
 =========================================================
 Deprecation: #78670 - Deprecated CharsetConverter methods

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-61529:
 
 ===========================================================
 Feature: #61529 - Add multiple parameter to f:form.checkbox

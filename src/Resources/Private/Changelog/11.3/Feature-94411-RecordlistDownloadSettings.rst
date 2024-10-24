@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94411:
 
 ===============================================
 Feature: #94411 - Record list download settings
@@ -35,7 +37,7 @@ In case your installation already defines related TSconfig options
 (for example :typoscript:`mod.web_list.csvDelimiter`), they will be added
 as default value to the configuration modal.
 
-Besides introducing those settings, also JSOM is now available as
+Besides introducing those settings, also JSON is now available as
 an alternative download format, including a format specific option,
 which allows to define additional meta information to be included in
 the download.

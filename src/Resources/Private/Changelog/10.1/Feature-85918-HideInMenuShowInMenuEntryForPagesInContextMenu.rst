@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-85918:
 
 =============================================================================
 Feature: #85918 - Hide in menu / Show in menu entry for pages in context menu
@@ -16,7 +18,7 @@ Find it as a child entry of `More Actions`.
 
 Removing the entry from the menu is possible via User TSconfig with the following setting:
 
-:ts:`options.contextMenu.table.pages.tree.disableItems = hideInMenus,showInMenus`
+:typoscript:`options.contextMenu.table.pages.tree.disableItems = hideInMenus,showInMenus`
 
 
 Impact

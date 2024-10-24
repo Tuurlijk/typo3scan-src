@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-87613:
 
 ============================================================================================
 Deprecation: #87613 - Deprecate \\TYPO3\\CMS\\Extbase\\Utility\\TypeHandlingUtility::hex2bin

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85807:
 
 ================================================================
 Deprecation: #85807 - EnvironmentService::isEnvironmentInCliMode

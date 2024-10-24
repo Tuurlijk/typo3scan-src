@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-93080:
 
 ======================================================
 Breaking: #93080 - RelationHandler internals protected

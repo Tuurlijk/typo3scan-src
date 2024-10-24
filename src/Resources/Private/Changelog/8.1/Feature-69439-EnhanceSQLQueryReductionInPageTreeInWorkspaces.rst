@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-69439:
 
 ========================================================================
 Feature: #69439 - Enhance SQL query reduction in page tree in workspaces

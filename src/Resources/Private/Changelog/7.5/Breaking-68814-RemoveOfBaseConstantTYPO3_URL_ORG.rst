@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-68814:
 
 ========================================================
 Breaking: #68814 - Remove of base constant TYPO3_URL_ORG

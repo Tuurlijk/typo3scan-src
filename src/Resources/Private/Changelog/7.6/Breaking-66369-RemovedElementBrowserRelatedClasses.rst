@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-66369:
 
 =========================================================
 Breaking: #66369 - Removed ElementBrowser related classes
@@ -12,11 +14,11 @@ Description
 
 The following classes have been removed without replacement
 
-	* TYPO3\CMS\Core\ElementBrowser\ElementBrowserHookInterface
-	* TYPO3\CMS\Recordlist\Browser\ElementBrowser
-	* TYPO3\CMS\Rtehtmlarea\BrowseLinks
-	* TYPO3\CMS\Rtehtmlarea\FolderTree
-	* TYPO3\CMS\Rtehtmlarea\PageTree
+* TYPO3\CMS\Core\ElementBrowser\ElementBrowserHookInterface
+* TYPO3\CMS\Recordlist\Browser\ElementBrowser
+* TYPO3\CMS\Rtehtmlarea\BrowseLinks
+* TYPO3\CMS\Rtehtmlarea\FolderTree
+* TYPO3\CMS\Rtehtmlarea\PageTree
 
 
 Impact

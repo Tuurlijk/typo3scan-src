@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-83724:
 
 ======================================================================
 Important: #83724 - API and behavior change in request handler classes

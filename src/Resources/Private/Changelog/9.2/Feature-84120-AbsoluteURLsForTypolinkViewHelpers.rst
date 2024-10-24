@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-84120:
 
 ========================================================
 Feature: #84120 - Absolute URLs for typolink ViewHelpers
@@ -22,8 +24,8 @@ It is now possible to add the `absolute` parameter to the ViewHelpers above.
 
     <f:link.typolink parameter="23" absolute="true">Link To My Page</f:link.typolink>
     <f:uri.typolink parameter="23" absolute="true" />
-    
-generates 
+
+generates
 
 .. code-block:: html
 

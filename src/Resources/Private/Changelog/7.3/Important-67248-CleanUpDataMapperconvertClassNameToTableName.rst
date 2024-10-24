@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-67248:
 
 ====================================================================
 Important: #67248 - Clean up DataMapper::convertClassNameToTableName

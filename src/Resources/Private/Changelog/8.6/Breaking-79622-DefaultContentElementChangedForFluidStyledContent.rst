@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-79622-1668719209:
 
 ===========================================================================
 Breaking: #79622 - Default content element changed for Fluid Styled Content

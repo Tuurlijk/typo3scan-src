@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-84131:
 
 ========================================================
 Breaking: #84131 - Removed classes of language extension

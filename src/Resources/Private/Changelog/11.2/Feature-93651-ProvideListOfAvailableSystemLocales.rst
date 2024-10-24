@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-93651:
 
 ==========================================================
 Feature: #93651 - Provide list of available system locales

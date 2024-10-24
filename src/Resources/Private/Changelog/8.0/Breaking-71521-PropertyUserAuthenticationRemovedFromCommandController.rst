@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-71521:
 
 =============================================================================
 Breaking: #71521 - Property userAuthentication removed from CommandController

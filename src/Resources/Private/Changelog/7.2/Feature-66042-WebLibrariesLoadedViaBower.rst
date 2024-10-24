@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-66042:
 
 ======================================================
 Feature: #66042 - Web Libraries are included via bower

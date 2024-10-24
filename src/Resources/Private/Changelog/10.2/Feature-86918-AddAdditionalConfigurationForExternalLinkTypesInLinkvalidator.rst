@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-86918:
 
 =======================================================================================
 Feature: #86918 - Add additional configuration for external link types in Linkvalidator
@@ -33,7 +35,7 @@ Additional configuration is added for crawling external links:
         }
 
 For a description of the fields, see the linkvalidator documentation:
-https://docs.typo3.org/c/typo3/cms-linkvalidator/master/en-us//Configuration/Index.html
+https://docs.typo3.org/c/typo3/cms-linkvalidator/main/en-us//Configuration/Index.html
 
 It is recommended to fill out `httpAgentUrl` and `httpAgentEmail` so that the User-Agent
 string is filled for crawling external URLs.

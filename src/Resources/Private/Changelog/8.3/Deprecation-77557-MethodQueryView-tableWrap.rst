@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-77557:
 
 ===================================================
 Deprecation: #77557 - Method QueryView->tableWrap()

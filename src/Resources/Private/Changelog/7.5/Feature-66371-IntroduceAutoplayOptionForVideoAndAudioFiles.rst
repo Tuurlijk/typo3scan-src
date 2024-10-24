@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-66371:
 
 =====================================================================
 Feature: #66371 - Introduce autoplay option for video and audio files

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85902:
 
 ===================================
 Deprecation: #85902 - IMGMENU/GMENU
@@ -10,7 +12,7 @@ Description
 ===========
 
 Rendering a Hierarchical Menu via TypoScript previously allowed various rendering methods, namely textual (`TMENU`),
-but also rendering menu items as images (`GMENU`) or as a image map (`IMGMENU`). Both graphical possibilities
+but also rendering menu items as images (`GMENU`) or as an image map (`IMGMENU`). Both graphical possibilities
 have been marked as deprecated, as it is considered bad practice building websites
 nowadays - images with a fixed width, and text within images has various drawbacks in terms of accessibility and
 responsive renderings.

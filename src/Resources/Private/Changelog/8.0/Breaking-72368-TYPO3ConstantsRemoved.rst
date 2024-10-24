@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72368:
 
 ==========================================
 Breaking: #72368 - TYPO3 Constants removed

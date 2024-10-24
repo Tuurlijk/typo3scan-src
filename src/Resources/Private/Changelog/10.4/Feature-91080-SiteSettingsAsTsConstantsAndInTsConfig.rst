@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-91080-1657827157:
 
 =======================================================================
 Feature: #91080 - Site settings as TypoScript constants and in TSconfig
@@ -11,7 +13,7 @@ Description
 ===========
 
 Prior to TYPO3 v10.0 it was possible to inject information from
-page TSconfig into TypoScript constants with :ts:`TSFE.constants.const1 = a`.
+page TSconfig into TypoScript constants with :typoscript:`TSFE.constants.const1 = a`.
 
 This could be used to centralize configuration of e.g. record storagePids,
 which could then be used in Backend for modules or for IRRE and for Frontend plugins.
@@ -30,22 +32,22 @@ An example configuration in the :file:`config/sites/<site-name>/config.yml`:
 
    settings:
      categoryPid: 658
-     styles:
-       content:
-         loginform:
-           pid: 23
+     styles:
+       content:
+         loginform:
+           pid: 23
 
 This will make these constants available in the template and in page TSconfig:
 
-* :ts:`{$categoryPid}`
-* :ts:`{$styles.content.loginform.pid}`
+*  :typoscript:`{$categoryPid}`
+*  :typoscript:`{$styles.content.loginform.pid}`
 
 The newly introduced constants for page TSconfig can be used just like constants
 in TypoScript.
 
 In page TSconfig this can be used like this:
 
-.. code-block:: ts
+.. code-block:: typoscript
 
    # store tx_ext_data records on the given storage page by default (e.g. through IRRE)
    TCAdefaults.tx_ext_data.pid = {$categoryPid}

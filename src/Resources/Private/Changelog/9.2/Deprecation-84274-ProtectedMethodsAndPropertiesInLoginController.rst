@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84274:
 
 ================================================================================
 Deprecation: #84274 - Protected methods and properties in LoginController

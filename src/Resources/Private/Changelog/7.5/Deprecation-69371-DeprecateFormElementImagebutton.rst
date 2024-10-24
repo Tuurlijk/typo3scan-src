@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-69371:
 
 ==================================================
 Deprecation: #69371 - ext:Form element IMAGEBUTTON

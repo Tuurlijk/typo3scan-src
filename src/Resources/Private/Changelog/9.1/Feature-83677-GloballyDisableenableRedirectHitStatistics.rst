@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-83677:
 
 =================================================================
 Feature: #83677 - Globally disable/enable redirect hit statistics

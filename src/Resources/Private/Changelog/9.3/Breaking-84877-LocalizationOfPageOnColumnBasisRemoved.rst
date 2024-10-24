@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-84877-1668719183:
 
 ===============================================================
 Breaking: #84877 - Localization of page on column basis removed

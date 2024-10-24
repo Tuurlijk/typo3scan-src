@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-43984:
 
 ============================================================================
 Feature: #43984 - Add stdWrap functionality to TreatIdAsReference TypoScript

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-89866:
 
 ================================================================
 Deprecation: #89866 - Global TYPO3-information related constants

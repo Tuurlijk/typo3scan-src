@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-87937:
 
 ==========================================================
 Breaking: #87937 - TCA option "selicon_field_path" removed
@@ -31,6 +33,6 @@ Any TYPO3 installation with an extension providing TCA with :php:`selicon_field_
 Migration
 =========
 
-Remove the option :php:`selicon_field_path` and use a inline relation to file references in :php:`selicon_field` instead.
+Remove the option :php:`selicon_field_path` and use an inline relation to file references in :php:`selicon_field` instead.
 
 .. index:: TCA, PartiallyScanned, ext:core

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-27057:
 
 ========================================================
 Feature: #27057 - Relations to the same table in Extbase

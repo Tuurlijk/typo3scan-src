@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-80187:
 
 ====================================================================
 Feature: #80187 - Add the "Confirmation" finisher to the form editor

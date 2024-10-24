@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-89513:
 
 ================================================================
 Feature: #89513 - Password Reset Functionality For Backend Users

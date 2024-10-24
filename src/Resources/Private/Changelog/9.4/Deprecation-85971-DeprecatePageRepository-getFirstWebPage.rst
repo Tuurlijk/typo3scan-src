@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85971:
 
 =====================================================
 Deprecation: #85971 - PageRepository->getFirstWebPage

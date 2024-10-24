@@ -40,7 +40,7 @@ Streamlined constants usage
 
 It has never been fully documented in which context "constants" :typoscript:`{$foo}`
 shall be used and which exact capabilities they have. The main TypoScript constants
-documentation within the :ref:`TypoScript Reference <t3tsref:Constants>` was partially
+documentation within the :ref:`TypoScript Reference <t3tsref:typoscript-syntax-constants>` was partially
 outdated, and the :ref:`TSconfig documentation <t3tsconfig:Syntax>` claimed TSconfig
 is not constants aware at all, which isn't fully the case anymore. Let's sort out
 some details:
@@ -64,6 +64,34 @@ some details:
       setup:
       # This does NOT resolve to "fooValue", but to the string literal "{$foo}"
       myValue = {$bar}
+
+* Similar to the above restriction, constants can be used in Frontend TypoScript *setup* conditions,
+  but not in Frontend TypoScript *constants* conditions. As example, a :sql:`sys_template` record with
+  the below content set in the :sql:`constants` field always evaluates the condition to false:
+
+  .. code-block:: typoscript
+
+      my.constant = myValue
+      ['{$my.constant}' == 'myValue']
+        # Never executed since the above constant usage is NOT substituted to 'myValue'
+        other.constant = otherValue
+      [global]
+
+  If something like this is really needed, integrators can potentially work around by accessing
+  a :ref:`site setting <t3coreapi:sitehandling-settings>` directly in a constants condition:
+
+  .. code-block:: typoscript
+
+      The sites settings.yaml:
+      some:
+        setting: someValue
+
+      A sys_template record constants field within this site:
+      my.constant = myValue
+      [traverse(site('configuration'), 'settings/some/setting') == 'someValue']
+        # This works but is rather ugly to rely on
+        other.constant = otherValue
+      [global]
 
 * Constants are now restricted to "assignments" and "conditions". Using a constant to
   substitute an "identifier" / "object path" is no longer allowed. This has never been
@@ -145,6 +173,94 @@ any curly braces level, resetting current scope to top level. While inclusion of
 never been documented to be valid within braces assignments, it still worked until TYPO3 v11.
 This is now disallowed and must not be used anymore.
 
+:typoscript:`<INCLUDE_TYPOSCRIPT:` with :typoscript:`DIR:` and relative paths
+always assumes the :file:`public/` directory as base directory now.
+(Formerly it was relative to the file holding the include statement.)
+
+@import is more restrictive with wildcards
+------------------------------------------
+
+The previous implementation of :typoscript:`@import` relied on Symfony Finder. This turned out
+to be a performance bottleneck, the new implementation is based on "native" PHP file and directory
+lookup logic. For performance, security and best practice considerations, :typoscript:`@import`
+is now a bit more restrictive than before, especially with wildcard :typoscript:`*` handling.
+
+Integrators are encouraged to switch from :typoscript:`<INCLUDE_TYPOSCRIPT:` to
+:typoscript:`@import` in TYPO3 v12 projects: The :typoscript:`<INCLUDE_TYPOSCRIPT:`
+is more complex and harder to handle, but a bit more permissive. Note :typoscript:`@import`
+can be placed within conditions bodies now: :typoscript:`@import` lines are only considered
+if the condition matches. This did not work with TYPO3 v11. It is likely that
+:typoscript:`<INCLUDE_TYPOSCRIPT:` will be deprecated with TYPO3 v13, integrators
+should adapt to :typoscript:`@import` when upgrading to TYPO3 v12 already.
+
+The following rules apply to :typoscript:`@import`:
+
+* Files *must* reside in extensions, the lookup pattern *must* start with :typoscript:`EXT`
+  if absolute. Including TypoScript snippets, for instance, from :file:`fileadmin` is *not* allowed
+  and never has been for :typoscript:`@import`.
+
+* File includes *may* be relative to the current file, and *must* be prefixed with :file:`./`
+  in this case. Subdirectories are allowed, path traversal using :file:`../` is not allowed.
+
+* Files *must* end with :file:`.typoscript` in frontend TypoScript. With TSconfig, both
+  :file:`.tsconfig` and :file:`.typoscript` are allowed, but :file:`.tsconfig` should be
+  preferred.
+
+* Directory includes are *not* recursive.
+
+* Directory traversal using :file:`../` is *not* allowed.
+
+* Wildcards for directories are *not* allowed. This has never been documented as working, and
+  is considered an unplanned side-effect of Symfony Finder. Few people used this undocumented
+  feature, it should be possible to restructure existing uses relatively easily.
+
+* Only a single wildcard :typoscript:`*` is allowed for filename patterns.
+
+Valid examples:
+
+..  code-block:: typoscript
+
+    @import 'EXT:my_extension/Configuration/TypoScript/bar.typoscript'
+
+    # Import all files in directory, ending with :file:`.typoscript`, or additionally
+    # :file:`.tsconfig` in TSconfig scope, in native operating system ascending order.
+    @import 'EXT:my_extension/Configuration/TypoScript/'
+
+    @import 'EXT:my_extension/Configuration/TypoScript/*.typoscript'
+    @import 'EXT:my_extension/Configuration/TypoScript/*.setup.typoscript'
+
+    # Import setupFoo.typoscript, setup.foo.typoscript and similar
+    @import 'EXT:my_extension/Configuration/TypoScript/setup*.typoscript'
+    @import 'EXT:my_extension/Configuration/TypoScript/setup*'
+
+    # If this is in file 'EXT:my_extension/Configuration/TypoScript/foo.typoscript',
+    # file 'EXT:my_extension/Configuration/TypoScript/bar.typoscript is included
+    @import './bar.typoscript`
+    # Relative sub directories includes are supported
+    @import './SubDirectory/bar.typoscript`
+    # Relative sub directories with wildcards are supported,
+    # this will include ./SubDirectory/foo.typoscript
+    @import './SubDirectory/*'
+
+Invalid examples:
+
+..  code-block:: typoscript
+
+    # fileadmin and friends not allowed
+    @import 'fileadmin/foo.typoscript'
+
+    # Tries to include foo.txt.typoscript, *not* foo.txt
+    @import 'EXT:my_extension/Configuration/TypoScript/foo.txt'
+
+    # Directory traversal is not allowed
+    @import 'EXT:my_extension/Configuration/TypoScript/Foo/../Bar/bar.typoscript'
+
+    # Directory wildcards are not allowed
+    @import 'EXT:my_extension/Configuration/TypoScript/*/foo.typoscript'
+
+    # Multiple wildcards in filename pattern are not allowed
+    @import 'EXT:my_extension/Configuration/TypoScript/foo.*.*.typoscript'
+
 
 UTF-8 BOM in TypoScript files
 -----------------------------
@@ -172,5 +288,30 @@ or "\\r\\n" (Windows ending: Carriage return, LineFeed). Ancient Mac, prior to M
 used "\\r" as single linebreak character. This old linebreak type is no longer detected
 when parsing TypoScript and may lead to funny results, but chances are very low any
 instance is affected by this.
+
+Operator matching has higher precedence
+---------------------------------------
+
+The new parser looks for valid operators first, then parses things behind it.
+Consider this example:
+
+..  code-block:: typoscript
+
+    lib.nav.wrap =<ul id="nav">|</ul>
+
+This is ambiguous: The above :typoscript:`=<ul` could be interpreted both as an
+assignment :typoscript:`=` of the value :typoscript:`<ul`, or as a reference
+:typoscript:`=<` to the identifier :typoscript:`ul`.
+
+While the old parser interpreted this as an assignment, the new parser treats it
+as a reference.
+
+The above example aims for an assignment, though, which can be achieved by adding
+a whitespace between :typoscript:`=` and :typoscript:`<`:
+
+..  code-block:: typoscript
+
+    lib.nav.wrap = <ul id="nav">|</ul>
+
 
 .. index:: Backend, Frontend, TSConfig, TypoScript, NotScanned, ext:core

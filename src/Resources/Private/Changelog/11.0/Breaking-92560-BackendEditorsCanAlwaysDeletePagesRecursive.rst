@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-92560:
 
 ====================================================================
 Breaking: #92560 - Backend editors can always delete pages recursive

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-67815:
 
 ======================================================================
 Breaking: #67815 - Remove tceforms.js because we don't need it anymore

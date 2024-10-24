@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-80374-1668719171:
 
 =========================================================================
 Feature: #80374 - Add generic fluid template for already rendered content

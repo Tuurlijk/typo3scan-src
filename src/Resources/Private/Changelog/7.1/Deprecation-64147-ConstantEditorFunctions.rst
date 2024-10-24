@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-64147:
 
 ======================================================
 Deprecation: #64147 - TemplateService->ext_getKeyImage

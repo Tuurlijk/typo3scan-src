@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-51099-1668719172:
 
 =================================================
 Breaking: #51099 - Streamline settings/conditions

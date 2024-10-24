@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94966:
 
 ==========================================================
 Feature: #94966 - Show debugger in Application Information

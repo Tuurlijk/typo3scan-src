@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85666:
 
 ================================================================
 Deprecation: #85666 - TypoScriptFrontendController->initTemplate

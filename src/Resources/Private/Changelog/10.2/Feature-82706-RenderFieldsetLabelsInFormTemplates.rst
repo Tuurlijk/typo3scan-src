@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-82706:
 
 ==========================================================
 Feature: #82706 - Render fieldset labels in form templates

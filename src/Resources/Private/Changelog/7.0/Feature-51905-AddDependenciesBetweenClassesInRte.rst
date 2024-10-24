@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-51905:
 
 ==========================================================================
 Feature: #51905 - Add dependencies between classes in the Rich Text Editor

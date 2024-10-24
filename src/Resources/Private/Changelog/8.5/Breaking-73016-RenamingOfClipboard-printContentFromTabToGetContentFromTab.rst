@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-73016:
 
 ==================================================================================
 Breaking: #73016 - Renaming of Clipboard->printContentFromTab to getContentFromTab

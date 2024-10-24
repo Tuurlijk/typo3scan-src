@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85543:
 
 ====================================================================================================
 Deprecation: #85543 - Language-related properties in TypoScriptFrontendController and PageRepository

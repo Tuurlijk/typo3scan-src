@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-83405:
 
 ===================================================
 Feature: #83405 - add ConfirmationFinisher template

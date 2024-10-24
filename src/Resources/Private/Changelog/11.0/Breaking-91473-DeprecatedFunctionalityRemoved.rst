@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-91473:
 
 ===================================================
 Breaking: #91473 - Deprecated functionality removed

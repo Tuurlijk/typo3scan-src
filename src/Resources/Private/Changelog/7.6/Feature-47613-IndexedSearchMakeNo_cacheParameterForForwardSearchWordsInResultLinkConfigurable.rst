@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-47613:
 
 =========================================================================================================
 Feature: #47613 - Indexed Search: make no_cache parameter for forwardSearchWordsInResultLink configurable
@@ -15,13 +17,13 @@ It controls whether the `no_cache` parameter should be added to page links toget
 
 Use following configuration for Indexed Search Extbase plugin:
 
-.. code-block:: ts
+.. code-block:: typoscript
 
    plugin.tx_indexedsearch.settings.forwardSearchWordsInResultLink.no_cache = 1
 
 For plugin based on AbstractPlugin use:
 
-.. code-block:: ts
+.. code-block:: typoscript
 
    plugin.tx_indexedsearch.forwardSearchWordsInResultLink.no_cache = 1
 

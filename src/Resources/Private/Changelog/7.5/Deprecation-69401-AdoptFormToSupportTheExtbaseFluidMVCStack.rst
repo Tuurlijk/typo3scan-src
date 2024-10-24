@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-69401:
 
 ============================================================================
 Deprecation: #69401 - Adopt ext:form to support the Extbase/ Fluid MVC stack

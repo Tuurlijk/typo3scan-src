@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-88724:
 
 =====================================================================
 Breaking: #88724 - Remove superfluous methods of localizationRedirect

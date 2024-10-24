@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-24906:
 
 ================================================================
 Feature: #24906 - Configuration for maximum chars in TextElement

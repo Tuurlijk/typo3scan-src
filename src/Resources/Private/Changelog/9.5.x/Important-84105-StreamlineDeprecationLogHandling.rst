@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-84105:
 
 =======================================================
 Important: #84105 - Streamline deprecation log handling

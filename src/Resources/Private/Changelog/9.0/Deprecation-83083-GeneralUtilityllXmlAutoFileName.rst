@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-83083:
 
 =========================================================
 Deprecation: #83083 - GeneralUtility::llXmlAutoFileName()

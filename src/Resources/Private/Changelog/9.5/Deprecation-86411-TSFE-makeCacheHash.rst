@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-86411:
 
 ===========================================
 Deprecation: #86411 - TSFE->makeCacheHash()

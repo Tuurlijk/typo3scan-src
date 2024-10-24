@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-84214:
 
 ====================================================================
 Feature: #84214 - Add check if fields are editable for Linkvalidator

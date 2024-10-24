@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-84203:
 
 ===============================================
 Feature: #84203 - Unify form setup YAML loading

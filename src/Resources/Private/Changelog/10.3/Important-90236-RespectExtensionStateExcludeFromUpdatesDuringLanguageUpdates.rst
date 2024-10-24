@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-90236:
 
 ========================================================================================
 Important: #90236 - Respect extension state 'excludeFromUpdates' during language updates

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-36743:
 
 ============================================================
 Feature: #36743 - Registry for adding text extractor classes

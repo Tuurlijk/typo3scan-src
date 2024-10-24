@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-79622-1668719372:
 
 ========================================================================================
 Breaking: #79622 - TypoScript Standard Header has been removed from Fluid Styled Content

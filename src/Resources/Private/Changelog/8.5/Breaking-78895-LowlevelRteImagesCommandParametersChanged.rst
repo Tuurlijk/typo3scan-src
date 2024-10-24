@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-78895:
 
 ===============================================================
 Breaking: #78895 - Lowlevel RteImagesCommand parameters changed

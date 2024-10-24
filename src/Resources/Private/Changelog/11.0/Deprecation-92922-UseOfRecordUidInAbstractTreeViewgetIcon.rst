@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-92922:
 
 ======================================================================
 Deprecation: #92922 - Use of record uid in AbstractTreeView::getIcon()

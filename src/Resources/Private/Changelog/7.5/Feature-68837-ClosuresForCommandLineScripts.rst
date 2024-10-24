@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-68837:
 
 ===================================================
 Feature: #68837 - Closures for Command Line Scripts

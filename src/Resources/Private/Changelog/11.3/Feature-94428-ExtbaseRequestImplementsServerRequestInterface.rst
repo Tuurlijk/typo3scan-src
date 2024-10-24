@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94428:
 
 ===================================================================
 Feature: #94428 - Extbase Request implements ServerRequestInterface

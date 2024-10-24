@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-85678:
 
 ===================================
 Feature: #85678 - Add PageTitle API

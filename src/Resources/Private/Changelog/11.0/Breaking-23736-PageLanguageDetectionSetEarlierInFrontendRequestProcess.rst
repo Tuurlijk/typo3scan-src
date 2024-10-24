@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-23736:
 
 ==================================================================================
 Breaking: #23736 - Page Language detection set earlier in Frontend Request Process

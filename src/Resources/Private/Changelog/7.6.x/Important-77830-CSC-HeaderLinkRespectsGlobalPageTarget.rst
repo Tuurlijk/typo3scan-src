@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-77830:
 
 ==========================================================
 Important: #77830 - CSC-HeaderLinkRespectsGlobalPageTarget

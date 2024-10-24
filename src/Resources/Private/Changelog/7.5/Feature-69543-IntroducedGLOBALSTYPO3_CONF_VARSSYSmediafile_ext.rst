@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-69543:
 
 ================================================================================
 Feature: #69543 - Introduced $GLOBALS['TYPO3_CONF_VARS']['SYS']['mediafile_ext']

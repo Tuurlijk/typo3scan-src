@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72361:
 
 =============================================================
 Breaking: #72361 - Removed deprecated content object wrappers

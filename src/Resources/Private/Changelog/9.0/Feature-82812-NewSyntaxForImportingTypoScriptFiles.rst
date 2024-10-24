@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-82812:
 
 ===========================================================
 Feature: #82812 - New syntax for importing TypoScript files

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-64671:
 
 ===========================================================================
 Breaking: #64671 - Outdated ContentObject IMGTEXT moved to legacy extension

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-91909:
 
 ===============================================================================
 Breaking: #91909 - sys_collection database tables moved into external extension

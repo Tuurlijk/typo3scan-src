@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-52877:
 
 ========================================
 Breaking: #52877 - Remove ExtJS Viewport

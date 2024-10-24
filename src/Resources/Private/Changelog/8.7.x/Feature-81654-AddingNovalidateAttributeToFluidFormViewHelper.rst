@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-81654:
 
 ======================================================================
 Feature: #81654 - Adding novalidate Attribute to Fluid Form ViewHelper

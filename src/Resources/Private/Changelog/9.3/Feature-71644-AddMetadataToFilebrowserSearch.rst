@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-71644:
 
 ====================================================
 Feature: #71644 - Add metadata to filebrowser search

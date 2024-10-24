@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-63207:
 
 ===============================================
 Feature: #63207 - Split buttons into two groups

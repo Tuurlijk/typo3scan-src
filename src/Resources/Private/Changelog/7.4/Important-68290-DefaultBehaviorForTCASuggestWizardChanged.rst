@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-68290:
 
 ===================================================================
 Important: #68290 - Default behavior for TCA suggest wizard changed

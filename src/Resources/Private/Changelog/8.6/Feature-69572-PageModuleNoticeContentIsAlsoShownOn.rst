@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-69572:
 
 ================================================================
 Feature: #69572 - Page module Notice "Content is also shown on:"

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-82991:
 
 ====================================================================
 Breaking: #82991 - Record list "Localization View" is always enabled
@@ -16,7 +18,7 @@ always enabled.
 Impact
 ======
 
-The PageTSconfig option :ts:`mod.web_list.enableLocalizationView` has no effect anymore.
+The PageTSconfig option :typoscript:`mod.web_list.enableLocalizationView` has no effect anymore.
 
 
 Affected Installations

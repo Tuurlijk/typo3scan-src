@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-82803:
 
 =========================================================================
 Breaking: #82803 - Global configuration option "content_doktypes" removed

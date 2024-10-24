@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-73357:
 
 ==================================================================
 Feature: #73357 - Make thumbnail size in file browser configurable

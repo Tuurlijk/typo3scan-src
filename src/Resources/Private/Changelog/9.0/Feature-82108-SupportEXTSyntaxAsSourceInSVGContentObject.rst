@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-82108:
 
 =====================================================================
 Feature: #82108 - Support EXT: syntax as source in SVG content object

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84145:
 
 ==============================================
 Deprecation: #84145 - Deprecate ext_isLinkable

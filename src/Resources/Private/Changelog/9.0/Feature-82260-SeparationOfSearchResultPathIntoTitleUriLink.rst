@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-82260:
 
 =========================================================================
 Feature: #82260 - Separation of search result path into title,uri,linkTag

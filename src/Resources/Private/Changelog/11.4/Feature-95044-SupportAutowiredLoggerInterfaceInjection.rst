@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-95044:
 
 =============================================================
 Feature: #95044 - Support autowired LoggerInterface injection

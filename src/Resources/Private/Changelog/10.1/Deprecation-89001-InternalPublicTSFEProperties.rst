@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-89001:
 
 =====================================================
 Deprecation: #89001 - Internal public TSFE properties

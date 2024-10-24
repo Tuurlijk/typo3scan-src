@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-66707:
 
 =========================================================================
 Breaking: #66707 - issueCommand() now adds quotes when used in JS context

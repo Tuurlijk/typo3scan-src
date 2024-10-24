@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-77685:
 
 ==================================================================================
 Feature: #77685 - Create a save and open copy button when saving a content element

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-78581:
 
 ===============================================
 Deprecation: #78581 - Flex form related parsing

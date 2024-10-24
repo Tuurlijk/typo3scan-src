@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-86967:
 
 ===========================================================================================
 Feature: #86967 - Allow fetching uid of a LazyLoadingProxy without loading the object first

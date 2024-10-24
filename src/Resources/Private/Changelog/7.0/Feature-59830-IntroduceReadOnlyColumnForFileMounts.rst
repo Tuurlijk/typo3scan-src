@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-59830:
 
 ============================================================
 Feature: #59830 - Introduce read-only column for file mounts

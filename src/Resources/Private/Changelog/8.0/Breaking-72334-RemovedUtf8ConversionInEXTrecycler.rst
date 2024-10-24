@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72334:
 
 ==========================================================
 Breaking: #72334 - Removed utf8 conversion in EXT:recycler

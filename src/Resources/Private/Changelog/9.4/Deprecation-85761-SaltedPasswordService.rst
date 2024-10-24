@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85761:
 
 ===========================================
 Deprecation: #85761 - SaltedPasswordService
@@ -28,7 +30,7 @@ This class is usually not called by extensions, it is unlikely instances are aff
 Migration
 =========
 
-The service has been migrated into the the basic core authentication service chain for
+The service has been migrated into the basic core authentication service chain for
 frontend and backend. Usually no migration is needed.
 
 

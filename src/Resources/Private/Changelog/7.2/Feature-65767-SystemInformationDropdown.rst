@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-65767:
 
 =============================================
 Feature: #65767 - System Information Dropdown

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-88662:
 
 ============================================================
 Deprecation: #88662 - Deprecated backend route xMOD_tximpexp

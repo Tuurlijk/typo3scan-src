@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-70956:
 
 =================================================================================================
 Important: #70956 - Behavior of Page TSconfig options keepItems, addItems and removeItems changed

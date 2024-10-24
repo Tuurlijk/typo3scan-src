@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84641:
 
 ===============================================================================================================
 Deprecation: #84641 - Deprecated AdminPanel related methods and properties in FrontendBackendUserAuthentication

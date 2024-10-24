@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-77702:
 
 ======================================================================================
 Important: #77702 - Custom render types for date and datetime fields must use ISO-8601

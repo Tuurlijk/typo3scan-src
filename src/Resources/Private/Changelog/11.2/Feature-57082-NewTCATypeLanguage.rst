@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-57082:
 
 =========================================
 Feature: #57082 - New TCA type "language"

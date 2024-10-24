@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72342:
 
 ==============================================================
 Breaking: #72342 - Removed deprecated code from GeneralUtility

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-84749:
 
 ====================================================
 Feature: #84749 - Hide "duplicate" button by default
@@ -11,8 +13,8 @@ Description
 
 The "duplicate" button visibility can now be managed with userTsConfig using:
 
-- :ts:`options.showDuplicate = 1`
-- :ts:`options.showDuplicate.[table] = 1`
+-  :typoscript:`options.showDuplicate = 1`
+-  :typoscript:`options.showDuplicate.[table] = 1`
 
 
 Impact

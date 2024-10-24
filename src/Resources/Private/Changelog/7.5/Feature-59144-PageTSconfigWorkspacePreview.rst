@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-59144:
 
 ==================================================================
 Feature: #59144 - Previewing workspace records using Page TSconfig
@@ -14,7 +16,7 @@ Per default TYPO3 only creates preview links for the tables tt_content, pages
 and pages_language_overlay. To avoid utilizing a hook for each table, creating
 preview links can be triggered using Page TSconfig.
 
-.. code-block:: TypoScript
+..  code-block:: typoscript
 
 	# Using page 123 for previewing workspaces records (in general)
 	options.workspaces.previewPageId = 123

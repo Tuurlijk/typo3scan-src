@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-92289:
 
 ===========================================================================
 Breaking: #92289 - Decouple logic of ResourceFactory into StorageRepository

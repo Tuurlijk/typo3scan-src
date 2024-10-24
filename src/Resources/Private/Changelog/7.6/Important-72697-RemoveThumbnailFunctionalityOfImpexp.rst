@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-72697:
 
 ============================================================
 Important: #72697 - Remove thumbnail functionality of impexp

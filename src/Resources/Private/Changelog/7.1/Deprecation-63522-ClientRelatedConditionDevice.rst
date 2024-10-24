@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-63522:
 
 =================================================================
 Deprecation: #63522 - Deprecate the "device" TypoScript condition

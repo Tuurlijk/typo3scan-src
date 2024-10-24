@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-77164:
 
 ====================================================================
 Deprecation: #77164 - ErrorpageMessage and AbstractStandaloneMessage

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-90351:
 
 ====================================================================
 Feature: #90351 - Configure TYPO3-shipped cookies with SameSite flag

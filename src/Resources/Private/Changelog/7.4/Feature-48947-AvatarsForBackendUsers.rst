@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-48947:
 
 ===========================================
 Feature: #48947 - Avatars for backend users

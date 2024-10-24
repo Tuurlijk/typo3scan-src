@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-87594:
 
 =================================================================
 Important: #87594 - Classes use strict mode and scalar type hints

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94662:
 
 ===============================================================================
 Feature: #94662 - Add placeholder for site configuration in foreign_table_where

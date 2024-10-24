@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-92607:
 
 ================================================
 Deprecation: #92607 - GeneralUtility::uniqueList

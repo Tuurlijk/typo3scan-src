@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-87511:
 
 =============================================================
 Breaking: #87511 - Remove $viewFormatToObjectNameMap property

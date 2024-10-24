@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-88238:
 
 ===========================================================
 Feature: #88238 - FeatureToggle: form.legacyUploadMimeTypes

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-67932-1668719172:
 
 =================================
 Feature: #67932 - New rsaauth API

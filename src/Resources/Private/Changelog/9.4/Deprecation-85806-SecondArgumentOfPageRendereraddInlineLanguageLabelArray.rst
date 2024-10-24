@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85806:
 
 ==================================================================================
 Deprecation: #85806 - Second argument of PageRenderer::addInlineLanguageLabelArray

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84463:
 
 =========================================================================
 Deprecation: #84463 - PageTsConfig option mod.web_list.newWizards dropped
@@ -9,7 +11,7 @@ See :issue:`84463`
 Description
 ===========
 
-The widely unknown PageTsConfig option :ts:`mod.web_list.newWizards` has been enabled by default and dropped.
+The widely unknown PageTsConfig option :typoscript:`mod.web_list.newWizards` has been enabled by default and dropped.
 
 PHP property :php:`newWizards` of class :php:`TYPO3\CMS\Recordlist\RecordList\DatabaseRecordList` has been deprecated
 along the way.

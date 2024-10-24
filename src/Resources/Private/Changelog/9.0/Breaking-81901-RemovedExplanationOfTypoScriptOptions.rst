@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-81901-1668719172:
 
 ============================================================
 Breaking: #81901 - Removed explanation of TypoScript options

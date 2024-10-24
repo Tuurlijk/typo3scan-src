@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77630:
 
 ======================================
 Breaking: #77630 - Remove wizard icons

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-84990:
 
 ===============================================
 Feature: #84990 - Mark broken file links in RTE

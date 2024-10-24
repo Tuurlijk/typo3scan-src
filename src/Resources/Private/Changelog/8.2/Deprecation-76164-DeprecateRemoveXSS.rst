@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-76164:
 
 =========================================
 Deprecation: #76164 - Deprecate RemoveXSS

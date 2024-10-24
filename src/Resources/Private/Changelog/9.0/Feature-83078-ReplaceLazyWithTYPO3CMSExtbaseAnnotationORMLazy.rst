@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-83078:
 
 ================================================================================
 Feature: #83078 - Replace @lazy with @TYPO3\\CMS\\Extbase\\Annotation\\ORM\\Lazy

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-85236:
 
 =======================================================================
 Feature: #85236 - Infix option to default log file names for FileWriter

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-59966:
 
 =================================================================
 Breaking: #59966 - Extension Configuration cache-flushing changed

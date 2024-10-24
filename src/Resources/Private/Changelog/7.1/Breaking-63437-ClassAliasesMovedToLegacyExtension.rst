@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-63437:
 
 ==========================================================
 Breaking: #63437 - Class aliases moved to legacy extension

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-93002:
 
 ==========================================================================
 Breaking: #93002 - Support for session transfer via FE_SESSION_KEY removed

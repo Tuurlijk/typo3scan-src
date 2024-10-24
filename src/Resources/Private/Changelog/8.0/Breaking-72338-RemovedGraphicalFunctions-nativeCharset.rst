@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72338:
 
 ============================================================
 Breaking: #72338 - Removed GraphicalFunctions->nativeCharset

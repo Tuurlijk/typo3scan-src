@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-95089:
 
 ===========================================================
 Feature: #95089 - New PSR-14 AfterFileCommandProcessedEvent

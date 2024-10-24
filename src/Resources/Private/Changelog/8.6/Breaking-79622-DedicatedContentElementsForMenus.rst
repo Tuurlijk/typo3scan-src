@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-79622-1668719270:
 
 =======================================================
 Breaking: #79622 - Dedicated content elements for menus

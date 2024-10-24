@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-67204:
 
 ===============================================================================
 Breaking: #67204 - DatabaseConnection::exec_SELECTgetRows() may throw exception

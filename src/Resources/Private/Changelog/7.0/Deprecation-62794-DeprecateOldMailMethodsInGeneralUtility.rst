@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-62794:
 
 ====================================================
 Deprecation: #62794 - Mail methods in GeneralUtility

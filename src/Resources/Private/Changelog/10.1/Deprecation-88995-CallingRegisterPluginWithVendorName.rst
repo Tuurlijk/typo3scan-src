@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-88995:
 
 =============================================================
 Deprecation: #88995 - Calling registerPlugin with vendor name

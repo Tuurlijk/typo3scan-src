@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-90548:
 
 =================================================================
 Feature: #90548 - Download multiple files and folders in filelist

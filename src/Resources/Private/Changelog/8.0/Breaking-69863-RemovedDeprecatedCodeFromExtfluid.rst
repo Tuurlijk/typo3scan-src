@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-69863-1668719172:
 
 =========================================================
 Breaking: #69863 - Removed deprecated code from EXT:fluid

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-15619:
 
 ==============================================================
 Feature: #15619 - Access module: Allow selector as "unchanged"

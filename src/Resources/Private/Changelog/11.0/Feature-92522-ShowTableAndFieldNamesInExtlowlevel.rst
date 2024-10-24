@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-92522:
 
 ============================================================
 Feature: #92522 - Show table and field names in ext:lowlevel

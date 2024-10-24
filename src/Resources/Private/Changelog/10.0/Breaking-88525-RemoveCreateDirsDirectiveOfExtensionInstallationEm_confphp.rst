@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-88525:
 
 ========================================================================================
 Breaking: #88525 - Remove "createDirs" directive of extension installation / em_conf.php

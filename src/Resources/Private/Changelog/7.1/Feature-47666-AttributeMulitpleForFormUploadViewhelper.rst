@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-47666:
 
 =====================================================================
 Feature: #47666 - Attribute \"multiple\" for f:form.upload Viewhelper

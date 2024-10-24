@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-28171:
 
 ===================================================
 Feature: #28171 - Improved link field in FormEngine

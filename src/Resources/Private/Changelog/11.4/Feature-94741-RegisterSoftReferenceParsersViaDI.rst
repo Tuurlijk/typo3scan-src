@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94741:
 
 =======================================================
 Feature: #94741 - Register SoftReference parsers via DI

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-64257:
 
 ===================================================================
 Feature: #64257 - Support multiple UID in PageRepository::getMenu()

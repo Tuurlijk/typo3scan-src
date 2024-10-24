@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77826:
 
 =======================================================
 Breaking: #77826 - RTEHtmlArea Spellchecker eID removed

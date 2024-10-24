@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-87583:
 
 ===================================================================
 Breaking: #87583 - Remove obsolete APC Cache Backend implementation

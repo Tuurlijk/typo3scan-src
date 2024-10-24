@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-79341:
 
 =========================================================================
 Deprecation: #79341 - TCA richtext configuration in defaultExtras dropped

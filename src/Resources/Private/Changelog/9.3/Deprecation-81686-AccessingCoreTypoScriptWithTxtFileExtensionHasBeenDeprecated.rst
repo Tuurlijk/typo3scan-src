@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-81686:
 
 ============================================================================================
 Deprecation: #81686 - Accessing core TypoScript with .txt file extension has been deprecated

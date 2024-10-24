@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72474:
 
 ========================================================
 Breaking: #72474 - RequestHandler only works with Routes

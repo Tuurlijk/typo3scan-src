@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-37180:
 
 ===============================================================
 Breaking: #37180 - ExtDirectDebug and $GLOBALS['error'] removed

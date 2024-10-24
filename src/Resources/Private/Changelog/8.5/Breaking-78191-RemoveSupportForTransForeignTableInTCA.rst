@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-78191:
 
 ==============================================================
 Breaking: #78191 - Remove support for transForeignTable in TCA

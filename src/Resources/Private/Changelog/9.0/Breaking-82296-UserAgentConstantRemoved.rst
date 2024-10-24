@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-82296:
 
 ====================================================
 Breaking: #82296 - Removed constant TYPO3_user_agent

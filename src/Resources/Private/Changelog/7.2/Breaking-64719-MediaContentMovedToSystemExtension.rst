@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-64719:
 
 ====================================================================================================
 Breaking: #64719 - Multimedia and Media cObjects and Content Types are moved to new system extension
@@ -15,11 +17,11 @@ extension called "mediace". This extension is not installed by default but is sh
 
 The following Content Objects are not available anymore by default:
 
-	* MULTIMEDIA
-	* MEDIA
-	* SWFOBJECT
-	* FLOWPLAYER
-	* QTOBJECT
+* MULTIMEDIA
+* MEDIA
+* SWFOBJECT
+* FLOWPLAYER
+* QTOBJECT
 
 The Content Types "media" and "multimedia" are not available anymore by default.
 

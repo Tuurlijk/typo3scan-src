@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94765:
 
 ====================================================
 Feature: #94765 - Introduce showNewRecordLink option

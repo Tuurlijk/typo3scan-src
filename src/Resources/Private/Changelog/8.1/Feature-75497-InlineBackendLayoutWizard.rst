@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-75497:
 
 ==============================================
 Feature: #75497 - inline backend layout wizard

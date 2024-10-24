@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-76531:
 
 =============================================
 Feature: #76531 - Add IconForRecordViewHelper

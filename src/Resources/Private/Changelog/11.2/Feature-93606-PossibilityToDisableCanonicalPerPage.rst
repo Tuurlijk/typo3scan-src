@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-93606:
 
 ===========================================================
 Feature: #93606 - Possibility to disable canonical per page

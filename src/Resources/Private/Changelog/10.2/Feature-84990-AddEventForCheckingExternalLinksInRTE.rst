@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-84990-1668719171:
 
 ==============================================================
 Feature: #84990 - Add event for checking external links in RTE

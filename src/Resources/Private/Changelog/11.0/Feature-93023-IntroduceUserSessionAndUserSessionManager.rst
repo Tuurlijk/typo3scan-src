@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _changelog-Feature-93023-IntroduceUserSessionAndUserSessionManager:
 
@@ -88,8 +88,8 @@ method :php:`create()`.
 As already mentioned you can then use the :php:`UserSessionManager` to work
 with user sessions. A couple of public methods are available.
 
-Public Methods within `UserSession`
------------------------------------
+Public Methods within `UserSessionManager`
+------------------------------------------
 
 +---------------------------------------------------------------+-----------------------------------------------------------------------+
 | Method                                                        | Description                                                           |
@@ -101,7 +101,8 @@ Public Methods within `UserSession`
 | createFromGlobalCookieOrAnonymous($cookieName)                | Creates and returns a session from a global cookie (:php:`$_COOKIE`). |
 |                                                               | If no cookie can be found for the given name, an anonymous session    |
 |                                                               | will be returned.                                                     |
-|                                                               | It is recommended to use the PSR-7 Request based method instead.      |
+|                                                               | It is recommended to use the PSR-7 Request based method instead,      |
+|                                                               | as this method is scheduled for removal in TYPO3 v13.0.               |
 +---------------------------------------------------------------+-----------------------------------------------------------------------+
 | createAnonymousSession()                                      | Creates and returns an anonymous session object (not persisted).      |
 +---------------------------------------------------------------+-----------------------------------------------------------------------+

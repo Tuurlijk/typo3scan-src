@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-81763:
 
 ===============================================================
 Deprecation: #81763 - Deprecated language label for file rename

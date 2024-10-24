@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-66995:
 
 =================================================
 Breaking: #66995 - ObjectAccess behaviors changed

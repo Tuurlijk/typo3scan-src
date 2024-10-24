@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-80929:
 
 ==============================================
 Breaking: #80929 - TYPO3_DB moved to extension

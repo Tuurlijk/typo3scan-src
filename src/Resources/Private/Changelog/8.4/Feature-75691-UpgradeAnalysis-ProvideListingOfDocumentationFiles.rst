@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-75691:
 
 ===========================================================================
 Feature: #75691 - Upgrade Analysis - Provide listing of documentation files

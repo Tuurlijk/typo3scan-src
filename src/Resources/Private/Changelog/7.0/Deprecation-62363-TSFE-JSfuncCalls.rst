@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-62363:
 
 =====================================================
 Deprecation: #62363 - TSFE->JSeventFuncCalls disabled

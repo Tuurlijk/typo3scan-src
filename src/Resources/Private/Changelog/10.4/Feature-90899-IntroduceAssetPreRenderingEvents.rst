@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _changelog-Feature-90899-IntroduceAssetPreRenderingEvents:
 
@@ -42,7 +42,7 @@ boolean only returns assets of the given priority.
 .. note::
 
    post-processing functionality for assets registered via
-   TypoScript :ts:`page.include...` or the :php:`PageRenderer::add*()`
+   TypoScript :typoscript:`page.include...` or the :php:`PageRenderer::add*()`
    functions are still provided by these hooks:
 
    * :php:`$GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['cssCompressHandler']`
@@ -74,7 +74,7 @@ from a CDN.
              tags:
                - name: event.listener
                  identifier: 'myExt/LibraryVersion'
-                 event: TYPO3\CMS\Core\Page\Event\AssetRendererBeforeRenderingEvent
+                 event: TYPO3\CMS\Core\Page\Event\BeforeJavaScriptsRenderingEvent
 
 
    2. Implement Listener to enforce a library version or CDN URI

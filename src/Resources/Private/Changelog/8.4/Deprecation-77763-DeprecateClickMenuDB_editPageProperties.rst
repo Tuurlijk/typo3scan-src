@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-77763:
 
 =========================================================================
 Deprecation: #77763 - Deprecate method ClickMenu::DB_editPageProperties()

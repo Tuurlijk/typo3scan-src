@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77184:
 
 ==================================================
 Breaking: #77184 - Various TSFE properties removed

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-83092:
 
 ==============================================================================================
 Deprecation: #83092 - Replace @transient with @TYPO3\\CMS\\Extbase\\Annotation\\ORM\\Transient

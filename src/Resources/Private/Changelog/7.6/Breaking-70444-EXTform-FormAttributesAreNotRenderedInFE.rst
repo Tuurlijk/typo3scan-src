@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-70444:
 
 ====================================================================
 Breaking: #70444 - EXT:form - Form attributes are not rendered in FE

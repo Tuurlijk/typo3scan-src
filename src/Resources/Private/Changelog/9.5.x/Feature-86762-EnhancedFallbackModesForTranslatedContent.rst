@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-86762:
 
 ================================================================
 Feature: #86762 - Enhanced fallback modes for translated content

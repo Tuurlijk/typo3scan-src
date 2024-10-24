@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79310:
 
 ==============================================================
 Feature: #79310 - Add options and clipboard to filelist search

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-83942:
 
 ====================================================
 Deprecation: #83942 - Deprecated FileFacade::getIcon

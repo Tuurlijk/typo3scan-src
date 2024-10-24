@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-94615:
 
 ==============================================================================================
 Important: #94615 - Fluid view helpers f:link.external and f:uri.external use https by default

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-82763:
 
 ============================================================================================
 Important: #82763 - Fluid config for ExpressionNodeType and TemplatePreProcessor made global

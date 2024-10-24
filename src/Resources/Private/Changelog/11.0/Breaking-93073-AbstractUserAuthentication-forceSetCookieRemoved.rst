@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-93073:
 
 =====================================================================
 Breaking: #93073 - AbstractUserAuthentication->forceSetCookie removed

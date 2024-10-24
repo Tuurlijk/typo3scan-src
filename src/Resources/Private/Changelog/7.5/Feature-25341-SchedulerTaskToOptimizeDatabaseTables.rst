@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-25341:
 
 ============================================================
 Feature: #25341 - Scheduler task to optimize database tables

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-69120:
 
 ==========================================================
 Feature: #69120 - Add basic file search in element browser

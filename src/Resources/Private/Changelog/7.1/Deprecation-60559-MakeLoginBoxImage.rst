@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-60559:
 
 =========================================
 Deprecation: #60559 - makeLoginBoxImage()

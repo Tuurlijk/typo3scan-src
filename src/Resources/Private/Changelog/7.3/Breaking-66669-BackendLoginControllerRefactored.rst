@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-66669:
 
 =====================================================
 Breaking: #66669 - Backend LoginController refactored

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-86331:
 
 ====================================================
 Feature: #86331 - Native URL support for MountPoints

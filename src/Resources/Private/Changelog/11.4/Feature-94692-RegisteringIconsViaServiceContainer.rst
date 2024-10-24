@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94692-1657826754:
 
 =========================================================
 Feature: #94692 - Registering Icons via Service Container

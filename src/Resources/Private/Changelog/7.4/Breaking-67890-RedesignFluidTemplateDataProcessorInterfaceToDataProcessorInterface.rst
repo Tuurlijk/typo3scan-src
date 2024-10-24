@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-67890:
 
 =========================================================================================
 Breaking: #67890 - Redesign FluidTemplateDataProcessorInterface to DataProcessorInterface

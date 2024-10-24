@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-79615:
 
 =====================================================================
 Breaking: #79615 - QueryBuilder getQueriedTables result format change

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-95079:
 
 ============================================================================
 Feature: #95079 - Support PHP 8 style Channel attribute for logger injection

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-68022:
 
 =============================================================
 Feature: #68022 - Added base date attribute to DateViewHelper

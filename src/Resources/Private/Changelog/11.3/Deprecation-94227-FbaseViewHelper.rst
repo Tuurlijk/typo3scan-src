@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94227:
 
 =======================================
 Deprecation: #94227 - f:base ViewHelper

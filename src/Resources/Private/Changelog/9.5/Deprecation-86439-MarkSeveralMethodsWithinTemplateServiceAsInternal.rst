@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-86439:
 
 =============================================================================
 Deprecation: #86439 - Mark several methods within TemplateService as internal

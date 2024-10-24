@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-72496:
 
 ==================================================
 Deprecation: #72496 - Deprecated $LANG->overrideLL

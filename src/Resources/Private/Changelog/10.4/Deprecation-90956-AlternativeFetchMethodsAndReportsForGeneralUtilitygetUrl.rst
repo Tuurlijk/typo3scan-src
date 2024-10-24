@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-90956:
 
 ========================================================================================
 Deprecation: #90956 - Alternative fetch methods and reports for GeneralUtility::getUrl()
@@ -12,8 +14,8 @@ Description
 The short-hand method :php:`GeneralUtility::getUrl()` provides a
 fast way to fetch the contents of a local file or remote URL.
 
-For Remote URLs, TYPO3 v8 provides a object-oriented (PSR-7 compatible) way by using
-the :php:`RequestFactory->request($url, $method)` API. Under the hood, the PHP library GuzzleHTTP is used,
+For Remote URLs, TYPO3 v8 provides an object-oriented (PSR-7 compatible) way by using
+the :php:`RequestFactory->request($url, $method, $options)` API. Under the hood, the PHP library GuzzleHTTP is used,
 which evaluates what best option (e.g. curl library) should handle
 the download to TYPO3.
 
@@ -59,13 +61,13 @@ Sending additional headers with the HTTP request:
 
 .. code-block:: php
 
-   $response = GeneralUtility::makeInstance(RequestFactory::class)->request($url, [$headers => ['accept' => 'application/json']);
+   $response = GeneralUtility::makeInstance(RequestFactory::class)->request($url, 'GET', ['headers' => ['accept' => 'application/json']]);
 
 Finding additional information about the response:
 
 .. code-block:: php
 
-   $response = GeneralUtility::makeInstance(RequestFactory::class)->request($url, [$headers => ['accept' => 'application/json']);
+   $response = GeneralUtility::makeInstance(RequestFactory::class)->request($url, 'GET', ['headers' => ['accept' => 'application/json']]);
    if ($response->getStatusCode() >= 300) {
       $content = $response->getReasonPhrase();
    } else {

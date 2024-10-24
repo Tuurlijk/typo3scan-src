@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79442:
 
 ==================================================================
 Feature: #79442 - EXT:form - add element selector for text editors

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-79265:
 
 ===============================================================
 Deprecation: #79265 - CommandLineController and Cleaner Command

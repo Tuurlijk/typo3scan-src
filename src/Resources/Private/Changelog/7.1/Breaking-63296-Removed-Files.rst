@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-63296:
 
 ==================================================
 Breaking: #63296 - Deprecated typo3/ files removed

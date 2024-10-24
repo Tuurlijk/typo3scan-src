@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-62673:
 
 =====================================================
 Breaking: #62673 - Deprecated extbase code is removed

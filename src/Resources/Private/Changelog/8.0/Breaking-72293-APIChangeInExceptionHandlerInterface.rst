@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72293:
 
 ==========================================================
 Breaking: #72293 - API change in ExceptionHandlerInterface

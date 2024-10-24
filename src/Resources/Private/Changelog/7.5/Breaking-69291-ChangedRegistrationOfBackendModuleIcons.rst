@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-69291:
 
 ===============================================================
 Breaking: #69291 - Changed registration of backend module icons

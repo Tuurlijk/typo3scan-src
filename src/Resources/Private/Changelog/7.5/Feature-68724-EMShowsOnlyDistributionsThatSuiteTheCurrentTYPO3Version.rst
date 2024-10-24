@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-68724:
 
 ====================================================================================================================
 Feature: #68724 - EM: "Get preconfigured distribution" shows only distributions that suite the current TYPO3 version

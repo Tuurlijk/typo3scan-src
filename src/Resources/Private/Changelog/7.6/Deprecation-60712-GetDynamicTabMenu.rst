@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-60712:
 
 ===========================================================
 Deprecation: #60712 - DocumentTemplate->getDynamicTabMenu()

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-85991:
 
 =========================================================
 Feature: #85991 - Exclude Symfony Commands from Scheduler
@@ -37,7 +39,7 @@ An example file within :file:`EXT:myextension/Configuration/Commands.php` could 
        ]
    ];
 
-The command could still be executed via :shell:`.../typo3 admins:delete` but not be set up as
+The command could still be executed via :bash:`.../typo3 admins:delete` but not be set up as
 Scheduler task in the TYPO3 backend.
 
 .. index:: CLI, ext:scheduler

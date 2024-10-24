@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-81196:
 
 ===========================================================
 Important: #81196 - LanguageService moved to core extension
@@ -9,7 +11,7 @@ See :issue:`81196`
 Description
 ===========
 
-The PHP class `TYPO3\CMS\Lang\LanguageService` - very well known for being available as 
+The PHP class `TYPO3\CMS\Lang\LanguageService` - very well known for being available as
 :php:`$GLOBALS['LANG']` in the TYPO3 backend scope, and responsible for translating labels from
 XLF/XML files, has been moved to EXT:core, the core system extension.
 

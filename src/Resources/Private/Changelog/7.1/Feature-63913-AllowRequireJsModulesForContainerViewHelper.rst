@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-63913:
 
 =====================================================================
 Feature: #63913 - Allow ContainerViewHelper to load RequireJS modules

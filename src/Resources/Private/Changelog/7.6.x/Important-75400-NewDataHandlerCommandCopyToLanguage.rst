@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-75400:
 
 ============================================================
 Important: #75400 - New DataHandler command 'copyToLanguage'

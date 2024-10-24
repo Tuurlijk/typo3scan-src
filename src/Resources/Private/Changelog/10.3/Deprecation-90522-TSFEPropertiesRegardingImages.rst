@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-90522:
 
 ======================================================
 Deprecation: #90522 - TSFE properties regarding images

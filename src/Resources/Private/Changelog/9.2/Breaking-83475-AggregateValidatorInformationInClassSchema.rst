@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-83475:
 
 ==================================================================
 Breaking: #83475 - Aggregate validator information in class schema

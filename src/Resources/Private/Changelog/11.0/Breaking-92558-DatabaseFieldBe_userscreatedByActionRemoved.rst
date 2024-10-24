@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-92558:
 
 ==================================================================
 Breaking: #92558 - Database Field be_users.createdByAction removed

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-89673:
 
 ==========================================================
 Deprecation: #89673 - Extbase's WebRequest and WebResponse
