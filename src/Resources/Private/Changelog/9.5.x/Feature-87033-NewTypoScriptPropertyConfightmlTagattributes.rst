@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-87033:
 
 ===================================================================
 Feature: #87033 - New TypoScript Property config.htmlTag.attributes

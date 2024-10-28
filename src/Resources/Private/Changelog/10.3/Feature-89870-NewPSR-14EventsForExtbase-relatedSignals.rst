@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-89870:
 
 ===============================================================
 Feature: #89870 - New PSR-14 Events for Extbase-related signals

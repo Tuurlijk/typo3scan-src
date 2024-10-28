@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-86225:
 
 ========================================================================
 Deprecation: #86225 - Classes BaseScriptClass and AbstractFunctionModule

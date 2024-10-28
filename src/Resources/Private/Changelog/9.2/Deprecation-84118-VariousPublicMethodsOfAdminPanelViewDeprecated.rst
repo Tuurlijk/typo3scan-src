@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84118:
 
 =========================================================================
 Deprecation: #84118 - Various public methods of AdminPanelView deprecated

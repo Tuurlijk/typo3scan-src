@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-91719:
 
 =====================================================================
 Feature: #91719 - Custom error messages in RegularExpressionValidator
@@ -29,8 +31,8 @@ Example:
         * @TYPO3\CMS\Extbase\Annotation\Validate(
         *    "RegularExpression",
         *    options={
-        *       "regularExpression": '/^SO[0-9]$/',
-        *       "errorMessage": 'explain how to provide a valid value'
+        *       "regularExpression": "/^SO[0-9]$/",
+        *       "errorMessage": "explain how to provide a valid value"
         *    }
         * )
         */
@@ -48,8 +50,8 @@ It is also possible to provide a translation key to render a localized message:
         * @TYPO3\CMS\Extbase\Annotation\Validate(
         *    "RegularExpression",
         *    options={
-        *       "regularExpression": '/^SO[0-9]$/',
-        *       "errorMessage": 'LLL:EXT:my_extension/path/to/xlf:translation.key'
+        *       "regularExpression": "/^SO[0-9]$/",
+        *       "errorMessage": "LLL:EXT:my_extension/path/to/xlf:translation.key"
         *    }
         * )
         */

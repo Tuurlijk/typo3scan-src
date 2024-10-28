@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-76008:
 
 ==================================================================
 Feature: #76008 - Property visibility to DebuggerUtility::var_dump

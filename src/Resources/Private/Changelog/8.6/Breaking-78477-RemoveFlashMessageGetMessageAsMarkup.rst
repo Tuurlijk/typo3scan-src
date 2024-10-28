@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-78477-1668719172:
 
 ===================================================================
 Breaking: #78477 - Remove method FlashMessage->getMessageAsMarkup()

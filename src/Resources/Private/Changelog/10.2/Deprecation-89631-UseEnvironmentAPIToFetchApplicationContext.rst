@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-89631:
 
 ======================================================================
 Deprecation: #89631 - Use Environment API to fetch application context

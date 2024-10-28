@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-76520:
 
 ======================================================================
 Deprecation: #76520 - Deprecate method pages_getTree of PageLayoutView

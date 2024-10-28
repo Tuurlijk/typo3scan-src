@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85554:
 
 ==========================================================
 Deprecation: #85554 - PageRepository->checkWorkspaceAccess

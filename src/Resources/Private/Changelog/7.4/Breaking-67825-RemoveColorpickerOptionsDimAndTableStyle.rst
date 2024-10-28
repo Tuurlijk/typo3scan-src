@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-67825:
 
 ====================================================================
 Breaking: #67825 - Remove colorpicker options "dim" and "tableStyle"

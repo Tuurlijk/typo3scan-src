@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-19737:
 
 ==================================================
 Breaking: #19737 - Prefer root templates for pages

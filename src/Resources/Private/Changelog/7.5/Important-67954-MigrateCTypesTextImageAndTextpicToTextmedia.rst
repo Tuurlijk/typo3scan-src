@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-67954:
 
 =======================================================================
 Important: #67954 - Migrate CTypes text, image and textpic to textmedia

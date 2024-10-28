@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-81534:
 
 ====================================================================
 Deprecation: #81534 - BackendUtility::getListGroupNames() deprecated

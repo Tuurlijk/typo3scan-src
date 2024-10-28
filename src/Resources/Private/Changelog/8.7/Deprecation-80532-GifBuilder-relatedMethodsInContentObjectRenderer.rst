@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-80532:
 
 =========================================================================
 Deprecation: #80532 - GifBuilder-related methods in ContentObjectRenderer

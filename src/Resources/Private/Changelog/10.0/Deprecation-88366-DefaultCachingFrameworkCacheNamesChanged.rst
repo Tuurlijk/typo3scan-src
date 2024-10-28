@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-88366:
 
 ===================================================================
 Deprecation: #88366 - Default caching framework cache names changed

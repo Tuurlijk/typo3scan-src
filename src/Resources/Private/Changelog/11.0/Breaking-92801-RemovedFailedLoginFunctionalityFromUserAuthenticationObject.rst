@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-92801:
 
 =======================================================================================
 Breaking: #92801 - Removed "Failed Login" functionality from User Authentication object

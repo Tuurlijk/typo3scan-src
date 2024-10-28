@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-50136:
 
 =================================
 Feature: #50136 - Add SVG support

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-78899:
 
 ==============================================
 Important: #78899 - displayCond strict parsing

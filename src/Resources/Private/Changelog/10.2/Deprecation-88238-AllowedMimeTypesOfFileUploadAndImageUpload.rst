@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-88238:
 
 ======================================================================
 Deprecation: #88238 - Allowed MIME types of FileUpload and ImageUpload

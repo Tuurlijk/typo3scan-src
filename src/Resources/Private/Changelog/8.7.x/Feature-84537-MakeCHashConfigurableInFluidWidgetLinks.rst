@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-84537:
 
 ================================================================
 Feature: #84537 - Make cHash configurable in Fluid Widget Links

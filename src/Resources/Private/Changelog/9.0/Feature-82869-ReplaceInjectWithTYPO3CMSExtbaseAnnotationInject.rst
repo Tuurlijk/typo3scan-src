@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-82869:
 
 ===============================================================================
 Feature: #82869 - Replace @inject with @TYPO3\\CMS\\Extbase\\Annotation\\Inject

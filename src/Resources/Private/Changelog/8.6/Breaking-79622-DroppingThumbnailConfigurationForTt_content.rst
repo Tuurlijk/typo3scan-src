@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-79622:
 
 ==================================================================
 Breaking: #79622 - Dropping thumbnail configuration for tt_content

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-89496:
 
 ======================================================
 Feature: #89496: Make context menu usable via keyboard

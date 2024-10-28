@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-70494:
 
 =============================================================
 Deprecation: #70494 - DocumentTemplate->wrapClickMenuOnIcon()

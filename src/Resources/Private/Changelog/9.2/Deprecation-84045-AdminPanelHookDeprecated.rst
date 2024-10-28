@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84045:
 
 ================================================
 Deprecation: #84045 - AdminPanel Hook deprecated

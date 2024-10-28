@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-61463:
 
 ==============================================================
 Feature: #61463 - Allow processed folders in different storage

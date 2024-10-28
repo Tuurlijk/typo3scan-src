@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-54409:
 
 ==================================================================
 Breaking: #54409 - RTE "acronym" button was renamed "abbreviation"

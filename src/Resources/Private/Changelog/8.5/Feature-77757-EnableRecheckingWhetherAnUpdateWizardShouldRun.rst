@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-77757:
 
 ======================================================================
 Feature: #77757 - Enable rechecking whether an UpdateWizard should run

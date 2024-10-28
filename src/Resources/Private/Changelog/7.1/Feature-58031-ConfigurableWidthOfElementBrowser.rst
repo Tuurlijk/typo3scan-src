@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-50039-1668719172:
 
 ===========================================================
 Feature: #50039 - Configurable width of the Element Browser

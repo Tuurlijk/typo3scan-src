@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-95068:
 
 ======================================================
 Feature: #95068 - Multi record selection in recordlist

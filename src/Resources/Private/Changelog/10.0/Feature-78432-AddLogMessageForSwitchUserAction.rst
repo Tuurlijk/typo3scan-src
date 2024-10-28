@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-78432:
 
 ==========================================================
 Feature: #78432 - Add log message for "Switch User action"

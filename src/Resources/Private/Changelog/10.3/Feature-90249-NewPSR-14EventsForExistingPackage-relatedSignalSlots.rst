@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-90249:
 
 =============================================================================
 Feature: #90249 - New PSR-14 events for existing package-related Signal Slots

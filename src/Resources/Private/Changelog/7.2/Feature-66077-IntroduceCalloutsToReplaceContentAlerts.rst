@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-66077:
 
 ==============================================================
 Feature: #66077 - Introduce callouts to replace content alerts

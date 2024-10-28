@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-95077:
 
 ===================================================
 Deprecation: #95077 - FileDump CheckFileAccess hook

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-73050:
 
 ==================================
 Feature: #73050 - Add a CSPRNG API

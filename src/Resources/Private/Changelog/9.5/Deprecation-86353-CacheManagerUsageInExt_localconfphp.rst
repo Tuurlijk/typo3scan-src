@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-86353:
 
 =============================================================
 Deprecation: #86353 - CacheManager usage in ext_localconf.php

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-78336:
 
 =======================================================
 Important: #78336 - Generate preview links with a chash

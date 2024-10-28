@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-83904:
 
 ========================================================
 Deprecation: #83904 - Array handling in AbstractTreeView

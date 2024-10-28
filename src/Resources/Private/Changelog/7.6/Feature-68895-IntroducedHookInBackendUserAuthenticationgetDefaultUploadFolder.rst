@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-68895:
 
 ======================================================================================
 Feature: #68895 - Introduced hook in BackendUserAuthentication::getDefaultUploadFolder

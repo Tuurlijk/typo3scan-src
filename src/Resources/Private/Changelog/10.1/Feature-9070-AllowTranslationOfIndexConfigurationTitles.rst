@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-9070:
 
 ================================================================
 Feature: #9070 - Allow translation of index configuration titles

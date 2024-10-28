@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-76527:
 
 ==============================================
 Breaking: #76527 - Cleanup ContextMenu classes

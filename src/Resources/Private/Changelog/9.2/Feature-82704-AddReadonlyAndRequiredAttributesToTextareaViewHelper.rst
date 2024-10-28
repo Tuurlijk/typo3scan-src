@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-82704:
 
 ============================================================================
 Feature: #82704 - Add readonly and required attributes to TextareaViewHelper

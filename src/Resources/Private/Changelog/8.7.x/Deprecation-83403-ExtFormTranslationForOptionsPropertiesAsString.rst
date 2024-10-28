@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-83403:
 
 ==============================================================================
 Deprecation: #83403 - EXT:form - deprecate translation for "options" as string

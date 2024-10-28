@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-91117:
 
 ====================================================================================
 Important: #91117 - Use GlobalEventHandler and ActionDispatcher instead of inline JS
@@ -43,6 +45,17 @@ Navigates to URL once selected drop-down was changed
 Navigates to URL once selected drop-down was changed, including selected value
 (`$data` refers to value of :html:`data-navigate-value`, `$value` to selected value,
 `$data=~s/$value/` replaces literal `${value}` with selected value in `:html:`data-navigate-value`)
+
+
+.. code-block:: html
+
+   <input type="checkbox" name="setting" onclick="window.location.href='/?setting='+(this.checked ? 1 : 0)">
+   <!-- ... changed to ... -->
+   <input type="checkbox" name="setting" value="1" data-empty-value="0"
+      data-global-event="change" data-action-navigate="$data=~s/$value/">
+
+Checkboxes used to send a particular value when being unchecked can be achieved by using
+:html:`data-empty-value="0"` - in case this attribute is omitted, an empty string `''` is sent.
 
 
 .. code-block:: html

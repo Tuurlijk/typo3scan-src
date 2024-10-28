@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-56633:
 
 ========================================================
 Feature: #56633 - Form protection API for frontend usage
@@ -24,8 +26,9 @@ Usage is the same as in backend context:
 	if ($dataHasBeenSubmitted
 		&& \TYPO3\CMS\Core\FormProtection\FormProtectionFactory::get()->validateToken(
 			\TYPO3\CMS\Core\Utility\GeneralUtility::_POST('formToken'),
-			'User setup',
-			'edit'
+			'news',
+			'edit',
+			$uid
 		)
 	) {
 		// Processes the data.

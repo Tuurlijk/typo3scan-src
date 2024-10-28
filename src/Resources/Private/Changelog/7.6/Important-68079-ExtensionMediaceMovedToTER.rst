@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-68079:
 
 ====================================================
 Important: #68079 - Extension "mediace" moved to TER

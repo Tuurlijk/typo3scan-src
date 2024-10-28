@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-73606:
 
 ====================================================================
 Deprecation: #73606 - Deprecate IconRegistry::getDeprecationSettings

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-87558:
 
 =============================================
 Breaking: #87558 - Consolidate extbase caches

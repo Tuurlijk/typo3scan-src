@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-92853:
 
 ============================================================
 Breaking: #92853 - Method canProcessRequest has been removed

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-54518:
 
 ===================================================
 Feature: #54518 - Provide TSconfig to link checkers

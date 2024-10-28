@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85027:
 
 ==============================================================
 Deprecation: #85027 - SaltedPasswordsUtility::isUsageEnabled()

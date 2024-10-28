@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94313:
 
 ===========================================
 Deprecation: #94313 - AbstractService class
@@ -45,7 +47,7 @@ to extend from :php:`AbstractAuthenticationService` instead.
 In case you currently extend :php:`AbstractService` for another kind of
 service, which is rather unlikely, you have to implement the necessary
 methods in your service class yourself. Please see `Service Implementation
-<https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/ApiOverview/Services/Developer/ServiceApi.html#service-implementation>`__
+<https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/ApiOverview/Services/Developer/ServiceApi.html#service-implementation>`__
 for more details about the required methods. However, even better would be to
 completely migrate away from the Service API (look for :php:`GeneralUtility::makeInstanceService()`),
 since the Core will deprecate these related methods as well.

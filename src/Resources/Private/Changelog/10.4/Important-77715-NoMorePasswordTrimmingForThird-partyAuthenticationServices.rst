@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-77715:
 
 =====================================================================================
 Important: #77715 - No more password trimming for third-party authentication services

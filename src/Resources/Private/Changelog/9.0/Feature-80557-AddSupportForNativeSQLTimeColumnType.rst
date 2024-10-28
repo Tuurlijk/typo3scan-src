@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-80557:
 
 =============================================================
 Feature: #80557 - Add support for native SQL time column type

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-66001:
 
 =================================================================================
 Breaking: #66001 - Third-party libraries installed via composer are now in vendor

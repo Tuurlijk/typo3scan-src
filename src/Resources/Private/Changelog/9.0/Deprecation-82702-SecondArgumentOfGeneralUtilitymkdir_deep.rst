@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-82702:
 
 =====================================================================
 Deprecation: #82702 - Second argument of GeneralUtility::mkdir_deep()

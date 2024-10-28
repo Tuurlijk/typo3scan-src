@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-67769:
 
 =========================================================
 Deprecation: #67769 - Deprecate QueryGenerator::formatQ()

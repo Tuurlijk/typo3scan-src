@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85451:
 
 ========================================================================
 Deprecation: #85451 - ContentObjectRenderer->calcIntExplode() deprecated

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72385:
 
 ===========================================================
 Breaking: #72385 - Removed deprecated code from DataHandler

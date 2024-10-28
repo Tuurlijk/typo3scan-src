@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72870:
 
 ==========================================================================
 Breaking: #72870 - Removed RTE transformation ts_preserve and preserveTags

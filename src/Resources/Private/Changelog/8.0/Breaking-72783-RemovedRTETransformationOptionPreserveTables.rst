@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72783:
 
 ===================================================================
 Breaking: #72783 - Removed RTE transformation option preserveTables

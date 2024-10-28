@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-79242:
 
 ==========================================
 Breaking: #79242 - Remove l10n_mode noCopy

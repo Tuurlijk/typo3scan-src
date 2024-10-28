@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-64637:
 
 ================================================================================
 Breaking: #64637 - Compatibility CSS Styled Content TypoScript templates removed
@@ -13,11 +15,11 @@ Description
 CSS Styled Content ships compatibility TypoScript templates for being compatible with older versions. For TYPO3 CMS 7,
 all templates to render a compatibility frontend for the following versions have been removed without substitution.
 
- * TYPO3 CMS 6.1
- * TYPO3 CMS 6.0
- * TYPO3 CMS 4.7
- * TYPO3 CMS 4.6
- * TYPO3 CMS 4.5
+* TYPO3 CMS 6.1
+* TYPO3 CMS 6.0
+* TYPO3 CMS 4.7
+* TYPO3 CMS 4.6
+* TYPO3 CMS 4.5
 
 Impact
 ======

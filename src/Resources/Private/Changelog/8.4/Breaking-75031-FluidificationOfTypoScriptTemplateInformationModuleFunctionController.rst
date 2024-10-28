@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-75031:
 
 ==========================================================================================
 Breaking: #75031 - Fluidification of TypoScriptTemplateInformationModuleFunctionController

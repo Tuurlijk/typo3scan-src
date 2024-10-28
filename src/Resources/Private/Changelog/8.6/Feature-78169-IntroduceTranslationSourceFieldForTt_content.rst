@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-78169:
 
 =====================================================================
 Feature: #78169 - Introduce "Translation Source" field for tt_content
@@ -39,12 +41,12 @@ Difference between `translationSource` and other existing fields
 
 See following test scenarios to see how data is handled in details.
 
-  - :code:`\TYPO3\CMS\Core\Tests\Functional\DataHandling\Regular\Modify\ActionTest::localizeContent`
-  - :code:`\TYPO3\CMS\Core\Tests\Functional\DataHandling\Regular\Modify\ActionTest::localizeContentFromNonDefaultLanguage`
-  - :code:`\TYPO3\CMS\Core\Tests\Functional\DataHandling\Regular\Modify\ActionTest::copyContentToLanguage`
-  - :code:`\TYPO3\CMS\Core\Tests\Functional\DataHandling\Regular\Modify\ActionTest::copyPage`
-  - :code:`\TYPO3\CMS\Core\Tests\Functional\DataHandling\Regular\Modify\ActionTest::copyPageFreeMode`
-  - :code:`\TYPO3\CMS\Core\Tests\Functional\DataHandling\Regular\Modify\ActionTest::localizePage`
+- :code:`\TYPO3\CMS\Core\Tests\Functional\DataHandling\Regular\Modify\ActionTest::localizeContent`
+- :code:`\TYPO3\CMS\Core\Tests\Functional\DataHandling\Regular\Modify\ActionTest::localizeContentFromNonDefaultLanguage`
+- :code:`\TYPO3\CMS\Core\Tests\Functional\DataHandling\Regular\Modify\ActionTest::copyContentToLanguage`
+- :code:`\TYPO3\CMS\Core\Tests\Functional\DataHandling\Regular\Modify\ActionTest::copyPage`
+- :code:`\TYPO3\CMS\Core\Tests\Functional\DataHandling\Regular\Modify\ActionTest::copyPageFreeMode`
+- :code:`\TYPO3\CMS\Core\Tests\Functional\DataHandling\Regular\Modify\ActionTest::localizePage`
 
 
 Impact

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-59646:
 
 ================================================
 Feature: #59646 - Add TSFE property $requestedId

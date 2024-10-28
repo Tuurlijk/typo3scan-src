@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-66047:
 
 =======================================================
 Feature: #66047 - Introduce JavaScript notification API

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-85947:
 
 =========================================
 Feature: #85947 - Page based URL handling

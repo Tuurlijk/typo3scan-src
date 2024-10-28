@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-80186:
 
 ================================================================
 Feature: #80186 - Add HTML5 elements and improve the form editor
@@ -22,8 +24,8 @@ The form editor contains new selectable form elements
 * :html:`url` (HTML5)
 * :html:`number` (HTML5)
 
-The server side 'TYPO3\CMS\Extbase\Validation\Validator\NumberValidator' validator can be used.
------------------------------------------------------------------------------------------------
+The server side 'TYPO3\\CMS\\Extbase\\Validation\\Validator\\NumberValidator' validator can be used.
+----------------------------------------------------------------------------------------------------
 
 .. code-block:: yaml
 

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-91738:
 
 ======================================================
 Feature: #91738 - Introduce wrapper for sessionStorage

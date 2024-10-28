@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-80866:
 
 ===================================================================
 Feature: #80866 - Allow exclusion of records in localization wizard

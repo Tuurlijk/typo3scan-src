@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94762:
 
 ==========================================================
 Deprecation: #94762 - Deprecate JavaScript top.fsMod state

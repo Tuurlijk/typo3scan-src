@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-89142:
 
 ============================================================================
 Feature: #89142 - Create site configuration if page is created on root level

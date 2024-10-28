@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-83167:
 
 =======================================================================================
 Deprecation: #83167 - Replace @validate with @TYPO3\\CMS\\Extbase\\Annotation\\Validate

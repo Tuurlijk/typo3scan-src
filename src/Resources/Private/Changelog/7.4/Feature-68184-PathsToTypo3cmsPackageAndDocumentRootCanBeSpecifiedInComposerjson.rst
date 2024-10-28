@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-68184:
 
 ================================================================================================
 Feature: #68184 - Paths to typo3/cms package and document root can be specified in composer.json

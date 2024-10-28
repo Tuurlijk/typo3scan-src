@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-46624-1668719172:
 
 ===============================================
 Feature: #46624 - Additional HMENU browse menus

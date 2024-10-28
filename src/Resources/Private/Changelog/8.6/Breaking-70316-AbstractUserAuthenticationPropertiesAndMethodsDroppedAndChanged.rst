@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-70316:
 
 ========================================================================================
 Breaking: #70316 - AbstractUserAuthentication properties and methods dropped and changed

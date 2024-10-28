@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-79647:
 
 ==============================================================
 Important: #79647 - Added Hook for resolving custom link types
@@ -41,7 +43,8 @@ An example implementation for custom links that use `myLinkIdentifier:` as a pre
             return;
          }
 
-         $parameters['result'] = ['myLinkIdentifier' => substr($parameters['urn'], 17)]
+         // Be aware: substr of 17 because of the identifier and the colon
+         $parameters['result'] = ['myLinkIdentifier' => substr($parameters['urn'], 17)];
          $parameters['result']['type'] = 'myLinkIdentifier';
       }
    }

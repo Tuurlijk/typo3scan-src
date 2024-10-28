@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-84466:
 
 ===========================================================
 Feature: #84466 - Request aware interfaces added to reports

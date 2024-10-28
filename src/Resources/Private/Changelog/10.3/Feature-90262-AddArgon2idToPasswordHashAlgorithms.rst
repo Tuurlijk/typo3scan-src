@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-90262:
 
 ===========================================================
 Feature: #90262 -  Add Argon2id to password hash algorithms

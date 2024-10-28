@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-73482:
 
 ===============================================================
 Deprecation: #73482 - $LANG->csConvObj and $LANG->parserFactory

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-81171:
 
 ================================================================================
 Breaking: #81171 - Edit ability of TypoScript template in EXT:tstemplate removed

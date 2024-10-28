@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-92238:
 
 ==========================================================
 Breaking: #92238 - Service injection in Extbase validators
@@ -10,9 +12,16 @@ Description
 ===========
 
 With the deprecation and removal of objectManager usage in TYPO3, Extbase does not
-use the objectManager to create validator instances any more. Since validators
-have an internal state (prototypes) they must not have services injected.
+use the objectManager to create validator instances any more.
 
+.. note::
+
+    This has been mitigated with recent TYPO3 v11 core releases: Extbase validators
+    can use dependency injection again. See :doc:`this changelog <../11.5.x/Important-96332-ExtbaseValidatorsCanUseDependencyInjection>`
+    for details.
+    Additionally, all validators delivered by EXT:extbase and EXT:form will be marked
+    :php:`final` in v12. Extensions can no longer extend validators but must extend abstract
+    classes or implement the interfaces directly.
 
 Impact
 ======

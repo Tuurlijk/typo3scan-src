@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-81651:
 
 =============================================================
 Deprecation: #81651 - Argument parameters in list module hook

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-81430:
 
 ====================================================================
 Deprecation: #81430 - TypoScriptTemplateModuleController::renderList

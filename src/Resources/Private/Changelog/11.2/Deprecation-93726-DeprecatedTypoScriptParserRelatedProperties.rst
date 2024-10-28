@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-93726:
 
 ====================================================================
 Deprecation: #93726 - Deprecated TypoScriptParser related properties

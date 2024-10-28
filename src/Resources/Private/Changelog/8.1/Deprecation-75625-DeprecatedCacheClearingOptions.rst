@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-75625:
 
 =======================================================
 Deprecation: #75625 - Deprecated cache clearing options

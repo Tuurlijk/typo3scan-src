@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-76166:
 
 ==============================================================
 Important: #76166 - X-UA-Compatible not set in backend anymore

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-83094-1668719172:
 
 ===============================================
 Deprecation: #83094 - Annotation @flushesCaches

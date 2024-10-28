@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-90115:
 
 ======================================================
 Feature: #90115 - Add support for Kinyarwanda language

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94619:
 
 ===========================================
 Deprecation: #94619 - Extbase ObjectManager

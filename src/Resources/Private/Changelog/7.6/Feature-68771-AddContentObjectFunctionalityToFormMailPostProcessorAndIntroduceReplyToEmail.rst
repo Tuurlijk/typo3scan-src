@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-68771:
 
 ======================================================================================================
 Feature: #68771 - Add contentObject functionality to form MailPostProcessor and introduce replyToEmail

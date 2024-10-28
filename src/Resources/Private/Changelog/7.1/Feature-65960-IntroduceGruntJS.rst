@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-63729-1668719172:
 
 ===================================
 Feature: #63729 - Introduce GruntJS
@@ -18,7 +20,7 @@ files of the backend skin.
 
 The build files are located in the *Build* folder located in the root directory.
 
-For detailed informations about setting up GruntJS please head to http://gruntjs.com/.
+For detailed information about setting up GruntJS please head to http://gruntjs.com/.
 
 
 Initial setup

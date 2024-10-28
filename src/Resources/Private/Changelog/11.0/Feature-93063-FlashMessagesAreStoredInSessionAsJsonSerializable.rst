@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-93063:
 
 =========================================================================
 Feature: #93063 - FlashMessages are stored in session as JsonSerializable

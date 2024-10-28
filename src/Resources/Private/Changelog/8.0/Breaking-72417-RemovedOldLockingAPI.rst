@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72417:
 
 ==========================================
 Breaking: #72417 - Removed old locking API

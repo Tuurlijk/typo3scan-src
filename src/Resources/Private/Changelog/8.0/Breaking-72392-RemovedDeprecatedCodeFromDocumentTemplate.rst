@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72392:
 
 ================================================================
 Breaking: #72392 - Removed deprecated code from DocumentTemplate

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-69794-1668719172:
 
 ============================================================
 Feature: #69794 - Support pecl-memcached in MemcachedBackend

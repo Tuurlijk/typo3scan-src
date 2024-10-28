@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77209:
 
 ===============================================
 Breaking: #77209 - Adapt default RECORDS tables
@@ -10,8 +12,8 @@ See :issue:`77209`
 Description
 ===========
 
-The value of the constant :ts:`styles.content.shortcut.tables` which is set by
-EXT:fluid_styled_content has been changed from :ts:`tt_content,tt_address,tt_news,tx_news_domain_model_news` to :ts:`tt_content`.
+The value of the constant :typoscript:`styles.content.shortcut.tables` which is set by
+EXT:fluid_styled_content has been changed from :typoscript:`tt_content,tt_address,tt_news,tx_news_domain_model_news` to :typoscript:`tt_content`.
 
 
 Impact
@@ -29,6 +31,6 @@ Installations which use shortcut to records of the tables tt_address, tt_news an
 Migration
 =========
 
-Adopt the TS and use :ts:`styles.content.shortcut.tables := addToList(tt_address,tt_news,tx_news_domain_model_news)`
+Adopt the TS and use :typoscript:`styles.content.shortcut.tables := addToList(tt_address,tt_news,tx_news_domain_model_news)`
 
 .. index:: TypoScript, Frontend

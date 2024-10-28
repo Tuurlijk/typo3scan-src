@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84326:
 
 ==============================================================================
 Deprecation: #84326 - Protected methods and properties in FileUploadController

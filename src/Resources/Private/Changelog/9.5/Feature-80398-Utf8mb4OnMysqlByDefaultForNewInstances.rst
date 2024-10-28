@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-80398:
 
 ===============================================================
 Feature: #80398 - utf8mb4 on mysql by default for new instances

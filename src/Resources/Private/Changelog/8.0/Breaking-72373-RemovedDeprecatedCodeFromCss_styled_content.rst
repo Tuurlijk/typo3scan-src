@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72373:
 
 ==================================================================
 Breaking: #72373 - Removed deprecated code from css_styled_content

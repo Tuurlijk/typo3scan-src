@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79420:
 
 =======================================================
 Feature: #79420 - Hide files from list of documentation

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-79327:
 
 ===========================================================================
 Deprecation: #79327 - Deprecate AbstractUserAuthentication::veriCode method

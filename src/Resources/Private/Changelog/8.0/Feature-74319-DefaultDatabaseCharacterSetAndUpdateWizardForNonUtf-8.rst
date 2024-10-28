@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-74319:
 
 ================================================================================
 Feature: #74319 - Default database character set and update wizard for non UTF-8

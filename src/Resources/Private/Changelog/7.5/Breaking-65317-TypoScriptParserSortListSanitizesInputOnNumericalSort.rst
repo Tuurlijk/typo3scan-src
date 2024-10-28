@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-65317:
 
 ==============================================================================
 Breaking: #65317 - TypoScriptParser sortList sanitizes input on numerical sort

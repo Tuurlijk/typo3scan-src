@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-66588:
 
 ==================================================================================================
 Deprecation: #66588 - POST Data in selectviewhelper should have higher priority than "value" value

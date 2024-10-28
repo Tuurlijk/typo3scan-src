@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84133:
 
 ===============================================================================
 Deprecation: #84133 - Deprecate _isHiddenFormElement and _isReadOnlyFormElement

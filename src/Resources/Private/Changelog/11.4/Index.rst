@@ -1,4 +1,5 @@
-.. include:: ../../Includes.txt
+:template: changelogOverview.html
+.. include:: /Includes.rst.txt
 
 ============
 11.4 Changes

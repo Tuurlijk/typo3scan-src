@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-79622-1668719195:
 
 ========================================================================
 Breaking: #79622 - CSS Styled Content Bullet Content Element Adjustments

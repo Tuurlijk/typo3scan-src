@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-60019:
 
 ===============================================================================
 Feature: #60019 - New SplFileInfo implementation with new mimeTypeGuessers hook

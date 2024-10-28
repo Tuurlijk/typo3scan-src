@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85086:
 
 ========================================================
 Deprecation: #85086 - GeneralUtility::arrayToLogString()

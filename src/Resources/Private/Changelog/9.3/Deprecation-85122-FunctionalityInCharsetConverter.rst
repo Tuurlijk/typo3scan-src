@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85122:
 
 =======================================================
 Deprecation: #85122 - Functionality in CharsetConverter

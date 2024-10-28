@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-88770:
 
 ==============================================
 Feature: #88770 - PSR-14 based EventDispatcher

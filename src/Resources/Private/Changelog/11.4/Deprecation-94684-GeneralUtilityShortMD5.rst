@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94684:
 
 ================================================
 Deprecation: #94684 - GeneralUtility::shortMD5()

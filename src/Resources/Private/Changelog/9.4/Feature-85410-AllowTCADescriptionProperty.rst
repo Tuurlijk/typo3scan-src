@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-85410:
 
 ================================================
 Feature: #85410 - Allow TCA description property

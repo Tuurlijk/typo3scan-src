@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-92736:
 
 =================================================================
 Important: #92736 - Return timestamp as integer in DateTimeAspect

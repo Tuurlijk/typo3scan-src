@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72476:
 
 ================================================================
 Breaking: #72476 - PHP Constant TYPO3_PROCEED_IF_NO_USER removed

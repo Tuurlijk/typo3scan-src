@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-77481:
 
 =====================================================================
 Feature: #77481 - Add possibility to define a favicon for the backend

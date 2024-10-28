@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85462-1668719172:
 
 =====================================================
 Deprecation: #85462 - Signal 'hasInstalledExtensions'

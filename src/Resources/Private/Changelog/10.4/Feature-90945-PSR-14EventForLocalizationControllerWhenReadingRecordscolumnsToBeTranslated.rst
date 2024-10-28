@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-90945:
 
 =======================================================================================================
 Feature: #90945 - PSR-14 event for LocalizationController when reading records/columns to be translated

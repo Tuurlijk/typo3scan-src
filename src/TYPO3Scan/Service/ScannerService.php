@@ -56,6 +56,7 @@ class ScannerService
         $this->setMatcherBundlePath();
 
         switch ($version) {
+            case '13':
             case '12':
             case '11':
             case '10':

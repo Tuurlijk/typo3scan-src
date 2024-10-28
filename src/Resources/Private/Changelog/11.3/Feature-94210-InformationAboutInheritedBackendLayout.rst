@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94210:
 
 ============================================================
 Feature: #94210 - Information about inherited backend layout

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85980:
 
 ==============================================================
 Deprecation: #85980 - @internal annotation in extbase commands

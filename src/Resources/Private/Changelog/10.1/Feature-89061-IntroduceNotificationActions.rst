@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-89061:
 
 ================================================
 Feature: #89061 - Introduce Notification Actions
@@ -56,7 +58,7 @@ Example:
 
    const immediateActionCallback = new ImmediateAction(function () {
      require(['TYPO3/CMS/Backend/ModuleMenu'], function (ModuleMenu) {
-       ModuleMenu.showModule('web_layout');
+       ModuleMenu.App.showModule('web_layout');
      });
    });
 

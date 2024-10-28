@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-68917:
 
 =========================================
 Important: #68917 - Updated jQuery to 2.x

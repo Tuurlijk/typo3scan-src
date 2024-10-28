@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-66789:
 
 =========================================================
 Deprecation: #66789 - options deprecated in CshViewHelper

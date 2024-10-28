@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-92497:
 
 ========================================================
 Breaking: #92497 - Workspaces: Move Placeholders removed

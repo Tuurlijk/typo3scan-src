@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-88602:
 
 ==============================================================
 Feature: #88602 - Allow registering additional file processors
@@ -36,4 +38,4 @@ Examples for custom implementations might be:
 * compress uploaded pdf files into zip archives
 * store images that should be cropped at a separate position in the target storage
 
-.. index:: Backend, ext:core, fal
+.. index:: Backend, ext:core, FAL

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-78523:
 
 ==============================================================================
 Feature: #78523 - Suggest wizard provides option to define ordering of results

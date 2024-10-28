@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-84159:
 
 ======================================================
 Feature: #84159 - Extract admin panel to own extension

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-91030:
 
 ================================================
 Deprecation: #91030 - Runtime-Activated Packages

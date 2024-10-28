@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-65111:
 
 ===================================
 Deprecation: #65111 - getDynTabMenu

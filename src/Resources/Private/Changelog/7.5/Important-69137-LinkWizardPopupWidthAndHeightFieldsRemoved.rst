@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-69137:
 
 =====================================================================
 Important: #69137 - Link Wizard popup width and height fields removed

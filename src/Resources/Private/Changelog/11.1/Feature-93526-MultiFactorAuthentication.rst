@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-93526:
 
 =============================================
 Feature: #93526 - Multi-Factor Authentication

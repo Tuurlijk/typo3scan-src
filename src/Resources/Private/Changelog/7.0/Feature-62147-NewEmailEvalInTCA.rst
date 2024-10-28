@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-62147:
 
 ===============================================
 Feature: #62147 - New eval option in TCA: email

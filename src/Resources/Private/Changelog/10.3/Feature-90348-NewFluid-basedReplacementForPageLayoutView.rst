@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-90348:
 
 ============================================================
 Feature: #90348 - Fluid-based replacement for PageLayoutView
@@ -86,7 +88,7 @@ Properties on :html:`{backendLayout}` include:
 Impact
 ======
 
-* A new setting :php:`$GLOBALS['TYPO3_CONF_VARS']['BE']['fluidPageModule']` has been introduced, enabled by default, which allows switching to the legacy :php:`PageLayoutView`.
+* A new feature setting :php:`$GLOBALS['TYPO3_CONF_VARS']['SYS']['features']['fluidBasedPageModule']` has been introduced, enabled by default, which allows switching to the legacy :php:`PageLayoutView`.
 * By default, a new set of objects and extended methods on :php:`BackendLayout` now provide a completely Fluid-based implementation of the "page" BE module.
 
 .. index:: Backend, Fluid, ext:backend

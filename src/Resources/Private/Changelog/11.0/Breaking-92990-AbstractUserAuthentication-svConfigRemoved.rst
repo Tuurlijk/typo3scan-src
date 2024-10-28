@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-92990:
 
 ===============================================================
 Breaking: #92990 - AbstractUserAuthentication->svConfig removed

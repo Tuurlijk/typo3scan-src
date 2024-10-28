@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-88681:
 
 =====================================================================
 Breaking: #88681 - Import of PHP files in Import/Export files removed

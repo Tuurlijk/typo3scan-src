@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-68131:
 
 ==========================================================
 Breaking: #68131 - Streamline error and exception handling

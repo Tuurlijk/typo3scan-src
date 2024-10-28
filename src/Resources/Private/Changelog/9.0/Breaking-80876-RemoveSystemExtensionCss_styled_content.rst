@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-80876:
 
 =============================================================
 Breaking: #80876 - Remove system extension css_styled_content
@@ -32,7 +34,7 @@ depending on CSS Styled Content rendering instead of default rendering.
 Migration
 =========
 
-The system extension "Fluid Styled Content" (EXT:fluid_styled_content) which was introduced in TYPO3 v7, 
+The system extension "Fluid Styled Content" (EXT:fluid_styled_content) which was introduced in TYPO3 v7,
 acts as a drop-in replacement for CSS Styled Content since TYPO3 v8.
 
 Install fluid styled content (if not happened yet) and prepare the Fluid templates to show the frontend

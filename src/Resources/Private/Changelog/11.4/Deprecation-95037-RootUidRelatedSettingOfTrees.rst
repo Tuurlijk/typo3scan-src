@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-95037:
 
 ======================================================
 Deprecation: #95037 - rootUid related setting of trees

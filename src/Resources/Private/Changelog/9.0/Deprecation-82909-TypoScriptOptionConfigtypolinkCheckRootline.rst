@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-82909:
 
 ====================================================================
 Deprecation: #82909 - TypoScript option config.typolinkCheckRootline
@@ -9,7 +11,7 @@ See :issue:`82909`
 Description
 ===========
 
-The TypoScript option :ts:`config.typolinkCheckRootline` is now always active.
+The TypoScript option :typoscript:`config.typolinkCheckRootline` is now always active.
 
 
 Impact

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-76349:
 
 =====================================================================
 Feature: #76349 - Integrate Swift Mailer's spool transport into TYPO3

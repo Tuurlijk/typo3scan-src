@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-86193:
 
 ======================================================================
 Deprecation: #86193 - Protect methods in AbstractLinkBrowserController

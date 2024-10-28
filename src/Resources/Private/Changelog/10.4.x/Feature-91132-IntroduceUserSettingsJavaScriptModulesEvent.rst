@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-91132:
 
 ==================================================================
 Feature: #91132 - Introduce User Settings JavaScript Modules Event
@@ -12,7 +14,7 @@ Description
 JavaScript events in custom User Settings Configuration options shall
 not be placed as inline JavaScript anymore, but utilize a dedicated
 JavaScript module to handle custom events
-(see :ref:`Important #91132 <changelog-Important-91132-AvoidJavaScriptInUserSettingsConfigurationOptions>`)
+(see :doc:`Important-91132-AvoidJavaScriptInUserSettingsConfigurationOptions`)
 
 This new PSR-14 event is introduced:
 
@@ -75,6 +77,6 @@ A listener using mentioned PSR-14 event could look like the following.
 Related
 =======
 
-- :ref:`changelog-Important-91132-AvoidJavaScriptInUserSettingsConfigurationOptions`
+- :doc:`Important-91132-AvoidJavaScriptInUserSettingsConfigurationOptions`
 
 .. index:: PHP-API, ext:core

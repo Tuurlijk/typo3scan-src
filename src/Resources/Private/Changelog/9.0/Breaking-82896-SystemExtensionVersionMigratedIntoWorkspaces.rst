@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-82896:
 
 ========================================================================
 Breaking: #82896 - System extension "version" migrated into "workspaces"

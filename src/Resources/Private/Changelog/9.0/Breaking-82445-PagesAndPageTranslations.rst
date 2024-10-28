@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-82445:
 
 ==============================================
 Breaking: #82445 - Pages and page translations

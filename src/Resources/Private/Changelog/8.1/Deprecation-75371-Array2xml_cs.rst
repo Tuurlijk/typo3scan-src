@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-75371:
 
 ==================================
 Deprecation: #75371 - array2xml_cs
@@ -24,13 +26,13 @@ Affected Installations
 
 All installations with third party extensions using this method are affected.
 
-
 Migration
 =========
 
 Use :php:`GeneralUtility::array2xml()` instead. The XML declaration must be written manually.
 
 Example code:
+
 .. code-block:: php
 
    // Deprecated

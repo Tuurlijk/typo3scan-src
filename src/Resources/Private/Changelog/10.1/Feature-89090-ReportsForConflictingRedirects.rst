@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-89090:
 
 ===================================================
 Feature: #89090 - Reports for conflicting redirects

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-93038:
 
 ==================================================
 Deprecation: #93038 - ReferenceIndex runtime cache

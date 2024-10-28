@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-82899:
 
 ========================================================
 Deprecation: #82899 - ExtensionManagementUtility methods
@@ -16,7 +18,7 @@ The following methods have been marked as deprecated in :php:`ExtensionManagemen
 * :php:`removeCacheFiles()`
 
 Additionally the second method parameter of :php:`ExtensionManagementUtility::isLoaded()` to
-throw a exception when an extension is not loaded, has been marked as deprecated, and should not
+throw an exception when an extension is not loaded, has been marked as deprecated, and should not
 be used anymore.
 
 

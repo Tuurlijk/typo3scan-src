@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-24186:
 
 ========================================================================================================================
 Breaking: #24186 - HTMLparser - fixAttrib.['class'].list does not assign first element, when attribute value not in list

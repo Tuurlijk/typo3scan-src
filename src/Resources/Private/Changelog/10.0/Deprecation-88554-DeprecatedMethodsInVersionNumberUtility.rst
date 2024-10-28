@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-88554:
 
 ================================================================
 Deprecation: #88554 - Deprecated methods in VersionNumberUtility

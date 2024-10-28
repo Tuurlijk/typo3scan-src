@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-64190:
 
 ==================================================================
 Feature: #64190 - Inline rendering for FormEngine Checkbox Element

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94991:
 
 ==========================================
 Deprecation: #94991 - Extbase AbstractView

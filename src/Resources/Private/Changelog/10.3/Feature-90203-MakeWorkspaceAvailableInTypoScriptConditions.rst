@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-90203:
 
 ===================================================================
 Feature: #90203 - Make workspace available in TypoScript conditions
@@ -9,17 +11,17 @@ See :issue:`90203`
 Description
 ===========
 
-A new TypoScript expression language variable :ts:`workspace` has been added.
+A new TypoScript expression language variable :typoscript:`workspace` has been added.
 It can be used to match a given expression against common workspace parameters.
 
-Currently, the parameters :ts:`workspaceId`, :ts:`isLive` and :ts:`isOffline` are supported.
+Currently, the parameters :typoscript:`workspaceId`, :typoscript:`isLive` and :typoscript:`isOffline` are supported.
 
 Examples
 --------
 
 Match the current workspace id:
 
-.. code-block:: ts
+.. code-block:: typoscript
 
    [workspace.workspaceId === 3]
        # Current workspace id equals: 3
@@ -27,7 +29,7 @@ Match the current workspace id:
 
 Match against current workspace state:
 
-.. code-block:: ts
+.. code-block:: typoscript
 
    [workspace.isLive]
        # Current workspace is live

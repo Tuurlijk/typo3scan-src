@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-80154:
 
 =============================================
 Feature: #80154 - Retrieve session data in TS

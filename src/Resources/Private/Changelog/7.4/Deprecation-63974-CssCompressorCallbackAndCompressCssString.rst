@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-63974:
 
 ==============================================================
 Deprecation: #63974 - Deprecate CSS compressor callback method

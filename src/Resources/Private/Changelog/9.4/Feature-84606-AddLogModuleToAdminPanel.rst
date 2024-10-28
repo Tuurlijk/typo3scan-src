@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-84606:
 
 ==============================================
 Feature: #84606 - Add Log Module to AdminPanel

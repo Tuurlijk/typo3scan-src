@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-73794:
 
 ===============================================
 Breaking: #73794 - renderCharset option removed

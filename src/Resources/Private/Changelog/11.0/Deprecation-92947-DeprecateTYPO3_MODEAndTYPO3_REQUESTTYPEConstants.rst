@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-92947:
 
 ================================================================
 Deprecation: #92947 - TYPO3_MODE and TYPO3_REQUESTTYPE constants
@@ -155,6 +157,8 @@ Before::
 
 After::
 
+    use TYPO3\CMS\Core\Http\ApplicationType;
+    ...
     if (ApplicationType::fromRequest($request)->isFrontend()) {
         ...
     }

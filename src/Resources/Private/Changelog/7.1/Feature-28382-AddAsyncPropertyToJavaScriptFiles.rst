@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-28382:
 
 ========================================================
 Feature: #28382 - Add async property to JavaScript files

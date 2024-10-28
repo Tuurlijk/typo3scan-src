@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79225:
 
 ===========================================
 Feature: #79225 - Plugin preview with Fluid

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-61668:
 
 ========================================================================
 Feature: #61668 - Video and audio playback in backend record information

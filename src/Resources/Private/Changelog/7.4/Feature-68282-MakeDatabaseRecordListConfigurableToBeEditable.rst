@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-68282:
 
 =====================================================================
 Feature: #68282 - Make DatabaseRecordList configurable to be editable

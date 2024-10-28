@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-95009:
 
 ===================================================================================================
 Deprecation: #95009 - Passing TypoScript configuration as constructor argument to Exception handler

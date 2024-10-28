@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-79777:
 
 =================================================================
 Breaking: #79777 - EXT:scheduler - Deleted column for tasks added
@@ -9,7 +11,7 @@ See :issue:`79777`
 Description
 ===========
 
-Instead of deleting the record directly in the database, a a "deleted" column was added for ``tx_scheduler_task``
+Instead of deleting the record directly in the database, a "deleted" column was added for ``tx_scheduler_task``
 in a way to have developers / admins revive a task later-on.
 
 

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-85164-1668719172:
 
 ==========================================================================
 Feature: #85164 - Available languages respects site configuration settings

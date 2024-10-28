@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77814:
 
 ===============================================================
 Breaking: #77814 - Remove feature subsearch from indexed search
@@ -12,7 +14,7 @@ Description
 The feature subsearch which enabled the possibility to append previously searched words to the current
 query was removed.
 
-The option TypoScript :ts:`plugin.tx_indexedsearch.clearSearchBox` has been removed.
+The option TypoScript :typoscript:`plugin.tx_indexedsearch.clearSearchBox` has been removed.
 
 
 Impact

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-83256:
 
 =====================================================
 Breaking: #83256 - Removed lockFilePath functionality
@@ -39,7 +41,7 @@ Affected Installations
 ======================
 
 Any installation using the PHP method/property or having config.lockFilePath set to a specific non-FAL folder,
-and using :ts:`stdWrap.filelist` functionality.
+and using :typoscript:`stdWrap.filelist` functionality.
 
 
 Migration

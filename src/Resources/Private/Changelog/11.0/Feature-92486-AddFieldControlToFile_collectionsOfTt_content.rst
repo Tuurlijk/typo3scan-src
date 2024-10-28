@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-92486:
 
 =====================================================================
 Feature: #92486 - Add field control to file_collections of tt_content

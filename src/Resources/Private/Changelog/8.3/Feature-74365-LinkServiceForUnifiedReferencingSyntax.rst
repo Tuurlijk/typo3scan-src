@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-74365:
 
 ================================================================
 Feature: #74365 - Add Linkservice for unified referencing syntax

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-69736:
 
 =============================================================
 Deprecation: #69736 - Select option iconsInOptionTags removed

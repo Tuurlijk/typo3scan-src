@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-76084:
 
 ======================================================================
 Important: #76084 - Move install tool modules into backend module menu

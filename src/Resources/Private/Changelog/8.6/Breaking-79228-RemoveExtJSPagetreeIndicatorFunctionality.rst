@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-79228:
 
 ================================================================
 Breaking: #79228 - Remove ExtJS Pagetree indicator functionality

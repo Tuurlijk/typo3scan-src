@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-62854:
 
 =========================================================
 Deprecation: #62854 - Abstractplugin->pi_list_searchBox()

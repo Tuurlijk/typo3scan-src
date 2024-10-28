@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-61821:
 
 ==================================================================
 Breaking: #61821 - classFile option in makeInstanceService removed

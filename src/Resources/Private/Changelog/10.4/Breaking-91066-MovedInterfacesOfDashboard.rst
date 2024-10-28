@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-91066:
 
 ===============================================
 Breaking: #91066 - Move interfaces of Dashboard

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-78872:
 
 ==================================================================================
 Deprecation: #78872 - Deprecate method LocalizationController::getRecordUidsToCopy

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-76259-1668719195:
 
 =====================================================================
 Breaking: #76259 - Signature of getResult() in PageLayoutView changed

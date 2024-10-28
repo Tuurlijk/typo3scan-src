@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-69863:
 
 =================================================================
 Feature: #69863 - Use new standalone Fluid as composer dependency

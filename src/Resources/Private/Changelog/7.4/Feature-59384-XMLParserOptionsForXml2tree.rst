@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-59384:
 
 ===================================================
 Feature: #59384 - XML parser options for xml2tree()

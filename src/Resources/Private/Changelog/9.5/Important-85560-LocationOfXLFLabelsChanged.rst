@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-85560:
 
 ==================================================
 Important: #85560 - Location of XLF labels changed

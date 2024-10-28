@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-53542:
 
 =============================================================
 Breaking: #53542 - Removal of deprecated code in sysext fluid

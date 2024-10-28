@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-93188:
 
 ==========================================================
 Feature: #93188 - Possibility to disable hreflang per page

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-75637:
 
 =======================================================================================
 Deprecation: #75637 - Deprecate optional parameters of RecyclerUtility::getRecordPath()

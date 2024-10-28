@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77137-1668719172:
 
 ================================================
 Breaking: #77137 - JavaScript API of RTE changed
@@ -51,6 +53,6 @@ buildButtonConfig
    The method takes now two additional arguments: `active` and `severity`. The parameter `active` is a boolean
    value and declares the button being either active or not. The parameter `severity` is an integer representing the
    severity of the button. This should always represent the severity of the modal, use one of the severities defined in
-   :javascript:`TYPO3/CMS/Backend/Severity`.
+   :js:`TYPO3/CMS/Backend/Severity`.
 
 .. index:: JavaScript, RTE, Backend

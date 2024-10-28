@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77081:
 
 ===================================================================================
 Breaking: #77081 - Removed TCA tree options: width, allowRecursiveMode, autoSizeMax

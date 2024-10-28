@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-92457:
 
 ===================================================
 Feature: #92457 - Improved Extension Repository API

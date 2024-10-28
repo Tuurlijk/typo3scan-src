@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-87748:
 
 ===================================
 Feature: #87748 - Add SiteProcessor

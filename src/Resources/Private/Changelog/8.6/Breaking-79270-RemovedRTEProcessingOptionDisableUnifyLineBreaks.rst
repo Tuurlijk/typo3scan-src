@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-79270:
 
 =======================================================================
 Breaking: #79270 - Removed RTE processing option disableUnifyLineBreaks
@@ -9,7 +11,7 @@ See :issue:`79270`
 Description
 ===========
 
-The RTE option that could be set via PageTSconfig :ts:`RTE.default.proc.disableUnifyLineBreaks` has been removed.
+The RTE option that could be set via PageTSconfig :typoscript:`RTE.default.proc.disableUnifyLineBreaks` has been removed.
 
 The option was never set by default.
 

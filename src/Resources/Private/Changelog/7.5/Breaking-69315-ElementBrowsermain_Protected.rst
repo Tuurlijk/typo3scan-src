@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-69315:
 
 ===================================================
 Breaking: #69315 - ElementBrowser::main_* protected

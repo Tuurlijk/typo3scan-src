@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-51482:
 
 ==========================================
 Deprecation: #51482 - Script-based modules

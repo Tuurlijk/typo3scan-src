@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-92338:
 
 ================================================================
 Feature: #92338 - Allow link text wrapping in TypolinkViewhelper

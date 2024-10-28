@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-81901:
 
 =================================================================
 Breaking: #81901 - Changed behavior of auto-completion appearance

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-76383:
 
 =======================================
 Deprecation: #76383 - Deprecate fontTag
@@ -12,8 +14,8 @@ Description
 
 Font tags are not used any more in HTML since years.
 
-- :php:`ContentObjectRenderer::stdWrap_fontTag()`
-- :ts:`stdWrap.fontTag``
+-  :php:`ContentObjectRenderer::stdWrap_fontTag()`
+-  :typoscript:`stdWrap.fontTag``
 
 
 Impact
@@ -32,6 +34,6 @@ Migration
 =========
 
 Update HTML to not output font tags. Use CSS instead. In case you really want to use the font tag,
-it can be created by :ts:`stdWrap.wrap`.
+it can be created by :typoscript:`stdWrap.wrap`.
 
 .. index:: Frontend, PHP-API, TypoScript

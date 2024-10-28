@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-84715:
 
 ==============================================================
 Important: #84715 - Set exclude property for tt_content fields

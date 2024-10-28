@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79622-1668719233:
 
 ==================================================================
 Feature: #79622 - Introducing Table Class for Fluid Styled Content

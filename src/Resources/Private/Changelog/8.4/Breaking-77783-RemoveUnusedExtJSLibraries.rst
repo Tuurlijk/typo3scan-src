@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77783:
 
 ============================================================
 Breaking: #77783 - Removed unused ExtJS JavaScript libraries

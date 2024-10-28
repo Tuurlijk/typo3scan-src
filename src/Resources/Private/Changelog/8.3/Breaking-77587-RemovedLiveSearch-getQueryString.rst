@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77587:
 
 =====================================================
 Breaking: #77587 - Removed LiveSearch->getQueryString

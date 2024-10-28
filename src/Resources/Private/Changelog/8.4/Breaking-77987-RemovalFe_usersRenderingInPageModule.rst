@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77987:
 
 ============================================================
 Breaking: #77987 - Removal fe_users rendering in page module

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-82680:
 
 =======================================================================
 Breaking: #82680 - Removed option to generate PNGs limited to 64 colors

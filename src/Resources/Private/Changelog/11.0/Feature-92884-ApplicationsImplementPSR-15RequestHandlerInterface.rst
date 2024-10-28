@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-92884:
 
 =======================================================================
 Feature: #92884 - Applications implement PSR-15 RequestHandlerInterface

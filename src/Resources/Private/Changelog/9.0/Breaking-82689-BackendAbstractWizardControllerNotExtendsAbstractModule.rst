@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-82689:
 
 ==============================================================================
 Breaking: #82689 - Backend AbstractWizardController not extends AbstractModule

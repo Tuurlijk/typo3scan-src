@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-77502:
 
 =============================================================
 Deprecation: #77502 - Extbase: pre-parsing of queries removed

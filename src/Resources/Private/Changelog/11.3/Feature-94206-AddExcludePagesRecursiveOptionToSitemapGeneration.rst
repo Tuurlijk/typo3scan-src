@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94206:
 
 ============================================================================
 Feature: #94206 - Add excludePagesRecursive option to XML sitemap generation

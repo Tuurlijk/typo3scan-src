@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-52131:
 
 ========================================================
 Feature: #52131 - Hook for end of PageRepository->init()

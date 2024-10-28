@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-82315:
 
 ==============================================================
 Deprecation: #82315 - Deprecate bin/typo3 lang:language:update
@@ -29,7 +31,7 @@ that need to be adjusted.
 Migration
 =========
 
-Use :shell:`bin/typo3 language:update` instead.
+Use :bash:`bin/typo3 language:update` instead.
 
 Notice that multiple language ISO codes must be separated by spaces instead of commas::
 

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94367:
 
 ==============================================
 Deprecation: #94367 - Extbase ReferringRequest

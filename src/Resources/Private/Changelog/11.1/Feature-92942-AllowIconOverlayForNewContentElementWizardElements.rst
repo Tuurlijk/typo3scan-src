@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-92942:
 
 =========================================================================
 Feature: #92942 - Allow icon overlay for newContentElementWizard elements

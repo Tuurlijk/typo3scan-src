@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-76804:
 
 =======================================================================
 Deprecation: #76804 - Deprecate GeneralUtility::strtoupper & strtolower

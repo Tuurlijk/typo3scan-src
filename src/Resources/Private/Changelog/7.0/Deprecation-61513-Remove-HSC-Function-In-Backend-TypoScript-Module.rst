@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-61513:
 
 ============================================================================
 Deprecation: #61513 - Use native htmlspecialchars in ExtendedTemplateService

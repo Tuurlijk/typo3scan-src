@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-63603-1668719172:
 
 ============================================================================
 Deprecation: #63603 - ExtendedFileUtility::$dontCheckForUnique is deprecated

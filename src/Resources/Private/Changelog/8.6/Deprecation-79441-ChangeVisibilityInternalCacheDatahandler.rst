@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-79441:
 
 ==================================================================
 Deprecation: #79441 - Deprecate visibility internal caching arrays

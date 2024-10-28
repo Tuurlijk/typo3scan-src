@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-78524:
 
 ===============================================================
 Deprecation: #78524 - TCA option versioning_followPages removed

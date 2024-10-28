@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-73352:
 
 ========================================================
 Deprecation: #73352 - Deprecate old-school AJAX requests

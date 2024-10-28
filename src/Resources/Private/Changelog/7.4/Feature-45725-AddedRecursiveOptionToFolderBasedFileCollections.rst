@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-45725:
 
 =========================================================================
 Feature: #45725 - Added recursive option to folder based file collections

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-83942:
 
 =================================================================
 Feature: #83942 - Provide ViewHelper to render icon for resources

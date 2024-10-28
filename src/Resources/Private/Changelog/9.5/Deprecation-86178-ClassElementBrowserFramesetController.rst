@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-86178:
 
 ============================================================
 Deprecation: #86178 - Class ElementBrowserFramesetController

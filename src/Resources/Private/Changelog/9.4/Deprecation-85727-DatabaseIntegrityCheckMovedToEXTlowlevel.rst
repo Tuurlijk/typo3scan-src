@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85727:
 
 ==================================================================
 Deprecation: #85727 - DatabaseIntegrityCheck moved to EXT:lowlevel

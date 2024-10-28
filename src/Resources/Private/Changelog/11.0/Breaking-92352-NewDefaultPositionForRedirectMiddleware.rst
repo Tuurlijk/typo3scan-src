@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-92352:
 
 ===============================================================
 Breaking: #92352 - New default position for redirect middleware

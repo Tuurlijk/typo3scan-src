@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-89150:
 
 ================================================================================
 Feature: #89150 - Add events before and after rollback of record history entries

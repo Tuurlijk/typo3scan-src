@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85300:
 
 ==================================================
 Deprecation: #85300 - DataHandler resorting method

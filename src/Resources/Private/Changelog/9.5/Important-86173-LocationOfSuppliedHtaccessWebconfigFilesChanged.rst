@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-86173:
 
 =============================================================================
 Important: #86173 - Location of supplied .htaccess / web.config files changed

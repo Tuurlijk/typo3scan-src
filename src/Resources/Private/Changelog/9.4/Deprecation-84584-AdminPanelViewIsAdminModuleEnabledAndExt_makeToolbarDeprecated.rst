@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84584:
 
 =========================================================================================
 Deprecation: #84584 - AdminPanelView: isAdminModuleEnabled and ext_makeToolbar deprecated

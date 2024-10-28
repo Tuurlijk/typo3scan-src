@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77137:
 
 ==============================================
 Breaking: #77137 - RTE option "colors" removed

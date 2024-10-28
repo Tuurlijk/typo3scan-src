@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-95105:
 
 ======================================================
 Feature: #95105 - New PSR-14 DatabaseRecordList events

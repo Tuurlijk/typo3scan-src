@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72361-1668719172:
 
 ======================================================================
 Breaking: #72361 - Removed deprecated methods in ContentObjectRenderer

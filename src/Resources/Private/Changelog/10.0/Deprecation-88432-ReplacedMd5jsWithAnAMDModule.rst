@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-88432:
 
 ========================================================
 Deprecation: #88432 - Replaced md5.js with an AMD module

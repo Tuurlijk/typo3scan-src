@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77762:
 
 =========================================================
 Breaking: #77762 - Extensions dbal and adodb moved to TER

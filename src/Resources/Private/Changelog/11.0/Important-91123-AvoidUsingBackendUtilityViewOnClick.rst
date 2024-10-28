@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-91123:
 
 ===========================================================
 Important: #91123 - Avoid using BackendUtility::viewOnClick

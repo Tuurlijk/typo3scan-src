@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-64286:
 
 =============================================================================
 Feature: #64286 - Added absolute url option to uri.image and image viewHelper

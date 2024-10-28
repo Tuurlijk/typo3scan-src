@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-88907:
 
 =========================================================================
 Feature: #88907 - Always enable filter in SelectMultipleSideBySide fields

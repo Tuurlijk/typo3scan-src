@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-82091:
 
 ==============================================================
 Feature: #82091 - Allow inline rendering in SVG content object
@@ -11,7 +13,7 @@ Description
 
 The SVG content object supports a new option to render a SVG file as :html:`<svg>` tag.
 The new setting :typoscript:`renderMode` can be set to `inline` to render an inline version of the SVG file.
-The :ts:`renderMode` property additionally has :ts:`stdWrap` capabilities.
+The :typoscript:`renderMode` property additionally has :typoscript:`stdWrap` capabilities.
 
 .. code-block:: typoscript
 

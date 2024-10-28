@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-84420:
 
 ==========================================================
 Important: #84420 - Properly escape reserved chars in YAML

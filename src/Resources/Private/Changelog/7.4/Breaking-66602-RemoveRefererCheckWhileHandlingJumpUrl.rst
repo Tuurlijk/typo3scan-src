@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-66602:
 
 =========================================================
 Breaking: #66602 - Check jumpUrl referer has been removed

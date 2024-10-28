@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-69369:
 
 ===================================================================
 Deprecation: #69369 - Use property text instead of data in ext:form

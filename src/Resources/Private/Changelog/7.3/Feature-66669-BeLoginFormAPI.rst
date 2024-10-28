@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-66669:
 
 ===================================
 Feature: #66669 - BE login form API

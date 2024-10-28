@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-90370:
 
 =================================================================
 Feature: #90370 - Use Egulias\EmailValidator for email validation

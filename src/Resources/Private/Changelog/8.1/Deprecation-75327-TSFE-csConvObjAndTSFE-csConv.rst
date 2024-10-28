@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-75327:
 
 ==========================================================
 Deprecation: #75327 - $TSFE->csConvObj and $TSFE->csConv()

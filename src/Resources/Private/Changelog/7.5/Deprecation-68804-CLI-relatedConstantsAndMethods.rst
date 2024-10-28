@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-68804:
 
 =======================================================
 Deprecation: #68804 - CLI-related constants and methods

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94590:
 
 ======================================================================
 Feature: #94590 - Allow icon identifiers in report module registration

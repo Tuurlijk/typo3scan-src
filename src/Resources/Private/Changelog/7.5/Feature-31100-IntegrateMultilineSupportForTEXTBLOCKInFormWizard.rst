@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-31100:
 
 ===================================================================================
 Feature: #31100 - ext:form Integrate multiline support for TEXTBLOCK in form wizard

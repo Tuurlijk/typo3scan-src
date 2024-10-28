@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-69512:
 
 ===============================================================
 Feature: #69512 - Support \*.typoscript files as text file type

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-57382:
 
 ===============================================
 Breaking: #57382 - Remove old flash message API

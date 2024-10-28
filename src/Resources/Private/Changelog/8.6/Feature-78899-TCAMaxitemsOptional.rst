@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-78899:
 
 =======================================
 Feature: #78899 - TCA maxitems optional

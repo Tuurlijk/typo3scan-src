@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-52217:
 
 =================================================================
 Feature: #52217 - Signal for pre processing linkvalidator records

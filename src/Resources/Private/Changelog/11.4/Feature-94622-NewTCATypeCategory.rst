@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94622:
 
 =========================================
 Feature: #94622 - New TCA type "category"
@@ -34,7 +36,7 @@ only have to configure the TCA column and add it to the desired record types.
    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes($myTable, 'categories');
 
 The above example does not contain the new option :php:`relationship`
-since the the default is :php:`manyToMany`. All possible values are:
+since the default is :php:`manyToMany`. All possible values are:
 
 * :php:`oneToOne`: Stores the uid of the selected category. When using this
   relationship, :php:`maxitems=1` will automatically be added to the column configuration
@@ -71,8 +73,8 @@ It's possible to use TSconfig options, such as
 implemented for this type. For such special cases, please continue using TCA
 type :php:`select`.
 
-The Override matrix - specifying the options which can be overridden in TSconfig
-- is extended for the new type. Following options can be overridden:
+The Override matrix - specifying the options which can be overridden in
+TSconfig - is extended for the new type. Following options can be overridden:
 
 * :php:`size`
 * :php:`maxitems`

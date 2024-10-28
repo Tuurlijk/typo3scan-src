@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-90249:
 
 ============================================================================
 Deprecation: #90249 - Package related Signal Slots migrated to PSR-14 events

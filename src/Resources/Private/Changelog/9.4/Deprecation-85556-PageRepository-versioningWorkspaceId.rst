@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85556:
 
 ===========================================================
 Deprecation: #85556 - PageRepository->versioningWorkspaceId

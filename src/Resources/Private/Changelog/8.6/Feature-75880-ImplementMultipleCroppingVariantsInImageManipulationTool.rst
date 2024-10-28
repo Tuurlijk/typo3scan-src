@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-75880:
 
 =================================================================================
 Feature: #75880 - Implement multiple cropping variants in image manipulation tool

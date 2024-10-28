@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-21638:
 
 ================================================
 Feature: #21638 - Introduced IP locking for IPv6

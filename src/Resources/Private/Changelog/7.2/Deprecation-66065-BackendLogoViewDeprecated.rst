@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-66065:
 
 ==================================================
 Deprecation: #66065 - Backend Logo View Deprecated

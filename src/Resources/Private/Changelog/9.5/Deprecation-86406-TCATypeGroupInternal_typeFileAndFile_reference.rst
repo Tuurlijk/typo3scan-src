@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-86406:
 
 ==========================================================================
 Deprecation: #86406 - TCA type group internal_type file and file_reference

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-56213:
 
 ===================================================================
 Feature: #56213 - Allow sorting file list by file meta data "title"

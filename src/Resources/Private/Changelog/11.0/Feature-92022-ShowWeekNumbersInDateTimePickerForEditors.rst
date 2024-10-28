@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-92022:
 
 ==================================================================
 Feature: #92022 - Show week numbers in DateTimePicker for editors

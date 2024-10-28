@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-68746:
 
 ======================================================
 Feature: #68746 - Add annotation for CLI only commands

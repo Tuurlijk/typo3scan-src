@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-92838:
 
 ========================================================
 Breaking: #92838 - Additional workspace services dropped

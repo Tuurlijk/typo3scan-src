@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-64131:
 
 ====================================================
 Breaking: #64131 - Resizable Textarea option removed

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-91740:
 
 =====================================================
 Breaking: #91740 - Deprecated icon identifier removed

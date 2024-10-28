@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84222:
 
 ========================================================
 Deprecation: #84222- Usage of GridContainer form element

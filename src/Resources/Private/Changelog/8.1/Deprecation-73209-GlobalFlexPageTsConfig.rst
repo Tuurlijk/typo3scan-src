@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-73209:
 
 ===================================================
 Deprecation: #73209 - Deprecated flex page TSConfig

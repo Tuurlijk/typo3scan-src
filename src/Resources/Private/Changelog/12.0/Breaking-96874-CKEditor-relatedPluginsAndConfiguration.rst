@@ -36,49 +36,46 @@ or relying on a specific logic to save data with specific contents
 Migration
 =========
 
-In general, it is advised to read the CKEditor 4 to 5 migration to understand the
-conceptual changes, also related to plugins - read more here:
-https://ckeditor.com/docs/ckeditor5/latest/installation/getting-started/migration-from-ckeditor-4.html#plugins
+In general, it is advised to read the `CKEditor 4 to 5 migration <https://ckeditor.com/docs/ckeditor5/latest/installation/getting-started/migration-from-ckeditor-4.html#plugins>`__
+to understand the conceptual changes, also related to plugins.
 
 Writing a custom plugin for CKEditor 5 can be done in TypeScript or JavaScript,
-using the CKEditor5 plugin system [https://ckeditor.com/docs/ckeditor5/latest/installation/advanced/plugins.html].
+using the `CKEditor5 plugin system <https://ckeditor.com/docs/ckeditor5/latest/installation/advanced/plugins.html>`__.
 
-Example - A timestamp plugin which adds a toolbar item to add the current timestamp
-into the editor.
+Example - A timestamp plugin :js:`@my-vendor/my-package/timestamp-plugin.js`
+which adds a toolbar item to add the current timestamp into the editor.
 
 ..  code-block:: javascript
 
-    import {Core, UI} from '@typo3/ckeditor5-bundle';
+    import { Plugin } from '@ckeditor/ckeditor5-core';
+    import { ButtonView } from '@ckeditor/ckeditor5-ui';
 
-    import {EditorWithUI} from '@ckeditor/ckeditor5-core/src/editor/editorwithui';
+    export class Timestamp extends Plugin {
+      static pluginName = 'Timestamp';
 
-    // @todo Remove this class, it's just used as test plugin
-    export default class Timestamp extends Core.Plugin {
-      static readonly pluginName = 'Timestamp';
-
-      init(): void {
-        const editor = this.editor as EditorWithUI;
+      init() {
+        const editor = this.editor;
 
         // The button must be registered among the UI components of the editor
         // to be displayed in the toolbar.
         editor.ui.componentFactory.add(Timestamp.pluginName, () => {
           // The button will be an instance of ButtonView.
-          const button = new UI.ButtonView();
+          const button = new ButtonView();
 
-          button.set( {
+          button.set({
             label: 'Timestamp',
             withText: true
-          } );
+          });
 
-          //Execute a callback function when the button is clicked
+          // Execute a callback function when the button is clicked
           button.on('execute', () => {
             const now = new Date();
 
-            //Change the model using the model writer
+            // Change the model using the model writer
             editor.model.change(writer => {
 
-              //Insert the text at the user's current position
-              editor.model.insertContent(writer.createText( now.toString()));
+              // Insert the text at the user's current position
+              editor.model.insertContent(writer.createText(now.toString()));
             });
           });
 
@@ -89,10 +86,21 @@ into the editor.
 
 In the RTE configuration, this then needs to be added like this:
 
-..  code-block:: yaml
+.. code-block:: yaml
 
-    editor:
-       importModules:
-          - '@my-vendor/my-package/timestamp-plugin.js'
+  editor:
+    config:
+      importModules:
+        - { module: '@my-vendor/my-package/timestamp-plugin.js', exports: ['Timestamp'] }
+      toolbar:
+        items:
+          - bold
+          - italic
+          - '|'
+          - clipboard
+          - undo
+          - redo
+          - '|'
+          - timestamp
 
 .. index:: RTE, NotScanned, ext:rte_ckeditor

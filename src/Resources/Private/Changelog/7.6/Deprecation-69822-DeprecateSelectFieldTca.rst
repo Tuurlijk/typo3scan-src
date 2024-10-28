@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-69822:
 
 =============================================================
 Deprecation: #69822 - Deprecate TCA settings of select fields

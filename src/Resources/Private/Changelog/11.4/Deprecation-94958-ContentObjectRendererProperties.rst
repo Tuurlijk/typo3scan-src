@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94958:
 
 ======================================================
 Deprecation: #94958 - ContentObjectRenderer properties

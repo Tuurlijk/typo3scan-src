@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-73602:
 
 ===================================================
 Breaking: #73602 - Short-URL without ?id=ID removed

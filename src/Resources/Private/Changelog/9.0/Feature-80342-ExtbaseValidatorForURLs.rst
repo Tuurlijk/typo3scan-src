@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-80342:
 
 ============================================
 Feature: #80342 - Extbase validator for URLs

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94316:
 
 =======================================================================
 Deprecation: #94316 - HTTP header manipulating methods from HttpUtility
@@ -52,7 +54,7 @@ The usage is as following:
    return $reponse;
 
    // or throw PropagateResponseException
-   new PropagateResponseException($response);
+   throw new PropagateResponseException($response);
 
 .. note::
 

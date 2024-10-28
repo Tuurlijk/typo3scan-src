@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-80485:
 
 ============================================================================================
 Deprecation: #80485 - Method parameter of TSFE->whichWorkspace to return the workspace title

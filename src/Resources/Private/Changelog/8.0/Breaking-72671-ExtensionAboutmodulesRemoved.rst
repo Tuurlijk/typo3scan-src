@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72671:
 
 ===================================================
 Breaking: #72671 - Extension "aboutmodules" removed

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-86197:
 
 ==================================================
 Deprecation: #86197 - Protected FileListController

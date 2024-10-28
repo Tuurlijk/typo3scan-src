@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-69916-1668719172:
 
 ========================================================
 Breaking: #69916 - Hook ajaxSaveCode of t3editor changed

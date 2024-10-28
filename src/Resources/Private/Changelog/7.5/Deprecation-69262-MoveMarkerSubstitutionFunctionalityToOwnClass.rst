@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-69262:
 
 =========================================================================
 Deprecation: #69262 - Move marker substitution functionality to own class

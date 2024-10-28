@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-70078:
 
 ======================================================================
 Feature: #70078 - Extensions can provide a class map for class loading

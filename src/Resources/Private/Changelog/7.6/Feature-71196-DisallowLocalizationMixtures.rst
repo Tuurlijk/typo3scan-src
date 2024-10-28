@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-71196:
 
 ================================================
 Feature: #71196 - Disallow localization mixtures

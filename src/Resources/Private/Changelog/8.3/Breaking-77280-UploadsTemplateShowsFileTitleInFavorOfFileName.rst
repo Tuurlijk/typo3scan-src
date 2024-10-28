@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77280:
 
 ==========================================================================
 Breaking: #77280 - Uploads template shows file title in favor of file name

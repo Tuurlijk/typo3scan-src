@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-89054:
 
 =======================================================================
 Feature: #89054 - Provide core cache frontends via dependency injection

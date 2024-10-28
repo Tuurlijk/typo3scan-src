@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-95034:
 
 ============================================================
 Feature: #95034 - List views: Select a row by clicking on it

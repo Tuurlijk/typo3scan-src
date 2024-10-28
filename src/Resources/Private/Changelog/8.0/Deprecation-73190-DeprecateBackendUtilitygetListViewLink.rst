@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-73190:
 
 =================================================================
 Deprecation: #73190 - Deprecate BackendUtility::getListViewLink()

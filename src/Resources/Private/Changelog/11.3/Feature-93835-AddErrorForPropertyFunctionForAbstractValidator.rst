@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-93835:
 
 ====================================================================
 Feature: #93835 - AddErrorForProperty function for AbstractValidator

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94345:
 
 =========================================
 Feature: #94345 - Auto-detect event types

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-75806:
 
 ======================================
 Feature: #75806 - Add hreflang support

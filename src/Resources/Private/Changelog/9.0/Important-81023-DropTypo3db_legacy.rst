@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-81023:
 
 ===========================================
 Important: #81023 - Drop EXT:typo3db_legacy

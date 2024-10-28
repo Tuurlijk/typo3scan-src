@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-86629:
 
 =============================================================
 Feature: #86629 - Implement LinkHandler for telephone numbers

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79240:
 
 ==================================================
 Feature: #79240 - Single cli user for cli commands

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-82334:
 
 =====================================
 Breaking: #82334 - AbstractRecordList

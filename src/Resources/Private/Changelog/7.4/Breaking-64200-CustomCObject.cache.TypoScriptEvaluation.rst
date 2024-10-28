@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-64200:
 
 =================================================================
 Breaking: #64200 - Custom [cObject].cache.* TypoScript evaluation

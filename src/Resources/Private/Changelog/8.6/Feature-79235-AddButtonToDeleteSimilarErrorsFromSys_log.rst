@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79235:
 
 ==================================================================
 Feature: #79235 - Add button to delete similar errors from sys_log

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79216:
 
 =========================================================
 Feature: #79216 - Add YAML configuration for CKEditor RTE

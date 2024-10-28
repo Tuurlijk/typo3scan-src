@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79467:
 
 ======================================================================
 Feature: #79467 - EXT:form - add form settings button to module header

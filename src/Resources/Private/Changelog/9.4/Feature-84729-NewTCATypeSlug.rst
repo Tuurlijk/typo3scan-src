@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-84729:
 
 =====================================
 Feature: #84729 - New TCA type "slug"

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-84549:
 
 =============================================================
 Deprecation: #84549 - Deprecate methods in CoreVersionService

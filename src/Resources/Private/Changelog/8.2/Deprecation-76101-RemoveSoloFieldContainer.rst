@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-76101:
 
 ===============================================
 Deprecation: #76101 - remove SoloFieldContainer

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-92206:
 
 ========================================================
 Breaking: #92206 - Remove workspace swapping of elements

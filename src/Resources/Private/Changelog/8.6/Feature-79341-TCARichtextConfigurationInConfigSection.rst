@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79341:
 
 ==============================================================
 Feature: #79341 - TCA richtext configuration in config section

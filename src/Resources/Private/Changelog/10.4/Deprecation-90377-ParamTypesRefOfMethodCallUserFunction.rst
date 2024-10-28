@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-90377:
 
 =================================================================
 Deprecation: #90377 - Param types $ref of method callUserFunction

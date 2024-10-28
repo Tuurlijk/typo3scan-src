@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-86338:
 
 ===============================================================
 Deprecation: #86338 - Change visibility of PageRepository->init

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-57594:
 
 ============================================================
 Breaking: #57594 - Optimize ReflectionService Cache handling

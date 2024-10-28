@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-95077:
 
 ================================================
 Feature: #95077 - New PSR-14 ModifyFileDumpEvent

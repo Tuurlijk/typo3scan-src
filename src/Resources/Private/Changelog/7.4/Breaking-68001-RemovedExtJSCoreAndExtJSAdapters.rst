@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-68001:
 
 ========================================================
 Breaking: #68001 - Removed ExtJS Core and ExtJS Adapters

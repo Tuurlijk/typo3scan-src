@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-88792:
 
 ======================================================================
 Deprecation: #88792 - forceTemplateParsing in TSFE and TemplateService

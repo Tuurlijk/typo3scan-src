@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-93436:
 
 ========================================================
 Feature: #93436 - Introduce cache:warmup console command
@@ -46,7 +48,7 @@ symlink based deployment/release procedures. This enables fast first requests
 with all (or at least system) caches being prepared and warmed.
 
 Caches are often filesystem relevant (filepaths are calculated into cache
-hashes), therefore cache warmup should only be performed on the the live system,
+hashes), therefore cache warmup should only be performed on the live system,
 in the *final* folder of a new release, and ideally before switching
 to that new release (via symlink switch). Note that caches that have be
 pre-created in CI will likely be useless as cache hashes will not match.

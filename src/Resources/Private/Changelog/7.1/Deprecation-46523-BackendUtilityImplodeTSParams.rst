@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-46523:
 
 =======================================================
 Deprecation: #46523 - BackendUtility::implodeTSParams()

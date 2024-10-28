@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-66823:
 
 ================================================================================
 Deprecation: #66823 - Deprecate Extbase ExtensionUtility->configureModule method

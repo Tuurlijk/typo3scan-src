@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-68354:
 
 ==============================================================================
 Breaking: #68354 - Uniform extension directory structure of EXT:indexed_search

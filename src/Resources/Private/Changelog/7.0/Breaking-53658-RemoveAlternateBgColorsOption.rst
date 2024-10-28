@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-53658:
 
 ===================================================
 Breaking: #53658 - option alternateBgColors removed

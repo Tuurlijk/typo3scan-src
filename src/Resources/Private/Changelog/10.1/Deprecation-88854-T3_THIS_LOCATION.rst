@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-88854-1668719172:
 
 ======================================
 Deprecation: #88854 - T3_THIS_LOCATION

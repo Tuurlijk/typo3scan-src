@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-68092:
 
 =================================================================
 Breaking: #68092 - TCA: Remove wizard hideParent and _HIDDENFIELD

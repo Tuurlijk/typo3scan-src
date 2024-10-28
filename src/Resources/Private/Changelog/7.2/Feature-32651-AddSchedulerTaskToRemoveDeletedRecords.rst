@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-32651:
 
 ==============================================================
 Feature: #32651 - Add scheduler task to remove deleted records

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79883:
 
 ===========================================================================
 Feature: #79883 - Add cropVariant support to TypoScript rendering of images

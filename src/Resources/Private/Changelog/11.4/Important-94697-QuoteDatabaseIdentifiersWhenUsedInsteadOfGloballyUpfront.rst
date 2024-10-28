@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-94697:
 
 ====================================================================================
 Important: #94697 - Quote database identifiers when used instead of globally upfront

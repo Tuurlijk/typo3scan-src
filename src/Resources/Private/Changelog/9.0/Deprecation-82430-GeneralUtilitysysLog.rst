@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-82430:
 
 ============================================
 Deprecation: #82430 - GeneralUtility::sysLog

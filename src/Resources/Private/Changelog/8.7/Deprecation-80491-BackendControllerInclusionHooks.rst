@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-80491:
 
 =======================================================
 Deprecation: #80491 - BackendController inclusion hooks

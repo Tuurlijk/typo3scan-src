@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-69855:
 
 ======================================================
 Feature: #69855 - Dispatcher for Backend Routing added

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-71916:
 
 ===================================================
 Deprecation: #71916 - LanguageService->makeEntities

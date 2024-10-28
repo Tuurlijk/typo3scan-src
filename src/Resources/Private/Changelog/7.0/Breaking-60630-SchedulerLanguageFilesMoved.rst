@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-60630:
 
 =================================================
 Breaking: #60630 - Scheduler Language Files Moved

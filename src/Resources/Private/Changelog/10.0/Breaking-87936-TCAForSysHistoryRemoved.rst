@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-87936:
 
 ==============================================
 Breaking: #87936 - TCA for sys_history removed

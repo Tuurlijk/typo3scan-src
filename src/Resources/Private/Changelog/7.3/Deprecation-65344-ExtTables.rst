@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-65344:
 
 ========================================================
 Deprecation: #65344 - typo3conf/extTables.php deprecated

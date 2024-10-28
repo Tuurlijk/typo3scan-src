@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-89742:
 
 =================================
 Deprecation: #89742 - Form mixins

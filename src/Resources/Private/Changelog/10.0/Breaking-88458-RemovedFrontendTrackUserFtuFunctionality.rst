@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-88458:
 
 ==================================================================
 Breaking: #88458 - Removed Frontend Track User "ftu" functionality

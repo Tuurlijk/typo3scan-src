@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-62595:
 
 ===========================================
 Breaking: #62595 - Remove SU change-to mode

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77453-1668719172:
 
 =====================================================================
 Breaking: #77453 - Signature of AbstractPlugin::pi_exec_query changed

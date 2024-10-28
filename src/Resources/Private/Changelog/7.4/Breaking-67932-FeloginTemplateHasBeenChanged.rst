@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-67932:
 
 =======================================================================
 Breaking: #67932 - felogin template has been changed for RSA encryption

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-85393:
 
 ====================================================================================================
 Important: #85393 - Extension Manager only imports extensions compatible with TYPO3 v7 LTS or higher

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-65938:
 
 ===============================================================
 Deprecation: #65938 - Discourage usage of "$TSFE->anchorPrefix"

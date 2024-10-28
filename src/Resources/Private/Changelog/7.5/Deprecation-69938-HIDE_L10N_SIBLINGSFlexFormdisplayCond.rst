@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-69938:
 
 ============================================================
 Deprecation: #69938 - HIDE_L10N_SIBLINGS FlexFormdisplayCond

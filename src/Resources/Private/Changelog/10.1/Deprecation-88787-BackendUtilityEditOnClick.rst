@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-88787:
 
 =================================================
 Deprecation: #88787 - BackendUtility::editOnClick

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-79227:
 
 ===================================================
 Breaking: #79227 - Removed ExtDirect State Provider
@@ -9,9 +11,9 @@ See :issue:`79227`
 Description
 ===========
 
-The ExtDirect based State Provider for ExtJS applications (endpoint :javascript:`TYPO3.ExtDirectStateProvider.ExtDirect`) has been removed.
+The ExtDirect based State Provider for ExtJS applications (endpoint :js:`TYPO3.ExtDirectStateProvider.ExtDirect`) has been removed.
 
-The ExtDirect endpoint :javascript:`TYPO3.ExtDirectStateProvider.ExtDirect` is no longer available.
+The ExtDirect endpoint :js:`TYPO3.ExtDirectStateProvider.ExtDirect` is no longer available.
 
 The following PHP classes have been removed:
 

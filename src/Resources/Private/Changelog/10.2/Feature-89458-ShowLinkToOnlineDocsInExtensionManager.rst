@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-89458:
 
 ===============================================================
 Feature: #89458 - Show link to online docs in extension manager

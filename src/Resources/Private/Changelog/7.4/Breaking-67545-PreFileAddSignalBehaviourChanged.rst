@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-67545:
 
 ======================================================
 Breaking: #67545 - PreFileAdd signal behaviour changed

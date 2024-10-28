@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-80079:
 
 ======================================================================
 Deprecation: #80079 - Deprecated method Bootstrap::loadExtensionTables

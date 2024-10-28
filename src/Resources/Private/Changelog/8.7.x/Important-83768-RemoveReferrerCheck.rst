@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-83768-1668719172:
 
 =========================================
 Important: #83768 - Remove referrer check

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79402:
 
 =======================================================
 Feature: #79402 - New Fluid ViewHelper f:variable added

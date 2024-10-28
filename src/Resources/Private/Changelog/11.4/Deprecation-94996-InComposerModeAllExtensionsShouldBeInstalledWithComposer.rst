@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94996:
 
 ========================================================================================
 Deprecation: #94996 - In Composer Mode, all Extensions should be installed with Composer

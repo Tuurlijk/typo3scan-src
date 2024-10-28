@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-63310:
 
 ================================================
 Breaking: #63310 - Web=>Functions=>Wizards moved

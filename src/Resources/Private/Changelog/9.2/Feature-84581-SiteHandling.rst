@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-84581:
 
 =========================================
 Feature: #84581 - Introduce Site Handling
@@ -65,9 +67,9 @@ config.yaml
        title: 'danish'
        navigationTitle: Dansk
        base: /da/
-       locale: dk_DK.UTF-8
+       locale: da_DK.UTF-8
        iso-639-1: da
-       hreflang: dk-DK
+       hreflang: da-DK
        direction: ltr
        typo3Language: default
        flag: dk

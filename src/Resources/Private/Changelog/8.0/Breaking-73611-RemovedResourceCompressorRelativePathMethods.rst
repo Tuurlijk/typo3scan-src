@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-73611:
 
 ===================================================================
 Breaking: #73611 - Removed ResourceCompressor relative path methods

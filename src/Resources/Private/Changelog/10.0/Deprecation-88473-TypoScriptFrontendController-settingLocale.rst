@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-88473:
 
 =================================================================
 Deprecation: #88473 - TypoScriptFrontendController->settingLocale

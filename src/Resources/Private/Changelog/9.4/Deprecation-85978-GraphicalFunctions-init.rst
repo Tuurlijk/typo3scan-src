@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85978:
 
 ==============================================
 Deprecation: #85978 - GraphicalFunctions->init

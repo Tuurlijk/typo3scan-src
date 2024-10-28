@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85592:
 
 =========================================================
 Deprecation: #85592 - Deprecated site title configuration

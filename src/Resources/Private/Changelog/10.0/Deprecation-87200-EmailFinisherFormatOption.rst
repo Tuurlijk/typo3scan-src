@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-87200:
 
 ===================================================
 Deprecation: #87200 - EmailFinisher "format" option

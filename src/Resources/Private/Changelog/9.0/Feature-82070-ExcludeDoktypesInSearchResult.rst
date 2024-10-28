@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-82070:
 
 ============================================================================
 Feature: #82070 - Exclude doktypes in path of search result (indexed_search)

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94524:
 
 ===============================================================
 Feature: #94524 - Edit metadata for a file via the context menu

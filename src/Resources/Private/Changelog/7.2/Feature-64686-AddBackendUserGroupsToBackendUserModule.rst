@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-64686:
 
 ================================================================
 Feature: #64686 - Add backend user groups to backend user module

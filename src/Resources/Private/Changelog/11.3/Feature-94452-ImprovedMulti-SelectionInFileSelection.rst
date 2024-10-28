@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94452:
 
 ============================================================
 Feature: #94452 - Improved multi-selection in file selection

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-61820:
 
 =================================================================
 Breaking: #61820 - deprecated PhpOptionsUtility functions removed

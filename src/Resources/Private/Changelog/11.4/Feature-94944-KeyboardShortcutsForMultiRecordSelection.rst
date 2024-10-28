@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94944:
 
 ===============================================================
 Feature: #94944 - Keyboard shortcuts for multi record selection

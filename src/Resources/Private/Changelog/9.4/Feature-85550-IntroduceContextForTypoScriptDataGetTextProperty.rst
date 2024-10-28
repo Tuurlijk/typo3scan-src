@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-85550:
 
 ========================================================================
 Feature: #85550 - Introduce context for TypoScript data getText property
@@ -9,7 +11,7 @@ See :issue:`85550`
 Description
 ===========
 
-The new context API can now be accessed via the :ts:`getText` property in TypoScript.
+The new context API can now be accessed via the :typoscript:`getText` property in TypoScript.
 
 Example:
 

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-89139:
 
 ========================================================================
 Deprecation: #89139 - Console Commands configuration format Commands.php
@@ -50,9 +52,9 @@ to false to exclude the command from the TYPO3 scheduler.
         autoconfigure: true
         public: false
 
-      MyVendor\MyExt\Commands\FooCommand
+      MyVendor\MyExt\Command\FooCommand:
         tags:
-          - name: 'console.command',
+          - name: 'console.command'
             command: 'my:command'
             schedulable: false
 
@@ -61,7 +63,7 @@ The optional tag attribute :yaml:`alias` should be set to true for alias command
 
 .. code-block:: yaml
 
-      MyVendor\MyExt\Commands\BarCommand
+      MyVendor\MyExt\Command\BarCommand:
         tags:
           - name: 'console.command'
             command: 'my:bar'

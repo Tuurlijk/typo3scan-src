@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-64696:
 
 =====================================================================
 Breaking: #64696 - Content Element "search" moved to legacy extension

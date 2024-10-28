@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-83847:
 
 =============================================================================
 Feature: #83847 - Remove repaired links from Linkvalidator list after editing
@@ -14,7 +16,7 @@ on the edit icon for a broken link in order to edit the record directly.
 
 If the record was edited, the list of broken links may no longer be up to date.
 
-There are now 2 possibilities, depending on how :ref:`actionAfterEditRecord <actionAfterEditRecord>`
+There are now 2 possibilities, depending on how :php:`actionAfterEditRecord`
 is configured:
 
 recheck (default):

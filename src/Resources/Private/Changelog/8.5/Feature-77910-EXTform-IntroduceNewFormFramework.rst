@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-77910:
 
 =========================================================
 Feature: #77910 - EXT:form - introduce new form framework

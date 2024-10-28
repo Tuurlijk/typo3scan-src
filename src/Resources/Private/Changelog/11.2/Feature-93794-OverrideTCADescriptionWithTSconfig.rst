@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-93794:
 
 ========================================================
 Feature: #93794 - Override TCA description with TSconfig

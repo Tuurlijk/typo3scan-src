@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-72050:
 
 ============================================================================
 Important: #72050 - encapsLines does not render duplicate paragraphs anymore

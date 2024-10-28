@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-67297:
 
 ========================================================
 Deprecation: #67297 - MySQL / DBMS field type conversion

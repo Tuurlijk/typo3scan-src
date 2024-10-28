@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-80053:
 
 =================================================================================================
 Deprecation: #80053 - Extbase CLI Console Output different method signature for infinite attempts

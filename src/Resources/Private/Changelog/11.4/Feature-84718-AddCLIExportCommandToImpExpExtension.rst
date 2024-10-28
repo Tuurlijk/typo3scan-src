@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-84718:
 
 ======================================================
 Feature: #84718 - Add CLI export command to EXT:impexp
@@ -11,9 +13,9 @@ Description
 
 The new CLI command
 
--  :shell:`impexp:export`
+-  :bash:`impexp:export`
 
-was added as the missing twin of the existing CLI command :shell:`impexp:import`.
+was added as the missing twin of the existing CLI command :bash:`impexp:import`.
 
 The export command can be executed via
 

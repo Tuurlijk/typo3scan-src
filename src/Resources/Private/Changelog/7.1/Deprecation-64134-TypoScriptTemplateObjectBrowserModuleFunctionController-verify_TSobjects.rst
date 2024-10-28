@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-64134-1668719172:
 
 ===========================================================================================================
 Deprecation: #64134 - Deprecate TypoScriptTemplateObjectBrowserModuleFunctionController::verify_TSobjects()

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-60567:
 
 ==========================================================
 Feature: #60567 - Show Styles Segment in TS Object Browser

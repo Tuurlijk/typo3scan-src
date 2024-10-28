@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-87623:
 
 ==============================================================================
 Breaking: #87623 - Replace config.persistence.classes typoscript configuration
@@ -90,5 +92,9 @@ A few things are noteworthy here:
   then, one had to define a mapping by columns instead of properties, which means, the mapping directions was reversed,
   forcing you to map database table fields on properties. This was quite confusing and the configuration is now eased as
   one can always think in the model to table mapping direction.
+- The load order of these files is determined by the load order of extensions. If multiple extensions override mapping
+  configuration of the same extbase domain classes, extension load order should be specified by :file:`ext_emconf.php`
+  constraints or dependencies using the :php:`suggests` or :php:`depends` keywords. See
+  :ref:`ext_emconf.php file<t3coreapi:extension-declaration>` for details.
 
 .. index:: TypoScript, NotScanned, ext:extbase

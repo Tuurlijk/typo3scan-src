@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94956:
 
 ==================================
 Deprecation: #94956 - Public $cObj

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-77379:
 
 ===============================================
 Breaking: #77379 - Doctrine: Typo3DbQueryParser

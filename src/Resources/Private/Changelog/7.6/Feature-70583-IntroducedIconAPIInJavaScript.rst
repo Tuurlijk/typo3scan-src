@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-70583:
 
 ===================================================
 Feature: #70583 - Introduced Icon API in JavaScript

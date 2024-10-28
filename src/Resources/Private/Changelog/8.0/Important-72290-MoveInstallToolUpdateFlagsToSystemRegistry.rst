@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-72290:
 
 =====================================================================
 Important: #72290 - Move install tool update flags to system registry

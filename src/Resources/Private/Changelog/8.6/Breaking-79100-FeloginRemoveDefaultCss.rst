@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-79100:
 
 ==================================================
 Breaking: #79100 - ext:felogin: Remove default CSS
@@ -22,7 +24,7 @@ EXT:felogin doesn't add default CSS styles anymore.
 Affected Installations
 ======================
 
-All installations using EXT:felogin with default/non-overwritten :ts:`plugin.tx_felogin_pi1._CSS_DEFAULT_STYLE`
+All installations using EXT:felogin with default/non-overwritten :typoscript:`plugin.tx_felogin_pi1._CSS_DEFAULT_STYLE`
 TypoScript setup are affected.
 
 

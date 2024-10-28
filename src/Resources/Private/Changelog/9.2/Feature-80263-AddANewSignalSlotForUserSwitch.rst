@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-80263:
 
 =======================================================
 Feature: #80263 - Add a new signal slot for user switch

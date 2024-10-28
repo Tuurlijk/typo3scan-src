@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-88567:
 
 ============================================
 Deprecation: #88567 - $GLOBALS['LOCAL_LANG']

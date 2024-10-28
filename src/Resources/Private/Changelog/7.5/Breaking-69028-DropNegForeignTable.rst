@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-69028:
 
 ===========================================================
 Breaking: #69028 - TCA type select - Drop neg_foreign_table
@@ -13,11 +15,11 @@ Description
 
 The following `TCA` keys for `type` `select` have been dropped and are no longer handled by the core:
 
- * neg_foreign_table
- * neg_foreign_table_where
- * neg_foreign_table_prefix
- * neg_foreign_table_loadIcons
- * neg_foreign_table_imposeValueField
+* neg_foreign_table
+* neg_foreign_table_where
+* neg_foreign_table_prefix
+* neg_foreign_table_loadIcons
+* neg_foreign_table_imposeValueField
 
 These setting were used in `select` for comma separated value relations in addition to `foreign_table`
 to allow a second connected table. Relations for `neg_foreign_table` were stored as negative uids in the

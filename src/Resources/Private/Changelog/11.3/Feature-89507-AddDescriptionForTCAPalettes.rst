@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-89507:
 
 ==================================================
 Feature: #89507 - Add description for TCA palettes

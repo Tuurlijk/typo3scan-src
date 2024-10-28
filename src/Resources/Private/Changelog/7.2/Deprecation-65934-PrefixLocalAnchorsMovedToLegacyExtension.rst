@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-65934:
 
 ====================================================================================
 Deprecation: #65934 - "Prefix Local Anchors" functionality moved to legacy extension
@@ -16,16 +18,16 @@ the legacy extension EXT:compatibility6.
 
 The following TypoScript option has been marked for deprecation:
 
-.. code-block:: ts
+.. code-block:: typoscript
 
-	config.prefixLocalAnchors
+   config.prefixLocalAnchors
 
 The following PHP methods have been marked for deprecation:
 
 .. code-block:: php
 
-	TYPO3\CMS\Frontend\Controller\TypoScriptFrontendController::prefixLocalAnchorsWithScript()
-	TYPO3\CMS\Frontend\Controller\TypoScriptFrontendController::doLocalAnchorFix()
+   TYPO3\CMS\Frontend\Controller\TypoScriptFrontendController::prefixLocalAnchorsWithScript()
+   TYPO3\CMS\Frontend\Controller\TypoScriptFrontendController::doLocalAnchorFix()
 
 
 Impact

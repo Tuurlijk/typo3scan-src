@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-65422:
 
 ============================================================
 Deprecation: #65422 - Alias cObjects COBJ_ARRAY and CASEFUNC

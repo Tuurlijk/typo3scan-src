@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-89292:
 
 ==============================================================================
 Feature: #89292 - Add support for RecordHistory correlationId's to DataHandler

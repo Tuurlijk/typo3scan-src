@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-61800:
 
 ============================================================
 Feature: #61800 - Registry for adding file rendering classes

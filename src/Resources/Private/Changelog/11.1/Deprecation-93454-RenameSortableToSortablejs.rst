@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-93454:
 
 ===================================================
 Deprecation: #93454 - Rename Sortable to sortablejs

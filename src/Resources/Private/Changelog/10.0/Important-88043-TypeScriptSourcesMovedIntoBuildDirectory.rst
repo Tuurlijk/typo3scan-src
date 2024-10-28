@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-88043:
 
 =================================================================
 Important: #88043 - TypeScript sources moved into Build directory

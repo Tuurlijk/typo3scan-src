@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-89756:
 
 ===========================================================
 Deprecation: #89756 - BackendUtility::TYPO3_copyRightNotice

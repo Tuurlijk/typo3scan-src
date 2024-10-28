@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94664:
 
 =======================================
 Deprecation: #94664 - Pdo cache backend

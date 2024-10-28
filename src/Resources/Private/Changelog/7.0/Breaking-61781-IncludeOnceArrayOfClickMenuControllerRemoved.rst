@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-61781:
 
 ====================================================================
 Breaking: #61781 - include_once array in ClickMenuController removed

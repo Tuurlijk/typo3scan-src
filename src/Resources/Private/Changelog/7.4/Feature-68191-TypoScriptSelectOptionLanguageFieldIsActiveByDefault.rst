@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-68191:
 
 ==============================================================================
 Feature: #68191 - TypoScript .select option languageField is active by default

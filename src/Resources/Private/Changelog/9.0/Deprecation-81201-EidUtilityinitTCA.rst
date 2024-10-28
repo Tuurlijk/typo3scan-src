@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-81201:
 
 =========================================
 Deprecation: #81201 - EidUtility::initTCA

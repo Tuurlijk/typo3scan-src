@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-94953:
 
 ===============================================================
 Deprecation: #94953 - Edit panel related frontend functionality
@@ -66,4 +68,4 @@ can be integrated with stdWrap related hooks, the `EDITPANEL` cObj can be regist
 as extension provided content object, which obsoleted the use of the
 :php:`typo3/classes/class.frontendedit.php` hook.
 
-.. index:: Frontend, PHP-API, TypoScript, PartiallyScanned, EXT:frontend
+.. index:: Frontend, PHP-API, TypoScript, PartiallyScanned, ext:frontend

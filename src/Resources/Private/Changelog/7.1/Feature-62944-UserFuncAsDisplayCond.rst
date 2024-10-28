@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-62944:
 
 =========================================================
 Feature: #62944 - UserFunc available as Display Condition

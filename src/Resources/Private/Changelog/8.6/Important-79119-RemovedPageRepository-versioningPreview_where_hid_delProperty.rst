@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-79119:
 
 ====================================================================================
 Important: #79119 - Removed PageRepository->versioningPreview_where_hid_del property

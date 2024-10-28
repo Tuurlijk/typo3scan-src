@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-62960:
 
 ==================================================
 Feature: #62960 - Signal for mailer initialization

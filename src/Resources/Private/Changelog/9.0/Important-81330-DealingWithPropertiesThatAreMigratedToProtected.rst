@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-81330-1668719172:
 
 ===============================================================
 Feature: #81330 - Dealing with properties that become protected

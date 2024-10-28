@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-78193:
 
 ==============================================================
 Deprecation: #78193 - ExtensionManagementUtility::extRelPath()

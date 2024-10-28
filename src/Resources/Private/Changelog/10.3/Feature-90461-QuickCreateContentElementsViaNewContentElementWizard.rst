@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-90461:
 
 ===========================================================================
 Feature: #90461 - Quick-Create Content Elements via NewContentElementWizard
@@ -37,7 +39,7 @@ This definition can be put into PageTSconfig (e.g. :file:`EXT:my_extension/Confi
                    CType = my_element
                    header = Hello my friend
                }
-               saveAndClose = true
+               saveAndClose = 1
            }
        }
    }

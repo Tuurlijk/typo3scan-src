@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-89747:
 
 ============================================================
 Feature: #89747 - Custom tables with record browser in forms

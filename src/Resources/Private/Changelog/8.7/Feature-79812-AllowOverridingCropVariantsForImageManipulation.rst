@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79812:
 
 ======================================================================
 Feature: #79812 - Allow overriding cropVariants for Image Manipulation

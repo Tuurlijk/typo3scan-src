@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-75760:
 
 ================================================================================================
 Breaking: #75760 - Return type of LocalizationRepository::getRecordsToCopyDatabaseResult changed

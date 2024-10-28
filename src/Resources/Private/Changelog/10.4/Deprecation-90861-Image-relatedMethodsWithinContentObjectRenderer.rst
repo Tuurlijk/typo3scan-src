@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-90861:
 
 ========================================================================
 Deprecation: #90861 - Image-related methods within ContentObjectRenderer

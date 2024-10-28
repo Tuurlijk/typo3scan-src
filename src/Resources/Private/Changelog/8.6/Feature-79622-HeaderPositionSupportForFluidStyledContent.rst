@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79622:
 
 ==================================================================
 Feature: #79622 - Header Position support for Fluid Styled Content

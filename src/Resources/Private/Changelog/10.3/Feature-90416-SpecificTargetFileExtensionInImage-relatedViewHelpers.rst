@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-90416:
 
 =============================================================================
 Feature: #90416 - Specific target file extension in image-related ViewHelpers

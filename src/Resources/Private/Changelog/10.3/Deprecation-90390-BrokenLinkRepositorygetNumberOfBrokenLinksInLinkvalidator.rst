@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-90390:
 
 =====================================================================================
 Deprecation: #90390 - BrokenLinkRepository::getNumberOfBrokenLinks() in linkvalidator

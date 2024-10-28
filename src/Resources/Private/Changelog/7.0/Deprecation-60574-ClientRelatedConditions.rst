@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-60574:
 
 ===============================================
 Deprecation: #60574 - Client Related Conditions

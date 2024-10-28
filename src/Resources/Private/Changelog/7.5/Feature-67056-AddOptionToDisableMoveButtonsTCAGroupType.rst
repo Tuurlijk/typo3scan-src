@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-67056:
 
 ===================================================================
 Feature: #67056 - Add option to disable move buttons TCA group type

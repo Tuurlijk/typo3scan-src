@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-87305:
 
 =============================================================
 Deprecation: #87305 - Use constructor injection in DataMapper

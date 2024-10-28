@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-63110:
 
 ============================================
 Breaking: #63110 - alt_doc_nodoc.php removed

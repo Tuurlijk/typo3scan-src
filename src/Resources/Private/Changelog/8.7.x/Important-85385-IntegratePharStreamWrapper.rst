@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-85385-1668719172:
 
 =================================================
 Important: #85385 - Integrate Phar Stream Wrapper

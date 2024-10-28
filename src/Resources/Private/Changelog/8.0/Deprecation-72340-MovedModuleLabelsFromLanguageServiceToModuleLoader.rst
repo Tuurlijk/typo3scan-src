@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-72340:
 
 =============================================================================
 Deprecation: #72340 - Moved moduleLabels from LanguageService to ModuleLoader

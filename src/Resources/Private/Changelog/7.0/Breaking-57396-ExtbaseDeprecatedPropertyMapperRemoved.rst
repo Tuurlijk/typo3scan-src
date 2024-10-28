@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-57396:
 
 =================================================================
 Breaking: #57396 - Deprecated Extbase Property Mapper was removed

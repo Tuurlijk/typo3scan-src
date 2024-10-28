@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-82426:
 
 =====================================================================
 Feature: #82426 - New navigation module registration (e.g. Page tree)

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-72749:
 
 ============================================
 Feature: #72749 - CLI support for T3D import

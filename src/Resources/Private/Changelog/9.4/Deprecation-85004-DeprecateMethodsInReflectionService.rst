@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85004:
 
 ============================================================
 Deprecation: #85004 - Deprecate methods in ReflectionService

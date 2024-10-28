@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-67319:
 
 ===========================================================
 Feature: #67319 - Add field "copyright" to EXT:filemetadata

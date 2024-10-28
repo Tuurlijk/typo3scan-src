@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-86184:
 
 ===========================================================
 Deprecation: #86184 - Protected methods in ReportController

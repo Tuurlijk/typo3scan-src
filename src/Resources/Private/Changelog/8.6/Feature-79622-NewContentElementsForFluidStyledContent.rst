@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79622-1668719209:
 
 ===============================================================
 Feature: #79622 - New Content Elements for Fluid Styled Content

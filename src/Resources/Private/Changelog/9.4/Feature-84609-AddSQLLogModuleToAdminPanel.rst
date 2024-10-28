@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-84609:
 
 ==================================================
 Feature: #84609 - Add SQL Log Module to AdminPanel

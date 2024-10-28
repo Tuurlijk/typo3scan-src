@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-93899:
 
 ===================================================================
 Deprecation: #93899 - FormEngine's requestConfirmationOnFieldChange

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-82639:
 
 ===========================================================================
 Breaking: #82639 - Logging activated for authentication and Service classes

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-83592:
 
 =============================================================================
 Deprecation: #83592 - impexp: Removed "Maximum number of records" restriction

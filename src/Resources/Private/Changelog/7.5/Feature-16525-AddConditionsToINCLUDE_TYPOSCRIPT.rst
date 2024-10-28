@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-16525:
 
 ======================================================
 Feature: #16525 - Add conditions to INCLUDE_TYPOSCRIPT

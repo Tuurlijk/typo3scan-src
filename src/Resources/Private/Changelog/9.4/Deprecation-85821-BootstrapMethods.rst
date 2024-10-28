@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-85821:
 
 =======================================
 Deprecation: #85821 - bootstrap methods

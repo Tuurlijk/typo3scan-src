@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-62242:
 
 ===============================================
 Feature: #62242 - ActionMenuItemGroupViewHelper

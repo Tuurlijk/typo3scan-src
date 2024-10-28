@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-92132-1668719172:
 
 ======================================
 Deprecation: #92132 - Shortcut PHP API
@@ -48,7 +50,7 @@ introduced. This method expects the full set of arguments and values to create a
    $buttonBar = $this->moduleTemplate->getDocHeaderComponent()->getButtonBar();
    $pageId = (int)($request->getQueryParams()['id'] ?? 0);
    $shortCutButton = $buttonBar->makeShortcutButton()
-       ->setRouteIdentifier('web_view')
+       ->setRouteIdentifier('page_preview')
        ->setDisplayName('View page ' . $pageId)
        ->setArguments([
           'id' => $pageId,

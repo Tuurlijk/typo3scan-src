@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-77799:
 
 ================================================================
 Feature: #77799 - Display TCA migration messages in Install Tool

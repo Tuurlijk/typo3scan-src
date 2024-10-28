@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-89137:
 
 =======================================================================
 Breaking: #89137 - Database fields t3ver_tstamp and t3ver_count removed

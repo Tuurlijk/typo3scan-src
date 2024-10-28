@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-95005:
 
 =======================================
 Deprecation: #95005 - Extbase EmptyView

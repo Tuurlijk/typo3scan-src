@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-86614:
 
 ==========================================================================
 Feature: #86614 - Add PSR-14 event to control hreflang tags to be rendered

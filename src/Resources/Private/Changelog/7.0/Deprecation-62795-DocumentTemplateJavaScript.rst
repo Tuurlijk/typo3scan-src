@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-62795:
 
 ===================================================
 Deprecation: #62795 - DocumentTemplate->endPageJS()

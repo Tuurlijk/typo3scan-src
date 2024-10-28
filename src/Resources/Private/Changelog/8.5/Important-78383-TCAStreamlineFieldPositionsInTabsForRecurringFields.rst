@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _important-78383:
 
 ================================================================================
 Important: #78383 - TCA: Streamline field positions in tabs for recurring fields
@@ -23,8 +25,8 @@ There should be no records not using tabs to group fields.
 
 See the documentation for the definition of the recurring fields:
 
-    * ctrl_
-    * categories_
+* ctrl_
+* categories_
 
 .. _ctrl: https://docs.typo3.org/typo3cms/TCAReference/Reference/Ctrl/Index.html
 .. _categories: https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/Categories/Index.html

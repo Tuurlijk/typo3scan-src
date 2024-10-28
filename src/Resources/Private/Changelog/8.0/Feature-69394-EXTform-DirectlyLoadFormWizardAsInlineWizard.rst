@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-69394:
 
 =======================================================================
 Feature: #69394 - EXT:form - Directly load form wizard as inline wizard

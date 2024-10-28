@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-92815:
 
 =================================================
 Deprecation: #92815 - ActionController::forward()

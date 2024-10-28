@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-64226:
 
 ============================================================================
 Breaking: #64226 - Option $TYPO3_CONF_VARS[BE][accessListRenderMode] removed

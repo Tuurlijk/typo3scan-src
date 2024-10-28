@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-56529:
 
 ====================================================================
 Feature: #56529 - Support \"has*\" Functions in extbase ObjectAccess

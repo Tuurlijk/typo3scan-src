@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-76107:
 
 ====================================================
 Feature: #76107 - Add fluid interceptor registration

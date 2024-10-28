@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-79438:
 
 ==================================================================================
 Feature: #79438 - Add configuration option to disable validation of stored records

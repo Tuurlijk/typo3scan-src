@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-92457:
 
 ==============================================================
 Breaking: #92457 - Extension Repository database table removed

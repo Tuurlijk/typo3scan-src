@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-80527:
 
 =====================================================================
 Deprecation: #80527 - Marker-related methods in ContentObjectRenderer

@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-57089:
 
 =====================================================================================
 Breaking: #57089 - Behaviour of page shortcut to "Parent of selected or current page"

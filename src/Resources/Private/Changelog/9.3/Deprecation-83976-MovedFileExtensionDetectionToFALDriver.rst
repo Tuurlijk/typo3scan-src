@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-83976:
 
 ==================================================================
 Deprecation: #83976 - Moved file extension detection to FAL driver

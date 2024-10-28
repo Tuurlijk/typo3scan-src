@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-67557:
 
 ======================================================
 Breaking: #67557 - Language file of Opendocs was moved

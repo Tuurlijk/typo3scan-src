@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-77826:
 
 =========================================================
 Deprecation: #77826 - RTEHtmlArea Spellchecker entrypoint

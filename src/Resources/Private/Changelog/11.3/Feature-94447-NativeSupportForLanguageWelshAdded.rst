@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-94447:
 
 =========================================================
 Feature: #94447 - Native support for language Welsh added

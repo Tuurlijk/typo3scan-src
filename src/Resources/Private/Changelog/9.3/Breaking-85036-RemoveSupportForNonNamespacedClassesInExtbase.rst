@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-85036:
 
 ========================================================================
 Breaking: #85036 - Removed support for non-namespaced classes in Extbase

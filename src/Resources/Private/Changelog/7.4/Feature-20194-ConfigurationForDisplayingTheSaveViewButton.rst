@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-20194:
 
 =======================================================================
 Feature: #20194 - Configuration for displaying the "Save & View" button

@@ -1,4 +1,6 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-80619:
 
 ========================================================
 Feature: #80619 - Extend Link Generation within TypoLink

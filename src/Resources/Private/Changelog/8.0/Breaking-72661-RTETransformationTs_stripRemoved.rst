@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _breaking-72661:
 
 ======================================================
 Breaking: #72661 - RTE Transformation ts_strip removed

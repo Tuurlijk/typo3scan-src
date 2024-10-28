@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _feature-74179:
 
 ========================================================================
 Feature: #74179 - Page Module Drag & Drop Can Do Copies Via CTRL Key Now

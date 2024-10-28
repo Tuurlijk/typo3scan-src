@@ -43,9 +43,10 @@ Automated setup:
     TYPO3_SETUP_ADMIN_USERNAME=admin \
     TYPO3_SETUP_CREATE_SITE="https://your-typo3-site.com/" \
     TYPO3_PROJECT_NAME="Automated Setup" \
+    TYPO3_SERVER_TYPE="apache" \
     ./bin/typo3 setup --force
 
-.. warning::
+..  warning::
     Variable `TYPO3_DB_PASSWORD` (option `--password`) can be used to provide a
     password for the database and `TYPO3_SETUP_ADMIN_PASSWORD`
     (option `--admin-user-password`) for the admin user password.

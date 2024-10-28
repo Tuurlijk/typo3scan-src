@@ -1,5 +1,7 @@
 
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
+
+.. _deprecation-62329:
 
 ======================================================
 Deprecation: #62329 - Deprecate DocumentTable::table()
